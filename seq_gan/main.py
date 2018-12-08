@@ -34,11 +34,12 @@ print(opt)
 SEED = 88
 BATCH_SIZE = 10
 TOTAL_BATCH = 500
+ROOT_PATH =  'experiment_real_samples/1_100/'
+POSITIVE_FILE = ROOT_PATH+'real.data'
+NEGATIVE_FILE = ROOT_PATH+'gene.data'
+DEBUG_FILE = ROOT_PATH+'debug.data'
+EVAL_FILE = ROOT_PATH+'eval.data'
 GENERATED_NUM = 10000
-POSITIVE_FILE = 'real.data'
-NEGATIVE_FILE = 'gene.data'
-DEBUG_FILE = 'debug.data'
-EVAL_FILE = 'eval.data'
 VOCAB_SIZE = 5000
 PRE_EPOCH_NUM = 120
 
@@ -167,7 +168,9 @@ def main():
         target_lstm = target_lstm.cuda()
     # Generate toy data using target lstm
     print('Generating data ...')
-    generate_samples(target_lstm, BATCH_SIZE, GENERATED_NUM, POSITIVE_FILE, idx_to_word)
+    generate_real_data('../data/train_data_obama.txt', BATCH_SIZE, GENERATED_NUM, POSITIVE_FILE, idx_to_word, word_to_idx)
+
+    # generate_samples(target_lstm, BATCH_SIZE, GENERATED_NUM, POSITIVE_FILE, idx_to_word)
     
     # Load data from file
     gen_data_iter = GenDataIter(POSITIVE_FILE, BATCH_SIZE)
