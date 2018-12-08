@@ -1,0 +1,1322 @@
+Namespace(cuda=1)
+VOCAB SIZE: 2005
+Generating data ...
+Pretrain with MLE ...
+Epoch [0] Model Loss: 0.989828
+Gen sampled
+Iterator Done
+Epoch [0] True Loss: 17065.692480
+Epoch [1] Model Loss: 0.989259
+Gen sampled
+Iterator Done
+Epoch [1] True Loss: 17065.692480
+Epoch [2] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [2] True Loss: 17065.692480
+Epoch [3] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [3] True Loss: 17065.692480
+Epoch [4] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [4] True Loss: 17065.692480
+Epoch [5] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [5] True Loss: 17065.692480
+Epoch [6] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [6] True Loss: 17065.692480
+Epoch [7] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [7] True Loss: 17065.692480
+Epoch [8] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [8] True Loss: 17065.692480
+Epoch [9] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [9] True Loss: 17065.692480
+Epoch [10] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [10] True Loss: 17065.692480
+Epoch [11] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [11] True Loss: 17065.692480
+Epoch [12] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [12] True Loss: 17065.692480
+Epoch [13] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [13] True Loss: 17065.692480
+Epoch [14] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [14] True Loss: 17065.692480
+Epoch [15] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [15] True Loss: 17065.692480
+Epoch [16] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [16] True Loss: 17065.692480
+Epoch [17] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [17] True Loss: 17068.853738
+Epoch [18] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [18] True Loss: 17065.692480
+Epoch [19] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [19] True Loss: 17065.692480
+Epoch [20] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [20] True Loss: 17065.692480
+Epoch [21] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [21] True Loss: 17065.692480
+Epoch [22] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [22] True Loss: 17065.692480
+Epoch [23] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [23] True Loss: 17065.692480
+Epoch [24] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [24] True Loss: 17065.692480
+Epoch [25] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [25] True Loss: 17065.692480
+Epoch [26] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [26] True Loss: 17065.692480
+Epoch [27] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [27] True Loss: 17065.692480
+Epoch [28] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [28] True Loss: 17065.692480
+Epoch [29] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [29] True Loss: 17065.692480
+Epoch [30] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [30] True Loss: 17065.692480
+Epoch [31] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [31] True Loss: 17065.692480
+Epoch [32] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [32] True Loss: 17065.692480
+Epoch [33] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [33] True Loss: 17065.692480
+Epoch [34] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [34] True Loss: 17065.692480
+Epoch [35] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [35] True Loss: 17065.692480
+Epoch [36] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [36] True Loss: 17065.692480
+Epoch [37] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [37] True Loss: 17065.692480
+Epoch [38] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [38] True Loss: 17065.692480
+Epoch [39] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [39] True Loss: 17065.692480
+Epoch [40] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [40] True Loss: 17065.692480
+Epoch [41] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [41] True Loss: 17065.692480
+Epoch [42] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [42] True Loss: 17065.692480
+Epoch [43] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [43] True Loss: 17065.692480
+Epoch [44] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [44] True Loss: 17065.692480
+Epoch [45] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [45] True Loss: 17065.692480
+Epoch [46] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [46] True Loss: 17065.692480
+Epoch [47] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [47] True Loss: 17065.692480
+Epoch [48] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [48] True Loss: 17065.692480
+Epoch [49] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [49] True Loss: 17065.692480
+Epoch [50] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [50] True Loss: 17065.692480
+Epoch [51] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [51] True Loss: 17065.692480
+Epoch [52] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [52] True Loss: 17065.692480
+Epoch [53] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [53] True Loss: 17065.692480
+Epoch [54] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [54] True Loss: 17065.692480
+Epoch [55] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [55] True Loss: 17065.692480
+Epoch [56] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [56] True Loss: 17065.692480
+Epoch [57] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [57] True Loss: 17065.692480
+Epoch [58] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [58] True Loss: 17065.692480
+Epoch [59] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [59] True Loss: 17065.692480
+Epoch [60] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [60] True Loss: 17065.692480
+Epoch [61] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [61] True Loss: 17065.692480
+Epoch [62] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [62] True Loss: 17065.692480
+Epoch [63] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [63] True Loss: 17065.692480
+Epoch [64] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [64] True Loss: 17065.692480
+Epoch [65] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [65] True Loss: 17065.692480
+Epoch [66] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [66] True Loss: 17065.692480
+Epoch [67] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [67] True Loss: 17065.692480
+Epoch [68] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [68] True Loss: 17065.692480
+Epoch [69] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [69] True Loss: 17065.692480
+Epoch [70] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [70] True Loss: 17065.692480
+Epoch [71] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [71] True Loss: 17065.692480
+Epoch [72] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [72] True Loss: 17065.692480
+Epoch [73] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [73] True Loss: 17065.692480
+Epoch [74] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [74] True Loss: 17065.692480
+Epoch [75] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [75] True Loss: 17065.692480
+Epoch [76] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [76] True Loss: 17065.692480
+Epoch [77] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [77] True Loss: 17065.692480
+Epoch [78] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [78] True Loss: 17065.692480
+Epoch [79] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [79] True Loss: 17065.692480
+Epoch [80] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [80] True Loss: 17065.692480
+Epoch [81] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [81] True Loss: 17065.692480
+Epoch [82] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [82] True Loss: 17065.692480
+Epoch [83] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [83] True Loss: 17065.692480
+Epoch [84] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [84] True Loss: 17065.692480
+Epoch [85] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [85] True Loss: 17065.692480
+Epoch [86] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [86] True Loss: 17065.692480
+Epoch [87] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [87] True Loss: 17065.692480
+Epoch [88] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [88] True Loss: 17065.692480
+Epoch [89] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [89] True Loss: 17065.692480
+Epoch [90] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [90] True Loss: 17065.692480
+Epoch [91] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [91] True Loss: 17065.692480
+Epoch [92] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [92] True Loss: 17065.692480
+Epoch [93] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [93] True Loss: 17065.692480
+Epoch [94] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [94] True Loss: 17065.692480
+Epoch [95] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [95] True Loss: 17065.692480
+Epoch [96] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [96] True Loss: 17065.692480
+Epoch [97] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [97] True Loss: 17065.692480
+Epoch [98] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [98] True Loss: 17065.692480
+Epoch [99] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [99] True Loss: 17065.692480
+Epoch [100] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [100] True Loss: 17065.692480
+Epoch [101] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [101] True Loss: 17065.692480
+Epoch [102] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [102] True Loss: 17065.692480
+Epoch [103] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [103] True Loss: 17065.692480
+Epoch [104] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [104] True Loss: 17065.692480
+Epoch [105] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [105] True Loss: 17065.692480
+Epoch [106] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [106] True Loss: 17065.692480
+Epoch [107] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [107] True Loss: 17065.692480
+Epoch [108] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [108] True Loss: 17065.692480
+Epoch [109] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [109] True Loss: 17065.692480
+Epoch [110] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [110] True Loss: 17065.692480
+Epoch [111] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [111] True Loss: 17065.692480
+Epoch [112] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [112] True Loss: 17065.692480
+Epoch [113] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [113] True Loss: 17065.692480
+Epoch [114] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [114] True Loss: 17065.692480
+Epoch [115] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [115] True Loss: 17065.692480
+Epoch [116] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [116] True Loss: 17065.692480
+Epoch [117] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [117] True Loss: 17065.692480
+Epoch [118] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [118] True Loss: 17065.692480
+Epoch [119] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [119] True Loss: 17065.692480
+Epoch [120] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [120] True Loss: 17065.692480
+Epoch [121] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [121] True Loss: 17065.692480
+Epoch [122] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [122] True Loss: 17065.692480
+Epoch [123] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [123] True Loss: 17065.692480
+Epoch [124] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [124] True Loss: 17065.692480
+Epoch [125] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [125] True Loss: 17065.692480
+Epoch [126] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [126] True Loss: 17065.692480
+Epoch [127] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [127] True Loss: 17065.692480
+Epoch [128] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [128] True Loss: 17065.692480
+Epoch [129] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [129] True Loss: 17065.692480
+Epoch [130] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [130] True Loss: 17065.692480
+Epoch [131] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [131] True Loss: 17065.692480
+Epoch [132] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [132] True Loss: 17065.692480
+Epoch [133] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [133] True Loss: 17065.692480
+Epoch [134] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [134] True Loss: 17065.692480
+Epoch [135] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [135] True Loss: 17065.692480
+Epoch [136] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [136] True Loss: 17065.692480
+Epoch [137] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [137] True Loss: 17065.692480
+Epoch [138] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [138] True Loss: 17065.692480
+Epoch [139] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [139] True Loss: 17065.692480
+Epoch [140] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [140] True Loss: 17065.692480
+Epoch [141] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [141] True Loss: 17065.692480
+Epoch [142] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [142] True Loss: 17065.692480
+Epoch [143] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [143] True Loss: 17065.692480
+Epoch [144] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [144] True Loss: 17065.692480
+Epoch [145] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [145] True Loss: 17065.692480
+Epoch [146] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [146] True Loss: 17065.692480
+Epoch [147] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [147] True Loss: 17065.692480
+Epoch [148] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [148] True Loss: 17065.692480
+Epoch [149] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [149] True Loss: 17065.692480
+Epoch [150] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [150] True Loss: 17065.692480
+Epoch [151] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [151] True Loss: 17065.692480
+Epoch [152] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [152] True Loss: 17065.692480
+Epoch [153] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [153] True Loss: 17065.692480
+Epoch [154] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [154] True Loss: 17065.692480
+Epoch [155] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [155] True Loss: 17065.692480
+Epoch [156] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [156] True Loss: 17065.692480
+Epoch [157] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [157] True Loss: 17065.692480
+Epoch [158] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [158] True Loss: 17065.692480
+Epoch [159] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [159] True Loss: 17065.692480
+Epoch [160] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [160] True Loss: 17065.692480
+Epoch [161] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [161] True Loss: 17065.692480
+Epoch [162] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [162] True Loss: 17065.692480
+Epoch [163] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [163] True Loss: 17065.692480
+Epoch [164] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [164] True Loss: 17065.692480
+Epoch [165] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [165] True Loss: 17065.692480
+Epoch [166] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [166] True Loss: 17065.692480
+Epoch [167] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [167] True Loss: 17065.692480
+Epoch [168] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [168] True Loss: 17065.692480
+Epoch [169] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [169] True Loss: 17065.692480
+Epoch [170] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [170] True Loss: 17065.692480
+Epoch [171] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [171] True Loss: 17065.692480
+Epoch [172] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [172] True Loss: 17065.692480
+Epoch [173] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [173] True Loss: 17065.692480
+Epoch [174] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [174] True Loss: 17065.692480
+Epoch [175] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [175] True Loss: 17065.692480
+Epoch [176] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [176] True Loss: 17065.692480
+Epoch [177] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [177] True Loss: 17065.692480
+Epoch [178] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [178] True Loss: 17065.692480
+Epoch [179] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [179] True Loss: 17065.692480
+Epoch [180] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [180] True Loss: 17065.692480
+Epoch [181] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [181] True Loss: 17065.692480
+Epoch [182] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [182] True Loss: 17065.692480
+Epoch [183] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [183] True Loss: 17065.692480
+Epoch [184] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [184] True Loss: 17065.692480
+Epoch [185] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [185] True Loss: 17065.692480
+Epoch [186] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [186] True Loss: 17065.692480
+Epoch [187] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [187] True Loss: 17065.692480
+Epoch [188] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [188] True Loss: 17065.692480
+Epoch [189] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [189] True Loss: 17065.692480
+Epoch [190] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [190] True Loss: 17065.692480
+Epoch [191] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [191] True Loss: 17065.692480
+Epoch [192] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [192] True Loss: 17065.692480
+Epoch [193] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [193] True Loss: 17065.692480
+Epoch [194] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [194] True Loss: 17065.692480
+Epoch [195] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [195] True Loss: 17065.692480
+Epoch [196] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [196] True Loss: 17065.692480
+Epoch [197] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [197] True Loss: 17065.692480
+Epoch [198] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [198] True Loss: 17065.692480
+Epoch [199] Model Loss: 0.989258
+Gen sampled
+Iterator Done
+Epoch [199] True Loss: 17065.692480
+Pretrain Dsicriminator ...
+Epoch [0], loss: 1.015313
+Epoch [0], loss: 1.000132
+Epoch [0], loss: 1.000000
+Epoch [1], loss: 1.000000
+Epoch [1], loss: 1.000000
+Epoch [1], loss: 1.000000
+Epoch [2], loss: 1.000000
+Epoch [2], loss: 1.000000
+Epoch [2], loss: 1.000000
+#####################################################
+Start Adeversatial Training...
+
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [0] True Loss: -0.000002
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [1] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [2] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [3] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [4] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [5] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [6] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [7] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [8] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [9] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [10] True Loss: -0.000000
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [11] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [12] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [13] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [14] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [15] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [16] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [17] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [18] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [19] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [20] True Loss: -0.000000
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [21] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [22] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [23] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [24] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [25] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [26] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [27] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [28] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [29] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [30] True Loss: -0.000000
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [31] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [32] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [33] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [34] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [35] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [36] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [37] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [38] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [39] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [40] True Loss: -0.000000
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [41] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [42] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [43] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [44] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [45] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [46] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [47] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [48] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [49] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [50] True Loss: -0.000000
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [51] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [52] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [53] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [54] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [55] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [56] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [57] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [58] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [59] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [60] True Loss: -0.000000
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [61] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [62] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [63] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [64] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [65] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [66] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [67] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [68] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [69] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [70] True Loss: -0.000000
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [71] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [72] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [73] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [74] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [75] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [76] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [77] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [78] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [79] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [80] True Loss: -0.000000
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [81] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [82] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [83] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [84] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [85] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [86] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [87] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [88] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [89] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [90] True Loss: -0.000000
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [91] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [92] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [93] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [94] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [95] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [96] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [97] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [98] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [99] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [100] True Loss: -0.000000
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [101] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [102] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [103] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [104] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [105] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [106] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [107] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [108] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [109] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [110] True Loss: -0.000000
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [111] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [112] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [113] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [114] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [115] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [116] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [117] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [118] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [119] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [120] True Loss: -0.000000
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+Sample Output: ['charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge', 'charge']
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [121] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [122] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [123] True Loss: -0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [124] True Loss: -0.000000

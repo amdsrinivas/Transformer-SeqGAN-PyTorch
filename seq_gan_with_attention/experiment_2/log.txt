@@ -1,0 +1,137 @@
+Namespace(cuda=1)
+VOCAB SIZE: 2005
+Generating data ...
+Pretrain with MLE ...
+Epoch [0] Model Loss: 0.984553
+Gen sampled
+Iterator Done
+Epoch [0] True Loss: 637.943756
+Epoch [1] Model Loss: 0.981868
+Gen sampled
+Iterator Done
+Epoch [1] True Loss: 637.943756
+Epoch [2] Model Loss: 0.981867
+Gen sampled
+Iterator Done
+Epoch [2] True Loss: 637.943756
+Epoch [3] Model Loss: 0.981867
+Gen sampled
+Iterator Done
+Epoch [3] True Loss: 638.455032
+Epoch [4] Model Loss: 0.981867
+Gen sampled
+Iterator Done
+Epoch [4] True Loss: 638.842540
+Epoch [5] Model Loss: 0.981867
+Gen sampled
+Iterator Done
+Epoch [5] True Loss: 637.943756
+Epoch [6] Model Loss: 0.981867
+Gen sampled
+Iterator Done
+Epoch [6] True Loss: 637.943756
+Epoch [7] Model Loss: 0.981867
+Gen sampled
+Iterator Done
+Epoch [7] True Loss: 637.943756
+Epoch [8] Model Loss: 0.981867
+Gen sampled
+Iterator Done
+Epoch [8] True Loss: 637.943756
+Epoch [9] Model Loss: 0.981867
+Gen sampled
+Iterator Done
+Epoch [9] True Loss: 637.943756
+Epoch [10] Model Loss: 0.981867
+Gen sampled
+Iterator Done
+Epoch [10] True Loss: 637.943756
+Epoch [11] Model Loss: 0.981867
+Gen sampled
+Iterator Done
+Epoch [11] True Loss: 638.290669
+Epoch [12] Model Loss: 0.981867
+Gen sampled
+Iterator Done
+Epoch [12] True Loss: 637.943756
+Epoch [13] Model Loss: 0.981867
+Gen sampled
+Iterator Done
+Epoch [13] True Loss: 637.943756
+Epoch [14] Model Loss: 0.981867
+Gen sampled
+Iterator Done
+Epoch [14] True Loss: 637.943756
+Epoch [15] Model Loss: 0.981867
+Gen sampled
+Iterator Done
+Epoch [15] True Loss: 637.943756
+Epoch [16] Model Loss: 0.981867
+Gen sampled
+Iterator Done
+Epoch [16] True Loss: 637.943756
+Epoch [17] Model Loss: 0.981867
+Gen sampled
+Iterator Done
+Epoch [17] True Loss: 637.943756
+Epoch [18] Model Loss: 0.981867
+Gen sampled
+Iterator Done
+Epoch [18] True Loss: 637.943756
+Epoch [19] Model Loss: 0.981867
+Gen sampled
+Iterator Done
+Epoch [19] True Loss: 637.943756
+Pretrain Dsicriminator ...
+Epoch [0], loss: 1.019037
+Epoch [0], loss: 1.000204
+Epoch [0], loss: 1.000000
+Epoch [1], loss: 1.000000
+Epoch [1], loss: 1.000000
+Epoch [1], loss: 1.000000
+Epoch [2], loss: 1.000000
+Epoch [2], loss: 1.000000
+Epoch [2], loss: 1.000000
+#####################################################
+Start Adeversatial Training...
+
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [0] True Loss: 0.000000
+Sample Output: ['accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable']
+Sample Output: ['accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable']
+Sample Output: ['accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable']
+Sample Output: ['accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable']
+Sample Output: ['accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable']
+Sample Output: ['accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable']
+Sample Output: ['accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable']
+Sample Output: ['accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable']
+Sample Output: ['accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable']
+Sample Output: ['accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable', 'accountable']
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [1] True Loss: 0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [2] True Loss: 0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [3] True Loss: 0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [4] True Loss: 0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [5] True Loss: 0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [6] True Loss: 0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [7] True Loss: 0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [8] True Loss: 0.000000
+REWARD:  (10, 10)
+torch.Size([100]) torch.Size([100])
+Batch [9] True Loss: 0.000000

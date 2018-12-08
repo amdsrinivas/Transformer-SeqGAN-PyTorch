@@ -39,12 +39,13 @@ SEED = 88
 BATCH_SIZE = 10
 TOTAL_BATCH = 500
 GENERATED_NUM = 1000
-POSITIVE_FILE = 'real.data'
-NEGATIVE_FILE = 'gene.data'
-DEBUG_FILE = 'debug.data'
-EVAL_FILE = 'eval.data'
+ROOT_PATH =  'experiment_real_samples/1_100/'
+POSITIVE_FILE = ROOT_PATH+'real.data'
+NEGATIVE_FILE = ROOT_PATH+'gene.data'
+DEBUG_FILE = ROOT_PATH+'debug.data'
+EVAL_FILE = ROOT_PATH+'eval.data'
 VOCAB_SIZE = 5000
-PRE_EPOCH_NUM = 200
+PRE_EPOCH_NUM = 1
 
 if opt.cuda is not None and opt.cuda >= 0:
     torch.cuda.set_device(opt.cuda)
@@ -53,7 +54,7 @@ if opt.cuda is not None and opt.cuda >= 0:
 # Genrator Parameters
 g_emb_dim = 300
 g_hidden_dim = 32
-g_sequence_len = 10
+g_sequence_len = 11
 
 # Discriminator Parameters
 d_emb_dim = 300
@@ -184,7 +185,8 @@ def main():
         target_lstm = target_lstm.cuda()
     # Generate toy data using target lstm
     print('Generating data ...')
-    generate_samples(target_lstm, BATCH_SIZE, GENERATED_NUM, POSITIVE_FILE, idx_to_word)
+    generate_real_data('../data/train_data_obama.txt', BATCH_SIZE, GENERATED_NUM, POSITIVE_FILE, idx_to_word, word_to_idx)
+    # generate_samples(target_lstm, BATCH_SIZE, GENERATED_NUM, POSITIVE_FILE, idx_to_word)
     
     # Load data from file
     gen_data_iter = GenDataIter(POSITIVE_FILE, BATCH_SIZE)
@@ -200,18 +202,19 @@ def main():
         print('Epoch [%d] Model Loss: %f'% (epoch, loss))
         # TODO: 2. Flags to ensure dimension of model input is handled
         generate_samples(generator, BATCH_SIZE, GENERATED_NUM, EVAL_FILE)
-        print('Gen sampled')
+        """
         eval_iter = GenDataIter(EVAL_FILE, BATCH_SIZE)
         print('Iterator Done')
         loss = eval_epoch(target_lstm, eval_iter, gen_criterion)
         print('Epoch [%d] True Loss: %f' % (epoch, loss))
+        """
 
     # Pretrain Discriminator
     dis_criterion = nn.NLLLoss(size_average=False)
     dis_optimizer = optim.Adam(discriminator.parameters())
     if opt.cuda:
         dis_criterion = dis_criterion.cuda()
-    print('Pretrain Dsicriminator ...')
+    print('Pretrain Discriminator ...')
     for epoch in range(3):
         generate_samples(generator, BATCH_SIZE, GENERATED_NUM, NEGATIVE_FILE)
         dis_data_iter = DisDataIter(POSITIVE_FILE, NEGATIVE_FILE, BATCH_SIZE)
@@ -221,7 +224,7 @@ def main():
     # Adversarial Training 
     rollout = Rollout(generator, 0.8)
     print('#####################################################')
-    print('Start Adeversatial Training...\n')
+    print('Start Adversarial Training...\n')
     gen_gan_loss = GANLoss()
     gen_gan_optm = optim.Adam(generator.parameters())
     if opt.cuda:
@@ -258,9 +261,9 @@ def main():
         print('Batch [%d] True Loss: %f' % (total_batch, loss))
 
         if total_batch % 10 == 0 or total_batch == TOTAL_BATCH - 1:
-            generate_samples(generator, BATCH_SIZE, GENERATED_NUM, EVAL_FILE)
-            eval_iter = GenDataIter(EVAL_FILE, BATCH_SIZE)
-            loss = eval_epoch(target_lstm, eval_iter, gen_criterion)
+            # generate_samples(generator, BATCH_SIZE, GENERATED_NUM, EVAL_FILE)
+            # eval_iter = GenDataIter(EVAL_FILE, BATCH_SIZE)
+            # loss = eval_epoch(target_lstm, eval_iter, gen_criterion)
             
             predictions = torch.max(prob, dim=1)[1]
             predictions = predictions.view(BATCH_SIZE, -1)
@@ -269,8 +272,8 @@ def main():
                 print('Sample Output:', generate_sentence_from_id(idx_to_word, each_sen, DEBUG_FILE))
             sys.stdout.flush()
 
-            torch.save(generator.state_dict(), './experiment_1/generator.model')
-            torch.save(discriminator.state_dict(), './experiment_1/discriminator.model')
+            torch.save(generator.state_dict(), ROOT_PATH+ 'generator.model')
+            torch.save(discriminator.state_dict(), ROOT_PATH+'discriminator.model')
         rollout.update_params()
         
         for _ in range(4):

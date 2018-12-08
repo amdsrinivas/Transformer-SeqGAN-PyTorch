@@ -1,0 +1,2 @@
+Namespace(cuda=None)
+VOCAB SIZE: 2005
