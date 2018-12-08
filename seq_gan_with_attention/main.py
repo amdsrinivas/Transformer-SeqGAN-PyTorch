@@ -31,6 +31,8 @@ from data_iter import GenDataIter, DisDataIter
 
 parser = argparse.ArgumentParser(description='Training Parameter')
 parser.add_argument('--cuda', action='store', default=None, type=int)
+parser.add_argument('--test', action='store_true')
+
 opt = parser.parse_args()
 print(opt)
 
@@ -40,12 +42,14 @@ BATCH_SIZE = 10
 TOTAL_BATCH = 500
 GENERATED_NUM = 1000
 ROOT_PATH =  'experiment_real_samples/1_100/'
-POSITIVE_FILE = ROOT_PATH+'real.data'
-NEGATIVE_FILE = ROOT_PATH+'gene.data'
-DEBUG_FILE = ROOT_PATH+'debug.data'
-EVAL_FILE = ROOT_PATH+'eval.data'
+POSITIVE_FILE = ROOT_PATH + 'real.data'
+TEST_FILE     = ROOT_PATH + 'test.data'
+NEGATIVE_FILE = ROOT_PATH + 'gene.data'
+DEBUG_FILE = ROOT_PATH + 'debug.data'
+EVAL_FILE = ROOT_PATH + 'eval.data'
 VOCAB_SIZE = 5000
 PRE_EPOCH_NUM = 1
+CHECKPOINT_PATH = ROOT_PATH + 'checkpoints/'
 
 if opt.cuda is not None and opt.cuda >= 0:
     torch.cuda.set_device(opt.cuda)
@@ -63,6 +67,15 @@ d_num_filters = [100, 200, 200, 200, 200, 100, 100, 100, 100, 100] #, 160, 160]
 
 d_dropout = 0.75
 d_num_class = 2
+
+def demo():
+    print("IN DEMO")
+    idx_to_word, word_to_idx, VOCAB_SIZE = load_vocab(CHECKPOINT_PATH)
+    test_iter = GenDataIter(TEST_FILE, BATCH_SIZE)
+    generator = Generator(VOCAB_SIZE, g_emb_dim, g_hidden_dim, g_sequence_len, BATCH_SIZE, opt.cuda)
+    generator = generator.cuda()
+    generator.load_state_dict(torch.load(CHECKPOINT_PATH+'generator.model'))
+    test_predict(generator, test_iter, idx_to_word)
 
 def get_word(s, idx_to_words = None):
     if idx_to_words == None:
@@ -130,6 +143,27 @@ def eval_epoch(model, data_iter, criterion):
     data_iter.reset()
     return math.exp(total_loss / total_words)
 
+def test_predict(model, data_iter, idx_to_word, train_mode = False):
+    data_iter.reset()
+    for (data, target) in data_iter:
+        data = Variable(data, volatile=True)
+        target = Variable(target, volatile=True)
+        if opt.cuda:
+            data, target = data.cuda(), target.cuda()
+        target = target.contiguous().view(-1)
+        prob = model.forward(data)
+        mini_batch = prob.shape[0]
+        prob = torch.reshape(prob, (prob.shape[0] * prob.shape[1], -1))
+        predictions = torch.max(prob, dim=1)[1]
+        predictions = predictions.view(mini_batch, -1)
+        # print('PRED SHAPE:' , predictions.shape)
+        for each_sen in list(predictions):
+            print('Sample Output:', generate_sentence_from_id(idx_to_word, each_sen))
+        sys.stdout.flush()
+        if train_mode:
+            break
+    data_iter.reset()
+
 class GANLoss(nn.Module):
     """Reward-Refined NLLLoss Function for adversial training of Gnerator"""
     def __init__(self):
@@ -170,9 +204,12 @@ def main():
     idx_to_word, word_to_idx = fetch_vocab(s_train, s_train, s_test)
     # TODO: 1. Prepare data for attention model
     # input_seq, target_seq = prepare_data(DATA_GERMAN, DATA_ENGLISH, word_to_idx)
-
+    
     global VOCAB_SIZE
     VOCAB_SIZE = len(idx_to_word)
+    
+    save_vocab(CHECKPOINT_PATH, idx_to_word, word_to_idx, VOCAB_SIZE)
+
 
     print('VOCAB SIZE:' , VOCAB_SIZE)
     # Define Networks
@@ -185,7 +222,9 @@ def main():
         target_lstm = target_lstm.cuda()
     # Generate toy data using target lstm
     print('Generating data ...')
-    generate_real_data('../data/train_data_obama.txt', BATCH_SIZE, GENERATED_NUM, POSITIVE_FILE, idx_to_word, word_to_idx)
+    generate_real_data('../data/train_data_obama.txt', BATCH_SIZE, GENERATED_NUM, idx_to_word, word_to_idx, POSITIVE_FILE, TEST_FILE)
+    # Create Test data iterator for testing
+    test_iter = GenDataIter(TEST_FILE, BATCH_SIZE)
     # generate_samples(target_lstm, BATCH_SIZE, GENERATED_NUM, POSITIVE_FILE, idx_to_word)
     
     # Load data from file
@@ -260,18 +299,11 @@ def main():
 
         print('Batch [%d] True Loss: %f' % (total_batch, loss))
 
-        if total_batch % 10 == 0 or total_batch == TOTAL_BATCH - 1:
+        if total_batch % 1 == 0 or total_batch == TOTAL_BATCH - 1:
             # generate_samples(generator, BATCH_SIZE, GENERATED_NUM, EVAL_FILE)
             # eval_iter = GenDataIter(EVAL_FILE, BATCH_SIZE)
             # loss = eval_epoch(target_lstm, eval_iter, gen_criterion)
-            
-            predictions = torch.max(prob, dim=1)[1]
-            predictions = predictions.view(BATCH_SIZE, -1)
-            # print('PRED SHAPE:' , predictions.shape)
-            for each_sen in list(predictions):
-                print('Sample Output:', generate_sentence_from_id(idx_to_word, each_sen, DEBUG_FILE))
-            sys.stdout.flush()
-
+            test_predict(generator, test_iter, idx_to_word, train_mode = True)
             torch.save(generator.state_dict(), ROOT_PATH+ 'generator.model')
             torch.save(discriminator.state_dict(), ROOT_PATH+'discriminator.model')
         rollout.update_params()
@@ -281,5 +313,9 @@ def main():
             dis_data_iter = DisDataIter(POSITIVE_FILE, NEGATIVE_FILE, BATCH_SIZE)
             for _ in range(2):
                 loss = train_epoch(discriminator, dis_data_iter, dis_criterion, dis_optimizer)
+
 if __name__ == '__main__':
+    if opt.test:
+        demo()
+        exit()
     main()

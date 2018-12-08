@@ -65,26 +65,32 @@ def fetch_vocab(DATA_GERMAN, DATA_ENGLISH, DATA_GERMAN2): # -> typing.Tuple[typi
    
     return idx_to_word, word_to_idx
 
-def generate_sentence_from_id(idx_to_word, input_ids, file_name, header = ''):
+def generate_sentence_from_id(idx_to_word, input_ids, file_name = None, header = ''):
     sentence = []
-    out_file = open(file_name, 'a')
+    if file_name:
+        out_file = open(file_name, 'a')
+        out_file.write(header + ':')
+
     sep = ''
-    out_file.write(header + ':')
     for id in input_ids:
         sentence.append(idx_to_word[id])
-        out_file.write(sep + idx_to_word[id])
-        sep = ' '
-    out_file.write('\n')
-    out_file.close()
+        if file_name:
+            out_file.write(sep + idx_to_word[id])
+            sep = ' '
+    if file_name:
+        out_file.write('\n')
+        out_file.close()
     return sentence
 
-def generate_real_data(input_file, batch_size, generated_num, positive_file, idx_to_word, word_to_idx):
-    train_sen, _ = load_from_big_file(input_file)
-    generated_index = np.random.choice(len(train_sen), generated_num)
-    
-    out_file = open(positive_file, "w")
+def generate_file_from_sentence(sentences, out_file, word_to_idx, generated_num = 0):
+    if generated_num:
+        generated_index = np.random.choice(len(sentences), generated_num)
+    else:
+        generated_index = np.arange(0, len(sentences))
+
+    out_file = open(out_file, "w")
     for i in generated_index:
-        sent = train_sen[i].split(' ')
+        sent = sentences[i].split(' ')
         new_sent_id = []
         sep = ''
         for word in sent:
@@ -92,3 +98,36 @@ def generate_real_data(input_file, batch_size, generated_num, positive_file, idx
            sep = ' '
         out_file.write('\n')
 
+def generate_real_data(input_file, batch_size, generated_num, idx_to_word, word_to_idx, train_file, test_file = None):
+    train_sen, test_sen = load_from_big_file(input_file)
+
+    generate_file_from_sentence(train_sen, train_file, word_to_idx, generated_num)
+    if test_file:
+        generate_file_from_sentence(test_sen, test_file, word_to_idx)
+
+
+
+def save_vocab(checkpoint, idx_to_word, word_to_idx, vocab_size):
+    """
+    out_file = open(checkpoint+'idx_to_word.pkl', "wb")
+    pickle.dump(idx_to_word, out_file)
+    out_file.close()
+    
+    out_file = open(checkpoint+'word_to_idx.pkl', "wb")
+    pickle.dump(word_to_idx, out_file)
+    out_file.close()
+
+    out_file = open(checkpoint+'vocab_size.pkl', "wb")
+    pickle.dump(vocab_size, out_file)
+    out_file.close()
+    """
+    torch.save(idx_to_word, checkpoint+'idx_to_word.info')
+    torch.save(word_to_idx, checkpoint+'word_to_idx.info')
+    torch.save(vocab_size, checkpoint+'vocab_size.info')
+
+def load_vocab(checkpoint):
+    idx_to_word = torch.load(checkpoint+'idx_to_word.info')
+    word_to_idx = torch.load(checkpoint+'word_to_idx.info')
+    vocab_size  = torch.load(checkpoint+'vocab_size.info')
+    return idx_to_word, word_to_idx, vocab_size
+   
