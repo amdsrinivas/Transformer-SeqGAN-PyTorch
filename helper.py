@@ -54,10 +54,17 @@ def fetch_vocab(DATA_GERMAN, DATA_ENGLISH, DATA_GERMAN2): # -> typing.Tuple[typi
     
     return idx_to_word, word_to_idx
 
-def generate_sentence_from_id(idx_to_word, input_ids):
+def generate_sentence_from_id(idx_to_word, input_ids, file_name, header = ''):
     sentence = []
+    out_file = open(file_name, 'a')
+    sep = ''
+    out_file.write(header + ':')
     for id in input_ids:
         sentence.append(idx_to_word[id])
+        out_file.write(sep + idx_to_word[id])
+        sep = ' '
+    out_file.write('\n')
+    out_file.close()
     return sentence
 
 Token = collections.namedtuple("Token", ["index", "word"])

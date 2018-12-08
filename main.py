@@ -31,11 +31,12 @@ print(opt)
 
 # Basic Training Paramters
 SEED = 88
-BATCH_SIZE = 64
+BATCH_SIZE = 10
 TOTAL_BATCH = 200
 GENERATED_NUM = 10000
 POSITIVE_FILE = 'real.data'
 NEGATIVE_FILE = 'gene.data'
+DEBUG_FILE = 'debug.data'
 EVAL_FILE = 'eval.data'
 VOCAB_SIZE = 5000
 PRE_EPOCH_NUM = 1
@@ -57,12 +58,17 @@ d_num_filters = [100, 200, 200, 200, 200, 100, 100, 100, 100, 100, 160, 160]
 d_dropout = 0.75
 d_num_class = 2
 
+def get_word(s, idx_to_words = None):
+    if idx_to_words == None:
+        return str(s)
+    return idx_to_words[int(s)]
 
-
-def generate_samples(model, batch_size, generated_num, output_file):
+def generate_samples(model, batch_size, generated_num, output_file, idx_to_word = None):
     samples = []
     for _ in range(int(generated_num / batch_size)):
         sample = model.sample(batch_size, g_sequence_len).cpu().data.numpy().tolist()
+        for each_sen in sample:
+            generate_sentence_from_id(idx_to_word, each_sen, DEBUG_FILE, header = 'REAL ---')
         samples.extend(sample)
     with open(output_file, 'w') as fout:
         for sample in samples:
@@ -147,7 +153,7 @@ def main():
     # input_seq, target_seq = prepare_data(DATA_GERMAN, DATA_ENGLISH, word_to_idx)
 
     global VOCAB_SIZE
-    # VOCAB_SIZE = len(idx_to_word)
+    VOCAB_SIZE = len(idx_to_word)
 
     print('VOCAB SIZE:' , VOCAB_SIZE)
     # Define Networks
@@ -160,7 +166,7 @@ def main():
         target_lstm = target_lstm.cuda()
     # Generate toy data using target lstm
     print('Generating data ...')
-    generate_samples(target_lstm, BATCH_SIZE, GENERATED_NUM, POSITIVE_FILE)
+    generate_samples(target_lstm, BATCH_SIZE, GENERATED_NUM, POSITIVE_FILE, idx_to_word)
     
     # Load data from file
     gen_data_iter = GenDataIter(POSITIVE_FILE, BATCH_SIZE)
@@ -171,7 +177,7 @@ def main():
     if opt.cuda:
         gen_criterion = gen_criterion.cuda()
     print('Pretrain with MLE ...')
-    for epoch in range(0): #PRE_EPOCH_NUM):
+    for epoch in range(1): #PRE_EPOCH_NUM):
         loss = train_epoch(generator, gen_data_iter, gen_criterion, gen_optimizer)
         print('Epoch [%d] Model Loss: %f'% (epoch, loss))
         generate_samples(generator, BATCH_SIZE, GENERATED_NUM, EVAL_FILE)
@@ -185,7 +191,7 @@ def main():
     if opt.cuda:
         dis_criterion = dis_criterion.cuda()
     print('Pretrain Dsicriminator ...')
-    for epoch in range(0):
+    for epoch in range(1):
         generate_samples(generator, BATCH_SIZE, GENERATED_NUM, NEGATIVE_FILE)
         dis_data_iter = DisDataIter(POSITIVE_FILE, NEGATIVE_FILE, BATCH_SIZE)
         for _ in range(1):
@@ -228,8 +234,11 @@ def main():
             loss.backward()
             gen_gan_optm.step()
             print('GEN PRED DIM: ', prob.shape)
-            for each_sen in prob:
-                print('Sample Output:' ,generate_sentence_from_id(idx_to_word, each_sen))
+            predictions = torch.max(prob, dim=1)[1]
+            predictions = predictions.view(BATCH_SIZE, -1)
+            print('PRED SHAPE:' , predictions.shape)
+            for each_sen in list(predictions):
+                print('Sample Output:', generate_sentence_from_id(idx_to_word, each_sen, DEBUG_FILE))
 
         if total_batch % 1 == 0 or total_batch == TOTAL_BATCH - 1:
             generate_samples(generator, BATCH_SIZE, GENERATED_NUM, EVAL_FILE)
