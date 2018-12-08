@@ -6,6 +6,7 @@ from helper import *
 import os
 import random
 import math
+import sys
 
 import argparse
 import tqdm
@@ -32,14 +33,14 @@ print(opt)
 # Basic Training Paramters
 SEED = 88
 BATCH_SIZE = 10
-TOTAL_BATCH = 200
+TOTAL_BATCH = 500
 GENERATED_NUM = 10000
 POSITIVE_FILE = 'real.data'
 NEGATIVE_FILE = 'gene.data'
 DEBUG_FILE = 'debug.data'
 EVAL_FILE = 'eval.data'
 VOCAB_SIZE = 5000
-PRE_EPOCH_NUM = 1
+PRE_EPOCH_NUM = 120
 
 if opt.cuda is not None and opt.cuda >= 0:
     torch.cuda.set_device(opt.cuda)
@@ -177,7 +178,7 @@ def main():
     if opt.cuda:
         gen_criterion = gen_criterion.cuda()
     print('Pretrain with MLE ...')
-    for epoch in range(1): #PRE_EPOCH_NUM):
+    for epoch in range(PRE_EPOCH_NUM):
         loss = train_epoch(generator, gen_data_iter, gen_criterion, gen_optimizer)
         print('Epoch [%d] Model Loss: %f'% (epoch, loss))
         generate_samples(generator, BATCH_SIZE, GENERATED_NUM, EVAL_FILE)
@@ -191,10 +192,10 @@ def main():
     if opt.cuda:
         dis_criterion = dis_criterion.cuda()
     print('Pretrain Dsicriminator ...')
-    for epoch in range(1):
+    for epoch in range(3):
         generate_samples(generator, BATCH_SIZE, GENERATED_NUM, NEGATIVE_FILE)
         dis_data_iter = DisDataIter(POSITIVE_FILE, NEGATIVE_FILE, BATCH_SIZE)
-        for _ in range(1):
+        for _ in range(3):
             loss = train_epoch(discriminator, dis_data_iter, dis_criterion, dis_optimizer)
             print('Epoch [%d], loss: %f' % (epoch, loss))
     # Adversarial Training 
@@ -228,23 +229,29 @@ def main():
             if opt.cuda:
                 rewards = torch.exp(rewards.cuda()).contiguous().view((-1,))
             prob = generator.forward(inputs)
-            print('SHAPE: ', prob.shape, targets.shape, rewards.shape)
+            # print('SHAPE: ', prob.shape, targets.shape, rewards.shape)
             loss = gen_gan_loss(prob, targets, rewards)
             gen_gan_optm.zero_grad()
             loss.backward()
             gen_gan_optm.step()
-            print('GEN PRED DIM: ', prob.shape)
-            predictions = torch.max(prob, dim=1)[1]
-            predictions = predictions.view(BATCH_SIZE, -1)
-            print('PRED SHAPE:' , predictions.shape)
-            for each_sen in list(predictions):
-                print('Sample Output:', generate_sentence_from_id(idx_to_word, each_sen, DEBUG_FILE))
+            # print('GEN PRED DIM: ', prob.shape)
+            
 
         if total_batch % 1 == 0 or total_batch == TOTAL_BATCH - 1:
             generate_samples(generator, BATCH_SIZE, GENERATED_NUM, EVAL_FILE)
             eval_iter = GenDataIter(EVAL_FILE, BATCH_SIZE)
             loss = eval_epoch(target_lstm, eval_iter, gen_criterion)
             print('Batch [%d] True Loss: %f' % (total_batch, loss))
+
+            predictions = torch.max(prob, dim=1)[1]
+            predictions = predictions.view(BATCH_SIZE, -1)
+            # print('PRED SHAPE:' , predictions.shape)
+            for each_sen in list(predictions):
+                print('Sample Output:', generate_sentence_from_id(idx_to_word, each_sen, DEBUG_FILE))
+            sys.stdout.flush()
+
+            torch.save(generator.state_dict(), './experiment_1_trial/generator.model')
+            torch.save(discriminator.state_dict(), './experiment_1_trial/discriminator.model')
         rollout.update_params()
         
         for _ in range(4):

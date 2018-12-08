@@ -20,7 +20,7 @@ def load_from_big_file(file):
     with open(file) as f:
         lines = f.readlines()
     
-        for line in lines[:10]:
+        for line in lines[:500]:
             line = line.strip()
             line = line.rstrip(".")
             words = line.split()

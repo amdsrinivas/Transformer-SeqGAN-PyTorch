@@ -1,0 +1,3 @@
+Namespace(cuda=0)
+('VOCAB SIZE:', 1214)
+Generating data ...
