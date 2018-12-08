@@ -1,5 +1,8 @@
 # -*- coding:utf-8 -*-
 
+# custom import
+from helper import *
+# 
 import os
 import random
 import math
@@ -35,7 +38,7 @@ POSITIVE_FILE = 'real.data'
 NEGATIVE_FILE = 'gene.data'
 EVAL_FILE = 'eval.data'
 VOCAB_SIZE = 5000
-PRE_EPOCH_NUM = 120
+PRE_EPOCH_NUM = 1
 
 if opt.cuda is not None and opt.cuda >= 0:
     torch.cuda.set_device(opt.cuda)
@@ -78,7 +81,7 @@ def train_epoch(model, data_iter, criterion, optimizer):
         target = target.contiguous().view(-1)
         pred = model.forward(data)
         loss = criterion(pred, target)
-        total_loss += loss.data[0]
+        total_loss += loss.data.item()
         total_words += data.size(0) * data.size(1)
         optimizer.zero_grad()
         loss.backward()
@@ -98,7 +101,7 @@ def eval_epoch(model, data_iter, criterion):
         target = target.contiguous().view(-1)
         pred = model.forward(data)
         loss = criterion(pred, target)
-        total_loss += loss.data[0]
+        total_loss += loss.data.item()
         total_words += data.size(0) * data.size(1)
     data_iter.reset()
     return math.exp(total_loss / total_words)
@@ -126,6 +129,7 @@ class GANLoss(nn.Module):
         if prob.is_cuda:
             one_hot = one_hot.cuda()
         loss = torch.masked_select(prob, one_hot)
+        print(loss.shape, reward.shape)
         loss = loss * reward
         loss =  -torch.sum(loss)
         return loss
@@ -134,7 +138,18 @@ class GANLoss(nn.Module):
 def main():
     random.seed(SEED)
     np.random.seed(SEED)
+    
+    # Build up dataset
+    s_train, s_test = load_from_big_file('./data/train_data_obama.txt')
+    # idx_to_word: List of id to word
+    # word_to_idx: Dictionary mapping word to id
+    idx_to_word, word_to_idx = fetch_vocab(s_train, s_train, s_test)
+    # input_seq, target_seq = prepare_data(DATA_GERMAN, DATA_ENGLISH, word_to_idx)
 
+    global VOCAB_SIZE
+    # VOCAB_SIZE = len(idx_to_word)
+
+    print('VOCAB SIZE:' , VOCAB_SIZE)
     # Define Networks
     generator = Generator(VOCAB_SIZE, g_emb_dim, g_hidden_dim, opt.cuda)
     discriminator = Discriminator(d_num_class, VOCAB_SIZE, d_emb_dim, d_filter_sizes, d_num_filters, d_dropout)
@@ -156,7 +171,7 @@ def main():
     if opt.cuda:
         gen_criterion = gen_criterion.cuda()
     print('Pretrain with MLE ...')
-    for epoch in range(PRE_EPOCH_NUM):
+    for epoch in range(0): #PRE_EPOCH_NUM):
         loss = train_epoch(generator, gen_data_iter, gen_criterion, gen_optimizer)
         print('Epoch [%d] Model Loss: %f'% (epoch, loss))
         generate_samples(generator, BATCH_SIZE, GENERATED_NUM, EVAL_FILE)
@@ -170,10 +185,10 @@ def main():
     if opt.cuda:
         dis_criterion = dis_criterion.cuda()
     print('Pretrain Dsicriminator ...')
-    for epoch in range(5):
+    for epoch in range(0):
         generate_samples(generator, BATCH_SIZE, GENERATED_NUM, NEGATIVE_FILE)
         dis_data_iter = DisDataIter(POSITIVE_FILE, NEGATIVE_FILE, BATCH_SIZE)
-        for _ in range(3):
+        for _ in range(1):
             loss = train_epoch(discriminator, dis_data_iter, dis_criterion, dis_optimizer)
             print('Epoch [%d], loss: %f' % (epoch, loss))
     # Adversarial Training 
@@ -207,10 +222,14 @@ def main():
             if opt.cuda:
                 rewards = torch.exp(rewards.cuda()).contiguous().view((-1,))
             prob = generator.forward(inputs)
+            print('SHAPE: ', prob.shape, targets.shape, rewards.shape)
             loss = gen_gan_loss(prob, targets, rewards)
             gen_gan_optm.zero_grad()
             loss.backward()
             gen_gan_optm.step()
+            print('GEN PRED DIM: ', prob.shape)
+            for each_sen in prob:
+                print('Sample Output:' ,generate_sentence_from_id(idx_to_word, each_sen))
 
         if total_batch % 1 == 0 or total_batch == TOTAL_BATCH - 1:
             generate_samples(generator, BATCH_SIZE, GENERATED_NUM, EVAL_FILE)
