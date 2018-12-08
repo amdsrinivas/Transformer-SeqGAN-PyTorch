@@ -48,12 +48,12 @@ if opt.cuda is not None and opt.cuda >= 0:
 # Genrator Parameters
 g_emb_dim = 32
 g_hidden_dim = 32
-g_sequence_len = 20
+g_sequence_len = 10
 
 # Discriminator Parameters
 d_emb_dim = 64
-d_filter_sizes = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20]
-d_num_filters = [100, 200, 200, 200, 200, 100, 100, 100, 100, 100, 160, 160]
+d_filter_sizes = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] #, 15, 20]
+d_num_filters = [100, 200, 200, 200, 200, 100, 100, 100, 100, 100] #, 160, 160]
 
 d_dropout = 0.75
 d_num_class = 2
@@ -67,8 +67,8 @@ def generate_samples(model, batch_size, generated_num, output_file, idx_to_word 
     samples = []
     for _ in range(int(generated_num / batch_size)):
         sample = model.sample(batch_size, g_sequence_len).cpu().data.numpy().tolist()
-        for each_sen in sample:
-            generate_sentence_from_id(idx_to_word, each_sen, DEBUG_FILE, header = 'REAL ---')
+        # for each_sen in sample:
+        #    generate_sentence_from_id(idx_to_word, each_sen, DEBUG_FILE, header = 'REAL ---')
         samples.extend(sample)
     with open(output_file, 'w') as fout:
         for sample in samples:
@@ -146,7 +146,7 @@ def main():
     np.random.seed(SEED)
     
     # Build up dataset
-    s_train, s_test = load_from_big_file('./data/train_data_obama.txt')
+    s_train, s_test = load_from_big_file('../data/train_data_obama.txt')
     # idx_to_word: List of id to word
     # word_to_idx: Dictionary mapping word to id
     idx_to_word, word_to_idx = fetch_vocab(s_train, s_train, s_test)
