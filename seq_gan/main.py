@@ -29,7 +29,6 @@ parser = argparse.ArgumentParser(description='Training Parameter')
 parser.add_argument('--cuda', action='store', default=None, type=int)
 parser.add_argument('--test', action='store_true')
 opt = parser.parse_args()
-print(opt)
 
 # Basic Training Paramters
 SEED = 88
@@ -46,6 +45,11 @@ VOCAB_SIZE = 5000
 PRE_EPOCH_NUM = 1
 CHECKPOINT_PATH = ROOT_PATH + 'checkpoints/'
 
+try:  
+    os.makedirs(CHECKPOINT_PATH)
+except OSError:  
+    print('Directory already exists!')
+
 if opt.cuda is not None and opt.cuda >= 0:
     torch.cuda.set_device(opt.cuda)
     opt.cuda = True
@@ -53,7 +57,7 @@ if opt.cuda is not None and opt.cuda >= 0:
 # Genrator Parameters
 g_emb_dim = 32
 g_hidden_dim = 32
-g_sequence_len = 10
+g_sequence_len = 11
 
 # Discriminator Parameters
 d_emb_dim = 64
@@ -64,7 +68,6 @@ d_dropout = 0.75
 d_num_class = 2
 
 def demo():
-    print("IN DEMO")
     idx_to_word, word_to_idx, VOCAB_SIZE = load_vocab(CHECKPOINT_PATH)
     test_iter = GenDataIter(TEST_FILE, BATCH_SIZE)
     generator = Generator(VOCAB_SIZE, g_emb_dim, g_hidden_dim, g_sequence_len, BATCH_SIZE, opt.cuda)
@@ -100,7 +103,7 @@ def train_epoch(model, data_iter, criterion, optimizer):
             data, target = data.cuda(), target.cuda()
         target = target.contiguous().view(-1)
         pred = model.forward(data)
-         if len(pred.shape) > 2:
+        if len(pred.shape) > 2:
             pred = torch.reshape(pred, (pred.shape[0] * pred.shape[1], -1))
         loss = criterion(pred, target)
         total_loss += loss.data.item()
@@ -140,11 +143,14 @@ def test_predict(model, data_iter, idx_to_word, train_mode = False):
         mini_batch = prob.shape[0]
         if len(prob.shape) > 2:
             prob = torch.reshape(prob, (prob.shape[0] * prob.shape[1], -1))
+        else:
+            mini_batch /= g_sequence_len
+            mini_batch = int(mini_batch)
         predictions = torch.max(prob, dim=1)[1]
         predictions = predictions.view(mini_batch, -1)
         # print('PRED SHAPE:' , predictions.shape)
         for each_sen in list(predictions):
-            print('Sample Output:', generate_sentence_from_id(idx_to_word, each_sen))
+            print('Sample Test Output:', generate_sentence_from_id(idx_to_word, each_sen))
         sys.stdout.flush()
         if train_mode:
             break
@@ -173,7 +179,6 @@ class GANLoss(nn.Module):
         if prob.is_cuda:
             one_hot = one_hot.cuda()
         loss = torch.masked_select(prob, one_hot)
-        print(loss.shape, reward.shape)
         loss = loss * reward
         loss =  -torch.sum(loss)
         return loss
@@ -211,9 +216,9 @@ def main():
     # Generate samples either from sentences file or lstm
     # Sentences file will be structured input sentences
     # LSTM based is BOG approach
-    generate_real_data('../data/train_data_obama.txt', BATCH_SIZE, GENERATED_NUM, idx_to_word, word_to_idx, POSITIVE_FILE, TEST_FILE)
-    # generate_samples(target_lstm, BATCH_SIZE, GENERATED_NUM, POSITIVE_FILE, idx_to_word)
-    # generate_samples(target_lstm, BATCH_SIZE, 10, TEST_FILE, idx_to_word)
+    # generate_real_data('../data/train_data_obama.txt', BATCH_SIZE, GENERATED_NUM, idx_to_word, word_to_idx, POSITIVE_FILE, TEST_FILE)
+    generate_samples(target_lstm, BATCH_SIZE, GENERATED_NUM, POSITIVE_FILE, idx_to_word)
+    generate_samples(target_lstm, BATCH_SIZE, 10, TEST_FILE, idx_to_word)
     # Create Test data iterator for testing
     test_iter = GenDataIter(TEST_FILE, BATCH_SIZE)
     
@@ -229,10 +234,10 @@ def main():
     for epoch in range(PRE_EPOCH_NUM):
         loss = train_epoch(generator, gen_data_iter, gen_criterion, gen_optimizer)
         print('Epoch [%d] Model Loss: %f'% (epoch, loss))
-        generate_samples(generator, BATCH_SIZE, GENERATED_NUM, EVAL_FILE)
-        eval_iter = GenDataIter(EVAL_FILE, BATCH_SIZE)
-        loss = eval_epoch(target_lstm, eval_iter, gen_criterion)
-        print('Epoch [%d] True Loss: %f' % (epoch, loss))
+        # generate_samples(generator, BATCH_SIZE, GENERATED_NUM, EVAL_FILE)
+        # eval_iter = GenDataIter(EVAL_FILE, BATCH_SIZE)
+        # loss = eval_epoch(target_lstm, eval_iter, gen_criterion)
+        # print('Epoch [%d] True Loss: %f' % (epoch, loss))
 
     # Pretrain Discriminator
     dis_criterion = nn.NLLLoss(size_average=False)
@@ -286,10 +291,10 @@ def main():
             
 
         if total_batch % 1 == 0 or total_batch == TOTAL_BATCH - 1:
-            generate_samples(generator, BATCH_SIZE, GENERATED_NUM, EVAL_FILE)
-            eval_iter = GenDataIter(EVAL_FILE, BATCH_SIZE)
-            loss = eval_epoch(target_lstm, eval_iter, gen_criterion)
-            print('Batch [%d] True Loss: %f' % (total_batch, loss))
+            # generate_samples(generator, BATCH_SIZE, GENERATED_NUM, EVAL_FILE)
+            # eval_iter = GenDataIter(EVAL_FILE, BATCH_SIZE)
+            # loss = eval_epoch(target_lstm, eval_iter, gen_criterion)
+            # print('Batch [%d] True Loss: %f' % (total_batch, loss))
 
             predictions = torch.max(prob, dim=1)[1]
             predictions = predictions.view(BATCH_SIZE, -1)

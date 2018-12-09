@@ -5,6 +5,7 @@ import random
 import math
 
 import tqdm
+import copy
 
 import numpy as np
 import torch
@@ -37,9 +38,10 @@ class GenDataIter(object):
             raise StopIteration
         index = self.indices[self.idx:self.idx+self.batch_size]
         d = [self.data_lis[i] for i in index]
-        d = torch.LongTensor(np.asarray(d, dtype='int64'))
-        data = torch.cat([torch.zeros(self.batch_size, 1).long(), d], dim=1)
-        target = torch.cat([d, torch.zeros(self.batch_size, 1).long()], dim=1)
+        data = torch.LongTensor(np.asarray(d, dtype='int64'))
+        target = copy.deepcopy(data)
+        # data = torch.cat([torch.zeros(self.batch_size, 1).long(), d], dim=1)
+        # target = torch.cat([d, torch.zeros(self.batch_size, 1).long()], dim=1)
         self.idx += self.batch_size
         return data, target
 
@@ -63,7 +65,8 @@ class DisDataIter(object):
         self.data = real_data_lis + fake_data_lis
         self.labels = [1 for _ in range(len(real_data_lis))] +\
                         [0 for _ in range(len(fake_data_lis))]
-        self.pairs = zip(self.data, self.labels)
+        # self.pairs = zip(self.data, self.labels)
+        self.pairs_index = np.arange(0, len(self.data))
         self.data_num = len(self.data)
         self.indices = range(self.data_num)
         self.num_batches = int(math.ceil(float(self.data_num)/self.batch_size))
@@ -80,15 +83,16 @@ class DisDataIter(object):
     
     def reset(self):
         self.idx = 0
-        random.shuffle(self.pairs)
+        random.shuffle(self.pairs_index)
 
     def next(self):
         if self.idx >= self.data_num:
             raise StopIteration
         index = self.indices[self.idx:self.idx+self.batch_size]
-        pairs = [self.pairs[i] for i in index]
-        data = [p[0] for p in pairs]
-        label = [p[1] for p in pairs]
+        pairs = [self.pairs_index[i] for i in index]
+        # pairs = [self.pairs[i] for i in index]
+        data = [self.data[p] for p in pairs]
+        label = [self.labels[p] for p in pairs]
         data = torch.LongTensor(np.asarray(data, dtype='int64'))
         label = torch.LongTensor(np.asarray(label, dtype='int64'))
         self.idx += self.batch_size

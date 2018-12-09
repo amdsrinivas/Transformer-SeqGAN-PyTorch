@@ -41,7 +41,7 @@ SEED = 88
 BATCH_SIZE = 10
 TOTAL_BATCH = 500
 GENERATED_NUM = 1000
-ROOT_PATH =  'experiment_real_samples/1_100/'
+ROOT_PATH =  'experiment/real_samples/1_100/'
 POSITIVE_FILE = ROOT_PATH + 'real.data'
 TEST_FILE     = ROOT_PATH + 'test.data'
 NEGATIVE_FILE = ROOT_PATH + 'gene.data'
@@ -50,6 +50,11 @@ EVAL_FILE = ROOT_PATH + 'eval.data'
 VOCAB_SIZE = 5000
 PRE_EPOCH_NUM = 1
 CHECKPOINT_PATH = ROOT_PATH + 'checkpoints/'
+
+try:  
+    os.makedirs(CHECKPOINT_PATH)
+except OSError:  
+    print('Directory already exists!')
 
 if opt.cuda is not None and opt.cuda >= 0:
     torch.cuda.set_device(opt.cuda)
@@ -69,7 +74,6 @@ d_dropout = 0.75
 d_num_class = 2
 
 def demo():
-    print("IN DEMO")
     idx_to_word, word_to_idx, VOCAB_SIZE = load_vocab(CHECKPOINT_PATH)
     test_iter = GenDataIter(TEST_FILE, BATCH_SIZE)
     generator = Generator(VOCAB_SIZE, g_emb_dim, g_hidden_dim, g_sequence_len, BATCH_SIZE, opt.cuda)
