@@ -14,8 +14,11 @@ def home():
 @app.route('/generate', methods = ['POST'])
 def generate_output():
     sentence = request.form['email']
+    print("**********",sentence)
     # output = interactive_demo(sentence)
     output = ["a", "aedas", 'asdads']
+    output_str = " ".join(output)
+    return render_template('output.html', result=output_str)
 
 # @app.route('/welcome')
 # def welcome():
