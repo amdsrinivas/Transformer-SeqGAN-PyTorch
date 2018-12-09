@@ -121,7 +121,7 @@ def get_ids(sentence, idx_to_word, word_to_idx):
 
 def test(input_sent):
     # fetch vocabulary + prepare data
-    metadata = torch.load("./checkpoints/attention_only/attention_only_metadata.data")
+    metadata = torch.load("./checkpoints/attention_only/checkpoint_0/attention_only_metadata.data")
     idx_to_word = metadata['idx_to_word']
     word_to_idx = metadata['word_to_idx']
     emb = metadata['emb']
@@ -148,7 +148,7 @@ def test(input_sent):
             max_seq_len=input_seq_size
     )
     
-    model = torch.load("./checkpoints/attention_only/attention_only_model.model")
+    model = torch.load("./checkpoints/attention_only/checkpoint_0/attention_only_model.model")
 
     if GPU:
         model.cuda()

@@ -20,13 +20,13 @@ class interactive_demo:
         BATCH_SIZE           = 10
         self.cuda            = True
         # self.idx_to_word, self.word_to_idx, self.VOCAB_SIZE, g_emb_dim, g_hidden_dim, g_sequence_len = load_vocab(self.CHECKPOINT_PATH)
-        self.gen_attention_metadata = load_vocab(self.CHECKPOINT_PATH+'metadata_attention.data')
+        self.gen_attention_metadata = load_vocab(self.CHECKPOINT_PATH+'/seq_gan_with_attention/checkpoint_1/metadata_attention.data')
 
         # Seq GAN with Attention
         self.gen_attention = GenAttention(self.gen_attention_metadata['vocab_size'], self.gen_attention_metadata['g_emb_dim'],
                     self.gen_attention_metadata['g_hidden_dim'], self.gen_attention_metadata['g_sequence_len'], BATCH_SIZE, self.cuda, test_mode = True)
         self.gen_attention = self.gen_attention.cuda()
-        self.gen_attention.load_state_dict(torch.load(self.CHECKPOINT_PATH+'generator_attention.model', map_location={'cuda:1': 'cpu'}))
+        self.gen_attention.load_state_dict(torch.load(self.CHECKPOINT_PATH+'/seq_gan_with_attention/checkpoint_1/generator_attention.model', map_location={'cuda:1': 'cpu'}))
         self.gen_attention = self.gen_attention.cuda()
 
         # Seq GAN based generator
