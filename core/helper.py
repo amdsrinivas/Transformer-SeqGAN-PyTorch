@@ -34,12 +34,24 @@ def pad_sentences(sentence, sentence_len):
 # Convert the sentence to word ids
 def get_ids(sentence, idx_to_word, word_to_idx, VOCAB_SIZE):
     sentence_ids = []
+
     for word in sentence:
-        if word.lower() not in word_to_idx:
-            # PAD when unknown word found
-            sentence_ids.append(PAD.index)
-        elif word.lower():
-            sentence_ids.append(word_to_idx[word.lower()])
+        if word != PAD.word:
+            flag=1
+            break
+
+    if flag == 1:
+
+        for word in sentence:
+            if word.lower() not in word_to_idx:
+                # PAD when unknown word found
+                sentence_ids.append(SOS.index)
+            elif word.lower():
+                sentence_ids.append(word_to_idx[word.lower()])
+    else:
+        sentence_ids.append(SOS.word)        
+        for word in sentence[1:]:
+            sentence_ids.append(PAD.word)
     
     return sentence_ids
 

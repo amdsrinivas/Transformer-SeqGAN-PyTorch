@@ -27,6 +27,7 @@ class interactive_demo:
                     self.gen_attention_metadata['g_hidden_dim'], self.gen_attention_metadata['g_sequence_len'], BATCH_SIZE, self.cuda, test_mode = True)
         self.gen_attention = self.gen_attention.cuda()
         self.gen_attention.load_state_dict(torch.load(self.CHECKPOINT_PATH+'generator_attention.model', map_location={'cuda:1': 'cpu'}))
+        self.gen_attention = self.gen_attention.cuda()
 
         # Seq GAN based generator
         self.seq_gan_metadata = load_vocab(self.CHECKPOINT_PATH + '/seq_gan/metadata.data')
@@ -35,19 +36,20 @@ class interactive_demo:
 
         self.seq_gan = self.seq_gan.cuda()
         self.seq_gan.load_state_dict(torch.load(self.CHECKPOINT_PATH+'/seq_gan/generator_seqgan.model', map_location={'cuda:1': 'cpu'}))
-    
+        self.seq_gan = self.seq_gan.cuda()
+
     def predict_for_all(self, test_sentence = None):
-        attention_out = self.demo(self.gen_attention, self.gen_attention_metadata)
+        attention_out = self.demo(self.gen_attention, self.gen_attention_metadata, test_sentence)[0]
         print('Output of Attention based' , attention_out)
-        seqgan_out = self.demo(self.seq_gan, self.seq_gan_metadata)[0]
+        seqgan_out = self.demo(self.seq_gan, self.seq_gan_metadata, test_sentence)[0]
         print(len(seqgan_out))
         print('Output of Seq based' , seqgan_out)
         return attention_out, seqgan_out
         #  return attention_out
  
-    def demo(self, model, metadata):
+    def demo(self, model, metadata, test_sentence):
         # idx_to_word, word_to_idx, VOCAB_SIZE = load_vocab(CHECKPOINT_PATH)
-        self.test_sentence = "This is a sample sentence"
+        self.test_sentence = test_sentence
         self.max_test_sentence_len = 10
 
         # Get padded sentencels
@@ -58,6 +60,8 @@ class interactive_demo:
         padded_sent_ids = get_ids(self.padded_sentence, metadata['idx_to_word'], metadata['word_to_idx'], metadata['vocab_size'])
         # print(padded_sent_ids)
 
+        # print("&"*80, padded_sent_ids)
+        # return [["NONE"]]
         # Write to temporary file
         out_file = self.TEST_FILE
         fp = open(out_file, "w")
