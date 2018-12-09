@@ -1,5 +1,7 @@
 #import the Flask class from the flask module
 from flask import Flask, render_template, request
+import sys
+sys.path.insert(0, './seq_gan_with_attention')
 
 # create the application object
 app = Flask(__name__)
@@ -12,8 +14,8 @@ def home():
 @app.route('/generate', methods = ['POST'])
 def generate_output():
     sentence = request.form['email']
-    print("$"*80,sentence)
-    
+    # output = interactive_demo(sentence)
+    output = ["a", "aedas", 'asdads']
 
 # @app.route('/welcome')
 # def welcome():

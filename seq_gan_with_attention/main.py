@@ -71,7 +71,7 @@ d_dropout = 0.75
 d_num_class = 2
 
 
-def interactive_demo():
+def interactive_demo(test_sentence=None):
     idx_to_word, word_to_idx, VOCAB_SIZE = load_vocab(CHECKPOINT_PATH)
     test_sentence = "This is a sample sentence"
     max_test_sentence_len = 10
@@ -91,16 +91,18 @@ def interactive_demo():
     fp.close()
 
     # Call demo
-    demo()
+    output = demo()
+    return output[0]
+
 
 def demo():
     print("IN DEMO")
     idx_to_word, word_to_idx, VOCAB_SIZE = load_vocab(CHECKPOINT_PATH)
-    test_iter = GenDataIter(TEST_FILE, BATCH_SIZE)
+    test_iter = GenDataIter(TEST_FILE, 1)
     generator = Generator(VOCAB_SIZE, g_emb_dim, g_hidden_dim, g_sequence_len, BATCH_SIZE, opt.cuda)
     generator = generator.cuda()
     generator.load_state_dict(torch.load(CHECKPOINT_PATH+'generator.model', map_location={'cuda:1': 'cpu'}))
-    test_predict(generator, test_iter, idx_to_word)
+    return test_predict(generator, test_iter, idx_to_word)
 
 def get_word(s, idx_to_words = None):
     if idx_to_words == None:
@@ -170,6 +172,7 @@ def eval_epoch(model, data_iter, criterion):
 
 def test_predict(model, data_iter, idx_to_word, train_mode = False):
     data_iter.reset()
+    ret_pred = []
     for (data, target) in data_iter:
         data = Variable(data, volatile=True)
         target = Variable(target, volatile=True)
@@ -183,11 +186,15 @@ def test_predict(model, data_iter, idx_to_word, train_mode = False):
         predictions = predictions.view(mini_batch, -1)
         # print('PRED SHAPE:' , predictions.shape)
         for each_sen in list(predictions):
-            print('Sample Output:', generate_sentence_from_id(idx_to_word, each_sen))
+            sent_from_id = generate_sentence_from_id(idx_to_word, each_sen)
+            print('Sample Output:', sent_from_id)
+            ret_pred.append(sent_from_id)
         sys.stdout.flush()
         if train_mode:
             break
+        
     data_iter.reset()
+    return ret_pred
 
 class GANLoss(nn.Module):
     """Reward-Refined NLLLoss Function for adversial training of Gnerator"""
