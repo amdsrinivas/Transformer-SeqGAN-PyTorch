@@ -198,8 +198,7 @@ def main():
 
     global VOCAB_SIZE
     VOCAB_SIZE = len(idx_to_word)
-
-    save_vocab(CHECKPOINT_PATH+'metadata.data', idx_to_word, word_to_idx, VOCAB_SIZE)
+    save_vocab(CHECKPOINT_PATH+'metadata.data', idx_to_word, word_to_idx, VOCAB_SIZE, g_emb_dim, g_hidden_dim)
 
 
     print('VOCAB SIZE:' , VOCAB_SIZE)
@@ -307,8 +306,8 @@ def main():
             
             sys.stdout.flush()
 
-            torch.save(generator.state_dict(), CHECKPOINT_PATH + 'generator.model')
-            torch.save(discriminator.state_dict(), CHECKPOINT_PATH + 'discriminator.model')
+            torch.save(generator.state_dict(), CHECKPOINT_PATH + 'generator_seqgan.model')
+            torch.save(discriminator.state_dict(), CHECKPOINT_PATH + 'discriminator_seqgan.model')
         rollout.update_params()
         
         for _ in range(4):

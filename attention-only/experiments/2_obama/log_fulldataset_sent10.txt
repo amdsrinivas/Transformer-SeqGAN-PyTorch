@@ -1,0 +1,1820 @@
+******************************************************************************** generated sentences
+******************************************************************************** generated emb
+Embedding(17540, 300)
+Initial Probabilities of Translations:
+--------------------------------------
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <sos> <eos> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <sos> <eos> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <sos> <eos> 
+<sos> democrats and republicans have supported it before, so what  =>  <sos> <eos> 
+<sos> and we are going to keep them on the  =>  <sos> <eos> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <sos> <eos> 
+<sos> you know, we meet tonight at a moment of  =>  <sos> <eos> 
+<sos> we then asked the president for aid and we  =>  <sos> <eos> 
+<sos> and whether as a person drawn to public service,  =>  <sos> <eos> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <sos> <eos> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <sos> <eos> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <sos> <eos> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <sos> <eos> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <sos> <eos> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <sos> <eos> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <sos> <eos> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <sos> <eos> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <sos> <eos> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <sos> <eos> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <sos> <eos> 
+Iteration 0: loss: 9.618494
+Iteration 1: loss: 9.618492
+Iteration 2: loss: 9.618492
+Iteration 3: loss: 9.618492
+Iteration 4: loss: 9.695415
+Iteration 5: loss: 9.695415
+Iteration 6: loss: 9.695415
+Iteration 7: loss: 9.695415
+Iteration 8: loss: 9.772330
+Iteration 9: loss: 9.772337
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 10: loss: 9.772338
+Iteration 11: loss: 9.772338
+Iteration 12: loss: 9.772338
+Iteration 13: loss: 9.772338
+Iteration 14: loss: 9.772338
+Iteration 15: loss: 9.772338
+Iteration 16: loss: 9.772338
+Iteration 17: loss: 9.772338
+Iteration 18: loss: 9.772338
+Iteration 19: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 20: loss: 9.772338
+Iteration 21: loss: 9.772338
+Iteration 22: loss: 9.772338
+Iteration 23: loss: 9.772338
+Iteration 24: loss: 9.772338
+Iteration 25: loss: 9.772338
+Iteration 26: loss: 9.772338
+Iteration 27: loss: 9.772338
+Iteration 28: loss: 9.772338
+Iteration 29: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 30: loss: 9.772338
+Iteration 31: loss: 9.772338
+Iteration 32: loss: 9.772338
+Iteration 33: loss: 9.772338
+Iteration 34: loss: 9.772338
+Iteration 35: loss: 9.772338
+Iteration 36: loss: 9.772338
+Iteration 37: loss: 9.772338
+Iteration 38: loss: 9.772338
+Iteration 39: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 40: loss: 9.772338
+Iteration 41: loss: 9.772338
+Iteration 42: loss: 9.772338
+Iteration 43: loss: 9.772338
+Iteration 44: loss: 9.772338
+Iteration 45: loss: 9.772338
+Iteration 46: loss: 9.772338
+Iteration 47: loss: 9.772338
+Iteration 48: loss: 9.772338
+Iteration 49: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 50: loss: 9.772338
+Iteration 51: loss: 9.772338
+Iteration 52: loss: 9.772338
+Iteration 53: loss: 9.772338
+Iteration 54: loss: 9.772338
+Iteration 55: loss: 9.772338
+Iteration 56: loss: 9.772338
+Iteration 57: loss: 9.772338
+Iteration 58: loss: 9.772338
+Iteration 59: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 60: loss: 9.772338
+Iteration 61: loss: 9.772338
+Iteration 62: loss: 9.772338
+Iteration 63: loss: 9.772338
+Iteration 64: loss: 9.772338
+Iteration 65: loss: 9.772338
+Iteration 66: loss: 9.772338
+Iteration 67: loss: 9.772338
+Iteration 68: loss: 9.772338
+Iteration 69: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 70: loss: 9.772338
+Iteration 71: loss: 9.772338
+Iteration 72: loss: 9.772338
+Iteration 73: loss: 9.772338
+Iteration 74: loss: 9.772338
+Iteration 75: loss: 9.772338
+Iteration 76: loss: 9.772338
+Iteration 77: loss: 9.772338
+Iteration 78: loss: 9.772338
+Iteration 79: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 80: loss: 9.772338
+Iteration 81: loss: 9.772338
+Iteration 82: loss: 9.772338
+Iteration 83: loss: 9.772338
+Iteration 84: loss: 9.772338
+Iteration 85: loss: 9.772338
+Iteration 86: loss: 9.772338
+Iteration 87: loss: 9.772338
+Iteration 88: loss: 9.772338
+Iteration 89: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 90: loss: 9.772338
+Iteration 91: loss: 9.772338
+Iteration 92: loss: 9.772338
+Iteration 93: loss: 9.772338
+Iteration 94: loss: 9.772338
+Iteration 95: loss: 9.772338
+Iteration 96: loss: 9.772338
+Iteration 97: loss: 9.772338
+Iteration 98: loss: 9.772338
+Iteration 99: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 100: loss: 9.772338
+Iteration 101: loss: 9.772338
+Iteration 102: loss: 9.772338
+Iteration 103: loss: 9.772338
+Iteration 104: loss: 9.772338
+Iteration 105: loss: 9.772338
+Iteration 106: loss: 9.772338
+Iteration 107: loss: 9.772338
+Iteration 108: loss: 9.772338
+Iteration 109: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 110: loss: 9.772338
+Iteration 111: loss: 9.772338
+Iteration 112: loss: 9.772338
+Iteration 113: loss: 9.772338
+Iteration 114: loss: 9.772338
+Iteration 115: loss: 9.772338
+Iteration 116: loss: 9.772338
+Iteration 117: loss: 9.772338
+Iteration 118: loss: 9.772338
+Iteration 119: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 120: loss: 9.772338
+Iteration 121: loss: 9.772338
+Iteration 122: loss: 9.772338
+Iteration 123: loss: 9.772338
+Iteration 124: loss: 9.772338
+Iteration 125: loss: 9.772338
+Iteration 126: loss: 9.772338
+Iteration 127: loss: 9.772338
+Iteration 128: loss: 9.772338
+Iteration 129: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 130: loss: 9.772338
+Iteration 131: loss: 9.772338
+Iteration 132: loss: 9.772338
+Iteration 133: loss: 9.772338
+Iteration 134: loss: 9.772338
+Iteration 135: loss: 9.772338
+Iteration 136: loss: 9.772338
+Iteration 137: loss: 9.772338
+Iteration 138: loss: 9.772338
+Iteration 139: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 140: loss: 9.772338
+Iteration 141: loss: 9.772338
+Iteration 142: loss: 9.772338
+Iteration 143: loss: 9.772338
+Iteration 144: loss: 9.772338
+Iteration 145: loss: 9.772338
+Iteration 146: loss: 9.772338
+Iteration 147: loss: 9.772338
+Iteration 148: loss: 9.772338
+Iteration 149: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 150: loss: 9.772338
+Iteration 151: loss: 9.772338
+Iteration 152: loss: 9.772338
+Iteration 153: loss: 9.772338
+Iteration 154: loss: 9.772338
+Iteration 155: loss: 9.772338
+Iteration 156: loss: 9.772338
+Iteration 157: loss: 9.772338
+Iteration 158: loss: 9.772338
+Iteration 159: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 160: loss: 9.772338
+Iteration 161: loss: 9.772338
+Iteration 162: loss: 9.772338
+Iteration 163: loss: 9.772338
+Iteration 164: loss: 9.772338
+Iteration 165: loss: 9.772338
+Iteration 166: loss: 9.772338
+Iteration 167: loss: 9.772338
+Iteration 168: loss: 9.772338
+Iteration 169: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 170: loss: 9.772338
+Iteration 171: loss: 9.772338
+Iteration 172: loss: 9.772338
+Iteration 173: loss: 9.772338
+Iteration 174: loss: 9.772338
+Iteration 175: loss: 9.772338
+Iteration 176: loss: 9.772338
+Iteration 177: loss: 9.772338
+Iteration 178: loss: 9.772338
+Iteration 179: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 180: loss: 9.772338
+Iteration 181: loss: 9.772338
+Iteration 182: loss: 9.772338
+Iteration 183: loss: 9.772338
+Iteration 184: loss: 9.772338
+Iteration 185: loss: 9.772338
+Iteration 186: loss: 9.772338
+Iteration 187: loss: 9.772338
+Iteration 188: loss: 9.772338
+Iteration 189: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 190: loss: 9.772338
+Iteration 191: loss: 9.772338
+Iteration 192: loss: 9.772338
+Iteration 193: loss: 9.772338
+Iteration 194: loss: 9.772338
+Iteration 195: loss: 9.772338
+Iteration 196: loss: 9.772338
+Iteration 197: loss: 9.772338
+Iteration 198: loss: 9.772338
+Iteration 199: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 200: loss: 9.772338
+Iteration 201: loss: 9.772338
+Iteration 202: loss: 9.772338
+Iteration 203: loss: 9.772338
+Iteration 204: loss: 9.772338
+Iteration 205: loss: 9.772338
+Iteration 206: loss: 9.772338
+Iteration 207: loss: 9.772338
+Iteration 208: loss: 9.772338
+Iteration 209: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 210: loss: 9.772338
+Iteration 211: loss: 9.772338
+Iteration 212: loss: 9.772338
+Iteration 213: loss: 9.772338
+Iteration 214: loss: 9.772338
+Iteration 215: loss: 9.772338
+Iteration 216: loss: 9.772338
+Iteration 217: loss: 9.772338
+Iteration 218: loss: 9.772338
+Iteration 219: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 220: loss: 9.772338
+Iteration 221: loss: 9.772338
+Iteration 222: loss: 9.772338
+Iteration 223: loss: 9.772338
+Iteration 224: loss: 9.772338
+Iteration 225: loss: 9.772338
+Iteration 226: loss: 9.772338
+Iteration 227: loss: 9.772338
+Iteration 228: loss: 9.772338
+Iteration 229: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 230: loss: 9.772338
+Iteration 231: loss: 9.772338
+Iteration 232: loss: 9.772338
+Iteration 233: loss: 9.772338
+Iteration 234: loss: 9.772338
+Iteration 235: loss: 9.695415
+Iteration 236: loss: 9.695415
+Iteration 237: loss: 9.695415
+Iteration 238: loss: 9.695415
+Iteration 239: loss: 9.695415
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> democrats and republicans have supported it before, so what  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we are going to keep them on the  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> you know, we meet tonight at a moment of  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we then asked the president for aid and we  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and whether as a person drawn to public service,  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+Iteration 240: loss: 9.695415
+Iteration 241: loss: 9.695415
+Iteration 242: loss: 9.695415
+Iteration 243: loss: 9.695415
+Iteration 244: loss: 9.695415
+Iteration 245: loss: 9.695415
+Iteration 246: loss: 9.695416
+Iteration 247: loss: 9.772338
+Iteration 248: loss: 9.772338
+Iteration 249: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 250: loss: 9.772338
+Iteration 251: loss: 9.772338
+Iteration 252: loss: 9.772338
+Iteration 253: loss: 9.772338
+Iteration 254: loss: 9.772338
+Iteration 255: loss: 9.772338
+Iteration 256: loss: 9.772338
+Iteration 257: loss: 9.772338
+Iteration 258: loss: 9.772338
+Iteration 259: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 260: loss: 9.772338
+Iteration 261: loss: 9.772338
+Iteration 262: loss: 9.772338
+Iteration 263: loss: 9.772338
+Iteration 264: loss: 9.772338
+Iteration 265: loss: 9.772338
+Iteration 266: loss: 9.772338
+Iteration 267: loss: 9.772338
+Iteration 268: loss: 9.772338
+Iteration 269: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 270: loss: 9.772338
+Iteration 271: loss: 9.772338
+Iteration 272: loss: 9.772338
+Iteration 273: loss: 9.772338
+Iteration 274: loss: 9.772338
+Iteration 275: loss: 9.772338
+Iteration 276: loss: 9.772338
+Iteration 277: loss: 9.772338
+Iteration 278: loss: 9.772338
+Iteration 279: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 280: loss: 9.772338
+Iteration 281: loss: 9.772338
+Iteration 282: loss: 9.772338
+Iteration 283: loss: 9.772338
+Iteration 284: loss: 9.772338
+Iteration 285: loss: 9.772338
+Iteration 286: loss: 9.772338
+Iteration 287: loss: 9.772338
+Iteration 288: loss: 9.772338
+Iteration 289: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 290: loss: 9.772338
+Iteration 291: loss: 9.772338
+Iteration 292: loss: 9.772338
+Iteration 293: loss: 9.772338
+Iteration 294: loss: 9.772338
+Iteration 295: loss: 9.772338
+Iteration 296: loss: 9.772338
+Iteration 297: loss: 9.772338
+Iteration 298: loss: 9.772338
+Iteration 299: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 300: loss: 9.772338
+Iteration 301: loss: 9.772338
+Iteration 302: loss: 9.772338
+Iteration 303: loss: 9.772338
+Iteration 304: loss: 9.772338
+Iteration 305: loss: 9.772338
+Iteration 306: loss: 9.772338
+Iteration 307: loss: 9.772338
+Iteration 308: loss: 9.772338
+Iteration 309: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 310: loss: 9.772338
+Iteration 311: loss: 9.772338
+Iteration 312: loss: 9.772338
+Iteration 313: loss: 9.772338
+Iteration 314: loss: 9.772338
+Iteration 315: loss: 9.772338
+Iteration 316: loss: 9.772338
+Iteration 317: loss: 9.772338
+Iteration 318: loss: 9.695415
+Iteration 319: loss: 9.695415
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> democrats and republicans have supported it before, so what  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we are going to keep them on the  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> you know, we meet tonight at a moment of  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we then asked the president for aid and we  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and whether as a person drawn to public service,  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+Iteration 320: loss: 9.695415
+Iteration 321: loss: 9.695415
+Iteration 322: loss: 9.695415
+Iteration 323: loss: 9.695415
+Iteration 324: loss: 9.695415
+Iteration 325: loss: 9.695415
+Iteration 326: loss: 9.695415
+Iteration 327: loss: 9.695415
+Iteration 328: loss: 9.695415
+Iteration 329: loss: 9.695415
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> democrats and republicans have supported it before, so what  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we are going to keep them on the  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> you know, we meet tonight at a moment of  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we then asked the president for aid and we  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and whether as a person drawn to public service,  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+Iteration 330: loss: 9.695415
+Iteration 331: loss: 9.695415
+Iteration 332: loss: 9.695415
+Iteration 333: loss: 9.695415
+Iteration 334: loss: 9.695415
+Iteration 335: loss: 9.695447
+Iteration 336: loss: 9.772327
+Iteration 337: loss: 9.772338
+Iteration 338: loss: 9.772338
+Iteration 339: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 340: loss: 9.772338
+Iteration 341: loss: 9.772338
+Iteration 342: loss: 9.772338
+Iteration 343: loss: 9.772338
+Iteration 344: loss: 9.772338
+Iteration 345: loss: 9.772338
+Iteration 346: loss: 9.772338
+Iteration 347: loss: 9.772338
+Iteration 348: loss: 9.772338
+Iteration 349: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 350: loss: 9.772338
+Iteration 351: loss: 9.772338
+Iteration 352: loss: 9.772338
+Iteration 353: loss: 9.772338
+Iteration 354: loss: 9.772338
+Iteration 355: loss: 9.772338
+Iteration 356: loss: 9.772338
+Iteration 357: loss: 9.772338
+Iteration 358: loss: 9.772338
+Iteration 359: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 360: loss: 9.772338
+Iteration 361: loss: 9.772338
+Iteration 362: loss: 9.772338
+Iteration 363: loss: 9.772338
+Iteration 364: loss: 9.772338
+Iteration 365: loss: 9.772338
+Iteration 366: loss: 9.772338
+Iteration 367: loss: 9.772338
+Iteration 368: loss: 9.772338
+Iteration 369: loss: 9.772338
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> democrats and republicans have supported it before, so what  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we are going to keep them on the  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> you know, we meet tonight at a moment of  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we then asked the president for aid and we  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and whether as a person drawn to public service,  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 370: loss: 9.772338
+Iteration 371: loss: 9.772338
+Iteration 372: loss: 9.772338
+Iteration 373: loss: 9.772338
+Iteration 374: loss: 9.772338
+Iteration 375: loss: 9.772338
+Iteration 376: loss: 9.772338
+Iteration 377: loss: 9.695415
+Iteration 378: loss: 9.695420
+Iteration 379: loss: 9.695415
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> democrats and republicans have supported it before, so what  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we are going to keep them on the  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> you know, we meet tonight at a moment of  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we then asked the president for aid and we  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and whether as a person drawn to public service,  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+Iteration 380: loss: 9.695415
+Iteration 381: loss: 9.695415
+Iteration 382: loss: 9.695415
+Iteration 383: loss: 9.695423
+Iteration 384: loss: 9.695415
+Iteration 385: loss: 9.695416
+Iteration 386: loss: 9.695416
+Iteration 387: loss: 9.695415
+Iteration 388: loss: 9.695510
+Iteration 389: loss: 9.695415
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> democrats and republicans have supported it before, so what  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we are going to keep them on the  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> you know, we meet tonight at a moment of  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we then asked the president for aid and we  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and whether as a person drawn to public service,  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+Iteration 390: loss: 9.695414
+Iteration 391: loss: 9.695427
+Iteration 392: loss: 9.695413
+Iteration 393: loss: 9.695415
+Iteration 394: loss: 9.618491
+Iteration 395: loss: 9.695414
+Iteration 396: loss: 9.695114
+Iteration 397: loss: 9.695414
+Iteration 398: loss: 9.618646
+Iteration 399: loss: 9.695415
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> democrats and republicans have supported it before, so what  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we are going to keep them on the  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> you know, we meet tonight at a moment of  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we then asked the president for aid and we  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and whether as a person drawn to public service,  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+Iteration 400: loss: 9.648271
+Iteration 401: loss: 9.618677
+Iteration 402: loss: 9.618492
+Iteration 403: loss: 9.618502
+Iteration 404: loss: 9.695415
+Iteration 405: loss: 9.618673
+Iteration 406: loss: 9.694523
+Iteration 407: loss: 9.673010
+Iteration 408: loss: 9.695415
+Iteration 409: loss: 9.695414
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> democrats and republicans have supported it before, so what  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we are going to keep them on the  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> you know, we meet tonight at a moment of  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we then asked the president for aid and we  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and whether as a person drawn to public service,  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+Iteration 410: loss: 9.694539
+Iteration 411: loss: 9.619867
+Iteration 412: loss: 9.695432
+Iteration 413: loss: 9.680581
+Iteration 414: loss: 9.695415
+Iteration 415: loss: 9.695415
+Iteration 416: loss: 9.618488
+Iteration 417: loss: 9.618489
+Iteration 418: loss: 9.695413
+Iteration 419: loss: 9.620173
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> democrats and republicans have supported it before, so what  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we are going to keep them on the  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> you know, we meet tonight at a moment of  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we then asked the president for aid and we  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and whether as a person drawn to public service,  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+Iteration 420: loss: 9.618492
+Iteration 421: loss: 9.618492
+Iteration 422: loss: 9.691308
+Iteration 423: loss: 9.695415
+Iteration 424: loss: 9.618492
+Iteration 425: loss: 9.695415
+Iteration 426: loss: 9.693336
+Iteration 427: loss: 9.618492
+Iteration 428: loss: 9.618492
+Iteration 429: loss: 9.695415
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> democrats and republicans have supported it before, so what  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we are going to keep them on the  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> you know, we meet tonight at a moment of  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we then asked the president for aid and we  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and whether as a person drawn to public service,  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+Iteration 430: loss: 9.695414
+Iteration 431: loss: 9.695415
+Iteration 432: loss: 9.695415
+Iteration 433: loss: 9.618502
+Iteration 434: loss: 9.695414
+Iteration 435: loss: 9.618492
+Iteration 436: loss: 9.618498
+Iteration 437: loss: 9.695415
+Iteration 438: loss: 9.695415
+Iteration 439: loss: 9.618492
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> democrats and republicans have supported it before, so what  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we are going to keep them on the  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> you know, we meet tonight at a moment of  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we then asked the president for aid and we  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and whether as a person drawn to public service,  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+Iteration 440: loss: 9.618490
+Iteration 441: loss: 9.618492
+Iteration 442: loss: 9.618492
+Iteration 443: loss: 9.695415
+Iteration 444: loss: 9.695415
+Iteration 445: loss: 9.695414
+Iteration 446: loss: 9.695413
+Iteration 447: loss: 9.695414
+Iteration 448: loss: 9.618490
+Iteration 449: loss: 9.695415
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> democrats and republicans have supported it before, so what  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we are going to keep them on the  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> you know, we meet tonight at a moment of  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we then asked the president for aid and we  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and whether as a person drawn to public service,  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+Iteration 450: loss: 9.618492
+Iteration 451: loss: 9.695415
+Iteration 452: loss: 9.695415
+Iteration 453: loss: 9.695415
+Iteration 454: loss: 9.695415
+Iteration 455: loss: 9.637615
+Iteration 456: loss: 9.693640
+Iteration 457: loss: 9.618492
+Iteration 458: loss: 9.618492
+Iteration 459: loss: 9.695415
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> democrats and republicans have supported it before, so what  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we are going to keep them on the  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> you know, we meet tonight at a moment of  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we then asked the president for aid and we  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and whether as a person drawn to public service,  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+Iteration 460: loss: 9.618491
+Iteration 461: loss: 9.695413
+Iteration 462: loss: 9.618492
+Iteration 463: loss: 9.695415
+Iteration 464: loss: 9.695415
+Iteration 465: loss: 9.618490
+Iteration 466: loss: 9.618492
+Iteration 467: loss: 9.695415
+Iteration 468: loss: 9.618492
+Iteration 469: loss: 9.618490
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> democrats and republicans have supported it before, so what  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we are going to keep them on the  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> you know, we meet tonight at a moment of  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we then asked the president for aid and we  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and whether as a person drawn to public service,  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+Iteration 470: loss: 9.618492
+Iteration 471: loss: 9.618490
+Iteration 472: loss: 9.695303
+Iteration 473: loss: 9.618490
+Iteration 474: loss: 9.618490
+Iteration 475: loss: 9.618491
+Iteration 476: loss: 9.695415
+Iteration 477: loss: 9.624838
+Iteration 478: loss: 9.691161
+Iteration 479: loss: 9.692615
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> democrats and republicans have supported it before, so what  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we are going to keep them on the  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> you know, we meet tonight at a moment of  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we then asked the president for aid and we  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and whether as a person drawn to public service,  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+Iteration 480: loss: 9.695413
+Iteration 481: loss: 9.695415
+Iteration 482: loss: 9.618490
+Iteration 483: loss: 9.618492
+Iteration 484: loss: 9.618492
+Iteration 485: loss: 9.695415
+Iteration 486: loss: 9.695415
+Iteration 487: loss: 9.618492
+Iteration 488: loss: 9.618492
+Iteration 489: loss: 9.695415
+
+Sampled Outputs on Train:
+----------------
+<sos> don't do it for me . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i have brothers, sisters, nieces, nephews, uncles, and cousins  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> thank you very much . <eos> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> democrats and republicans have supported it before, so what  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we are going to keep them on the  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> 1 on saturday morning, gabby, her staff and many  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> you know, we meet tonight at a moment of  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we then asked the president for aid and we  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and whether as a person drawn to public service,  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> we need that . <eos> <pad> <pad> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+
+Sampled Outputs on Test:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+Iteration 490: loss: 9.618491
+Iteration 491: loss: 9.695415
+Iteration 492: loss: 9.695415
+Iteration 493: loss: 9.618500
+Iteration 494: loss: 9.618492
+Iteration 495: loss: 9.618492
+Iteration 496: loss: 9.695415
+Iteration 497: loss: 9.618491
+Iteration 498: loss: 9.618491
+Iteration 499: loss: 9.618492
+torch.Size([10, 13]) torch.Size([10, 13])
+torch.Size([10, 13])
+
+Sampled Outputs:
+----------------
+<sos> i just want to tell you a quick story . <eos> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and you, you are the soldiers, the sailors, the airmen, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so the record is clear: rather than keeping us safer, . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and we must also begin a conversation on how to . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> so sal and his comrades regrouped and counterattacked . <eos> <pad> <pad>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> in the years that have followed, the space race inspired . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> i know that when she was with our girls, she’d . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but the question you’re going to have to ask yourself . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> and when your service is complete, many of you will . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 
+<sos> but what we won’t do -- what the country can’t . <eos>  =>  <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> <sos> 

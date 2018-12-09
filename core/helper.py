@@ -130,7 +130,7 @@ def generate_real_data(input_file, batch_size, generated_num, idx_to_word, word_
 
 
 
-def save_vocab(checkpoint, idx_to_word, word_to_idx, vocab_size, g_emb_dim, g_hidden_dim, g_sequence_len):
+def save_vocab(checkpoint, idx_to_word, word_to_idx, vocab_size, g_emb_dim = None, g_hidden_dim = None, g_sequence_len = None):
     """
     out_file = open(checkpoint+'idx_to_word.pkl', "wb")
     pickle.dump(idx_to_word, out_file)

@@ -29,13 +29,21 @@ class interactive_demo:
         self.gen_attention.load_state_dict(torch.load(self.CHECKPOINT_PATH+'generator_attention.model', map_location={'cuda:1': 'cpu'}))
 
         # Seq GAN based generator
-        # generator = GenSeqgan(VOCAB_SIZE, g_emb_dim, g_hidden_dim, opt.cuda)
-        # generator = generator.cuda()
-        # generator.load_state_dict(torch.load(CHECKPOINT_PATH+'generator_seqgan.model', map_location={'cuda:1': 'cpu'}))
+        self.seq_gan_metadata = load_vocab(self.CHECKPOINT_PATH + '/seq_gan/metadata.data')
+        self.seq_gan = GenSeqgan(self.seq_gan_metadata['vocab_size'], self.seq_gan_metadata['g_emb_dim'],
+                    self.seq_gan_metadata['g_hidden_dim'], self.cuda)
+
+        self.seq_gan = self.seq_gan.cuda()
+        self.seq_gan.load_state_dict(torch.load(self.CHECKPOINT_PATH+'/seq_gan/generator_seqgan.model', map_location={'cuda:1': 'cpu'}))
     
     def predict_for_all(self, test_sentence = None):
         attention_out = self.demo(self.gen_attention, self.gen_attention_metadata)
-        return attention_out
+        print('Output of Attention based' , attention_out)
+        seqgan_out = self.demo(self.seq_gan, self.seq_gan_metadata)[0]
+        print(len(seqgan_out))
+        print('Output of Seq based' , seqgan_out)
+        return attention_out, seqgan_out
+        #  return attention_out
  
     def demo(self, model, metadata):
         # idx_to_word, word_to_idx, VOCAB_SIZE = load_vocab(CHECKPOINT_PATH)
@@ -69,14 +77,16 @@ class interactive_demo:
                 data, target = data.cuda(), target.cuda()
             target = target.contiguous().view(-1)
             prob = model.forward(data)
-            mini_batch = prob.shape[0]
-            prob = torch.reshape(prob, (prob.shape[0] * prob.shape[1], -1))
+            print('PROBS SH:',  prob.shape)
+            # mini_batch = prob.shape[0]
+            if len(prob.shape) > 2:
+                prob = torch.reshape(prob, (prob.shape[0] * prob.shape[1], -1))
             predictions = torch.max(prob, dim=1)[1]
-            predictions = predictions.view(mini_batch, -1)
+            predictions = predictions.view(1, -1)
             # print('PRED SHAPE:' , predictions.shape)
             for each_sen in list(predictions):
                 sent_from_id = generate_sentence_from_id(metadata['idx_to_word'], each_sen)
-                print('Sample Output:', sent_from_id)
+                # print('Sample Output:', sent_from_id)
                 ret_pred.append(sent_from_id)
             sys.stdout.flush()
              

@@ -1,0 +1,292 @@
+******************************************************************************** generated sentences
+******************************************************************************** generated emb
+Embedding(517, 300)
+Initial Probabilities of Translations:
+--------------------------------------
+
+Sampled Outputs on Train:
+----------------
+<sos> but walter knew that if he was receiving vociferous  =>  <sos> yourselves <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but here's the thing: that title wasn't bestowed on  =>  <sos> around <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> still <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> that's why so many of you entered the profession  =>  <sos> <pad> mr. <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> it was earned by year after year and decade  =>  <sos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> give yourselves a big round of applause . <eos>  =>  there <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but like them and like all of you, i  =>  <sos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> he's reunited with his beloved betsy now, watching the  =>  <sos> walter <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we are grateful to him for altering and illuminating  =>  <sos> <sos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> change, <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> he lost his job -- but he got the  =>  <sos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we weren't told to believe it by some advertising  =>  <sos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> walter <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> all right, everybody go ahead and have a seat . <eos> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we seem stuck with a choice between what cuts to our bottom line and what . <eos>  =>  <sos> <sos> boy, <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> replied <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> it needs to be told . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> hall <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> despite the big stories of our era, serious journalists find themselves all too often without . <eos>  =>  <sos> "my dared <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> even as appetites for news and information grow, newsrooms are closing . <eos> <pad> <pad> <pad> <pad>  =>  <sos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> through all the events that came to define the 20th century, through all our moments . <eos>  =>  <sos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> he went everywhere and he did everything . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> inevitable values <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> hours <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> "you don't need to confirm it," the manager shouted, "my wife is watching the whole . <eos>  =>  <sos> "you <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> to chip, kathy, and nancy, who graciously shared your father with a nation that loved . <eos>  =>  <sos> <pad> yes <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 0: loss: 6.020247
+Iteration 1: loss: 6.014780
+Iteration 2: loss: 5.965632
+Iteration 3: loss: 5.960921
+Iteration 4: loss: 5.925220
+Iteration 5: loss: 5.908677
+Iteration 6: loss: 5.898410
+Iteration 7: loss: 5.899027
+Iteration 8: loss: 5.896690
+Iteration 9: loss: 5.896295
+
+Sampled Outputs on Train:
+----------------
+<sos> but walter knew that if he was receiving vociferous  =>  <sos> and and and and and and and and . <eos> <pad> <pad> <pad> <pad> 
+<sos> but here's the thing: that title wasn't bestowed on  =>  <sos> and and <sos> and and and and and and and . <eos> <pad> <pad> 
+<sos> that's why so many of you entered the profession  =>  <sos> and and and meticulous and and and and <sos> and . <eos> <pad> <pad> 
+<sos> it was earned by year after year and decade  =>  <sos> and and and and and and and and and . <eos> <pad> <pad> <pad> 
+<sos> give yourselves a big round of applause . <eos>  =>  <sos> and and with and and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but like them and like all of you, i  =>  <sos> and and and and and and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> he's reunited with his beloved betsy now, watching the  =>  <sos> and and and and and and and and media . <eos> <pad> <pad> <pad> 
+<sos> we are grateful to him for altering and illuminating  =>  <sos> and and and and and and and and and his <sos> and . <eos> 
+<sos> he lost his job -- but he got the  =>  <sos> and and and and and and and and . <eos> <pad> <pad> <pad> <pad> 
+<sos> we weren't told to believe it by some advertising  =>  <sos> and and <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> all right, everybody go ahead and have a seat . <eos> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> and and and and and and and and . <eos> <pad> <pad> <pad> 
+<sos> we seem stuck with a choice between what cuts to our bottom line and what . <eos>  =>  <sos> and <sos> and and and and and and and than believed . <eos> 
+<sos> it needs to be told . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> and and job and and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> despite the big stories of our era, serious journalists find themselves all too often without . <eos>  =>  <sos> and and and and and and and and and . <eos> <pad> <pad> 
+<sos> even as appetites for news and information grow, newsrooms are closing . <eos> <pad> <pad> <pad> <pad>  =>  <sos> and and grow, and and still and and . <eos> <pad> <pad> <pad> 
+<sos> through all the events that came to define the 20th century, through all our moments . <eos>  =>  <sos> and and and and and and and pressures and . <eos> <pad> <pad> 
+<sos> he went everywhere and he did everything . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> and <sos> and and and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> and and and and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> "you don't need to confirm it," the manager shouted, "my wife is watching the whole . <eos>  =>  <sos> and and and and and and and and and . <eos> <pad> <pad> 
+<sos> to chip, kathy, and nancy, who graciously shared your father with a nation that loved . <eos>  =>  <sos> and and and and and and and and and . <eos> <pad> <pad> 
+Iteration 10: loss: 5.897268
+Iteration 11: loss: 5.897336
+Iteration 12: loss: 5.896187
+Iteration 13: loss: 5.895954
+Iteration 14: loss: 5.895902
+Iteration 15: loss: 5.896039
+Iteration 16: loss: 5.895978
+Iteration 17: loss: 5.895925
+Iteration 18: loss: 5.895945
+Iteration 19: loss: 5.895853
+
+Sampled Outputs on Train:
+----------------
+<sos> but walter knew that if he was receiving vociferous  =>  <sos> and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but here's the thing: that title wasn't bestowed on  =>  <sos> and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> that's why so many of you entered the profession  =>  <sos> and democracy," . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> it was earned by year after year and decade  =>  <sos> and <sos> and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> give yourselves a big round of applause . <eos>  =>  <sos> and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but like them and like all of you, i  =>  <sos> and <sos> and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> he's reunited with his beloved betsy now, watching the  =>  <sos> and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we are grateful to him for altering and illuminating  =>  <sos> and <sos> and and and and and and and and and and . <eos> 
+<sos> he lost his job -- but he got the  =>  <sos> and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we weren't told to believe it by some advertising  =>  <sos> and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> all right, everybody go ahead and have a seat . <eos> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we seem stuck with a choice between what cuts to our bottom line and what . <eos>  =>  <sos> and and and and and and and and . <eos> 
+<sos> it needs to be told . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> despite the big stories of our era, serious journalists find themselves all too often without . <eos>  =>  <sos> and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> even as appetites for news and information grow, newsrooms are closing . <eos> <pad> <pad> <pad> <pad>  =>  <sos> and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> through all the events that came to define the 20th century, through all our moments . <eos>  =>  <sos> and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> he went everywhere and he did everything . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> "you don't need to confirm it," the manager shouted, "my wife is watching the whole . <eos>  =>  <sos> and <sos> and . <eos> <pad> <pad> <pad> <pad> <pad> 
+<sos> to chip, kathy, and nancy, who graciously shared your father with a nation that loved . <eos>  =>  <sos> and fully . <eos> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 20: loss: 5.895856
+Iteration 21: loss: 5.895826
+Iteration 22: loss: 5.895780
+Iteration 23: loss: 5.895750
+Iteration 24: loss: 5.895743
+Iteration 25: loss: 5.895670
+Iteration 26: loss: 5.895281
+Iteration 27: loss: 5.889174
+Iteration 28: loss: 5.885930
+Iteration 29: loss: 5.884867
+
+Sampled Outputs on Train:
+----------------
+<sos> but walter knew that if he was receiving vociferous  =>  <sos> and the the the the the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but here's the thing: that title wasn't bestowed on  =>  <sos> and <sos> and the the the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> that's why so many of you entered the profession  =>  <sos> and the the the the the the the the the the . <eos> <pad> 
+<sos> it was earned by year after year and decade  =>  <sos> and the the the the the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> give yourselves a big round of applause . <eos>  =>  <sos> and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but like them and like all of you, i  =>  <sos> and the the the the the endless the the . <eos> <pad> <pad> <pad> 
+<sos> he's reunited with his beloved betsy now, watching the  =>  <sos> and the the the the the the . <eos> <pad> <pad> <pad> <pad> <pad> 
+<sos> we are grateful to him for altering and illuminating  =>  <sos> and <sos> and the the the the the the the the the . <eos> 
+<sos> he lost his job -- but he got the  =>  <sos> and the the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we weren't told to believe it by some advertising  =>  <sos> and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> all right, everybody go ahead and have a seat . <eos> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> and the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we seem stuck with a choice between what cuts to our bottom line and what . <eos>  =>  <sos> and the the the the the the the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> it needs to be told . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> <sos> and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> despite the big stories of our era, serious journalists find themselves all too often without . <eos>  =>  <sos> and the the the the the the the the the the . <eos> <pad> <pad> <pad> <pad> 
+<sos> even as appetites for news and information grow, newsrooms are closing . <eos> <pad> <pad> <pad> <pad>  =>  <sos> and the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> through all the events that came to define the 20th century, through all our moments . <eos>  =>  <sos> and the the the the the the the the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> he went everywhere and he did everything . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> and . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> "you don't need to confirm it," the manager shouted, "my wife is watching the whole . <eos>  =>  <sos> and the the the the the the the the the the the . <eos> <pad> <pad> <pad> 
+<sos> to chip, kathy, and nancy, who graciously shared your father with a nation that loved . <eos>  =>  <sos> and the the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+Iteration 30: loss: 5.890534
+Iteration 31: loss: 5.880380
+Iteration 32: loss: 5.887659
+Iteration 33: loss: 5.884891
+Iteration 34: loss: 5.884825
+Iteration 35: loss: 5.885837
+Iteration 36: loss: 5.884728
+Iteration 37: loss: 5.884781
+Iteration 38: loss: 5.884789
+Iteration 39: loss: 5.879838
+
+Sampled Outputs on Train:
+----------------
+<sos> but walter knew that if he was receiving vociferous  =>  <sos> i i i i i the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but here's the thing: that title wasn't bestowed on  =>  <sos> and i the my the the the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> that's why so many of you entered the profession  =>  <sos> the the the the the the the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> it was earned by year after year and decade  =>  <sos> and i and i and i and i and i and i and . <eos> <pad> 
+<sos> give yourselves a big round of applause . <eos>  =>  <sos> i i . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but like them and like all of you, i  =>  <sos> and i and i and i and i and i and i i i . <eos> 
+<sos> he's reunited with his beloved betsy now, watching the  =>  <sos> and the the the the the the the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we are grateful to him for altering and illuminating  =>  <sos> and i and the the and the the the the . <eos> <pad> <pad> <pad> <pad> 
+<sos> he lost his job -- but he got the  =>  <sos> i the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we weren't told to believe it by some advertising  =>  <sos> i i he i i i i i i . <eos> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> all right, everybody go ahead and have a seat . <eos> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> and i i i and i and i and i and i i . <eos> 
+<sos> we seem stuck with a choice between what cuts to our bottom line and what . <eos>  =>  <sos> and i and the the the the i and place . <eos> <pad> <pad> <pad> 
+<sos> it needs to be told . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> i . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> despite the big stories of our era, serious journalists find themselves all too often without . <eos>  =>  <sos> and the the the the the the the . <eos> <pad> <pad> <pad> <pad> <pad> 
+<sos> even as appetites for news and information grow, newsrooms are closing . <eos> <pad> <pad> <pad> <pad>  =>  <sos> and i and i and i and i and i during . <eos> <pad> <pad> 
+<sos> through all the events that came to define the 20th century, through all our moments . <eos>  =>  <sos> and the the the the the the the . <eos> <pad> <pad> <pad> <pad> <pad> 
+<sos> he went everywhere and he did everything . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> and i i i i i i i i . <eos> <pad> <pad> <pad> <pad> 
+<sos> thank you . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> i . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> "you don't need to confirm it," the manager shouted, "my wife is watching the whole . <eos>  =>  <sos> and the the the the the the the . <eos> <pad> <pad> <pad> <pad> <pad> 
+<sos> to chip, kathy, and nancy, who graciously shared your father with a nation that loved . <eos>  =>  <sos> and i and i and i and i and i and i i . <eos> 
+Iteration 40: loss: 5.879391
+Iteration 41: loss: 5.879560
+Iteration 42: loss: 5.874675
+Iteration 43: loss: 5.868693
+Iteration 44: loss: 5.869205
+Iteration 45: loss: 5.863608
+Iteration 46: loss: 5.862168
+Iteration 47: loss: 5.859806
+Iteration 48: loss: 5.856682
+Iteration 49: loss: 5.854604
+
+Sampled Outputs on Train:
+----------------
+<sos> but walter knew that if he was receiving vociferous  =>  <sos> i to to to to the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but here's the thing: that title wasn't bestowed on  =>  <sos> the to the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> that's why so many of you entered the profession  =>  <sos> the to the to the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> it was earned by year after year and decade  =>  <sos> and to to to and the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> give yourselves a big round of applause . <eos>  =>  <sos> i to the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but like them and like all of you, i  =>  <sos> and i to to to and to and i probably to and i and . <eos> 
+<sos> he's reunited with his beloved betsy now, watching the  =>  <sos> i to the to the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we are grateful to him for altering and illuminating  =>  <sos> and to to to and the to and to and to and to and . <eos> 
+<sos> he lost his job -- but he got the  =>  <sos> the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we weren't told to believe it by some advertising  =>  <sos> i to to to to the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> all right, everybody go ahead and have a seat . <eos> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> and i to the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> we seem stuck with a choice between what cuts to our bottom line and what . <eos>  =>  <sos> and to to to to and to and to and to and to and told . <eos> 
+<sos> it needs to be told . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> i to to to the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> despite the big stories of our era, serious journalists find themselves all too often without . <eos>  =>  <sos> the to the to the higher to the to the . <eos> <pad> <pad> <pad> <pad> <pad> 
+<sos> even as appetites for news and information grow, newsrooms are closing . <eos> <pad> <pad> <pad> <pad>  =>  <sos> and i to to and the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> through all the events that came to define the 20th century, through all our moments . <eos>  =>  <sos> the to the to the . journalism . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> he went everywhere and he did everything . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> and i to the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> thank you . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> i to the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> "you don't need to confirm it," the manager shouted, "my wife is watching the whole . <eos>  =>  <sos> he's to the to the to the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> to chip, kathy, and nancy, who graciously shared your father with a nation that loved . <eos>  =>  <sos> and to to to and the to and to and the to and . <eos> <pad> <pad> 
+Iteration 50: loss: 5.851565
+Iteration 51: loss: 5.856258
+Iteration 52: loss: 5.849683
+Iteration 53: loss: 5.846437
+Iteration 54: loss: 5.848193
+Iteration 55: loss: 5.856366
+Iteration 56: loss: 5.846140
+Iteration 57: loss: 5.850768
+Iteration 58: loss: 5.842666
+Iteration 59: loss: 5.835571
+
+Sampled Outputs on Train:
+----------------
+<sos> but walter knew that if he was receiving vociferous  =>  <sos> he was he was he was he was he was he was he was he . <eos> 
+<sos> but here's the thing: that title wasn't bestowed on  =>  <sos> he was the he was the he was the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> that's why so many of you entered the profession  =>  <sos> he was he was the he was the he was the the . <eos> <pad> <pad> <pad> 
+<sos> it was earned by year after year and decade  =>  <sos> and he was he was and he was he was he was he was he . <eos> 
+<sos> give yourselves a big round of applause . <eos>  =>  <sos> he was the . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> but like them and like all of you, i  =>  <sos> and he was he was and he was he was he was he was and . <eos> 
+<sos> he's reunited with his beloved betsy now, watching the  =>  <sos> he was he was he was the he was the he was the . <eos> <pad> <pad> 
+<sos> we are grateful to him for altering and illuminating  =>  <sos> and he was to to the and the he was to the he . <eos> <pad> <pad> 
+<sos> he lost his job -- but he got the  =>  <sos> he was he was he was he was the he was the he was he . <eos> 
+<sos> we weren't told to believe it by some advertising  =>  <sos> he was to to he was he was he was he was . <eos> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> all right, everybody go ahead and have a seat . <eos> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> and he was and he was and he was he was he was he . <eos> <pad> 
+<sos> we seem stuck with a choice between what cuts to our bottom line and what . <eos>  =>  <sos> and he was to to he was and he was to to 12th and he speaking . 
+<sos> it needs to be told . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> he was he was he retirement, he <sos> he was he . <eos> <pad> <pad> <pad> <pad> 
+<sos> despite the big stories of our era, serious journalists find themselves all too often without . <eos>  =>  <sos> he was the he was the he was the he was the he . <eos> <pad> <pad> 
+<sos> even as appetites for news and information grow, newsrooms are closing . <eos> <pad> <pad> <pad> <pad>  =>  <sos> and he was he was and he was and he was he was he . <eos> <pad> 
+<sos> through all the events that came to define the 20th century, through all our moments . <eos>  =>  <sos> he was the he was the he was the the he was the . <eos> <pad> <pad> 
+<sos> he went everywhere and he did everything . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> and he was he was and he i naive he was he <sos> and he . <eos> 
+<sos> thank you . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> he was he was he was he was he have . <eos> <pad> <pad> <pad> <pad> <pad> 
+<sos> "you don't need to confirm it," the manager shouted, "my wife is watching the whole . <eos>  =>  <sos> he was to the he was the he was the the the the . <eos> <pad> <pad> 
+<sos> to chip, kathy, and nancy, who graciously shared your father with a nation that loved . <eos>  =>  <sos> and he was to he was and he was he was he was he . <eos> <pad> 
+Iteration 60: loss: 5.833416
+Iteration 61: loss: 5.830103
+Iteration 62: loss: 5.829034
+Iteration 63: loss: 5.832677
+Iteration 64: loss: 5.823195
+Iteration 65: loss: 5.808731
+Iteration 66: loss: 5.804026
+Iteration 67: loss: 5.797808
+Iteration 68: loss: 5.788144
+Iteration 69: loss: 5.782730
+
+Sampled Outputs on Train:
+----------------
+<sos> but walter knew that if he was receiving vociferous  =>  <sos> he was a that he was he was he was of he was he . <eos> 
+<sos> but here's the thing: that title wasn't bestowed on  =>  <sos> that was the that was the he was the yes . <eos> <pad> <pad> <pad> <pad> 
+<sos> that's why so many of you entered the profession  =>  <sos> he was the of of the of the of the of the of of . <eos> 
+<sos> it was earned by year after year and decade  =>  <sos> he was a a of a and he was of of of a of . <eos> 
+<sos> give yourselves a big round of applause . <eos>  =>  <sos> i was a a a a a a a a a . <eos> <pad> <pad> <pad> 
+<sos> but like them and like all of you, i  =>  <sos> he was a of a of a and i a of of of of . <eos> 
+<sos> he's reunited with his beloved betsy now, watching the  =>  <sos> i was the that he was the he was the of the of of . <eos> 
+<sos> we are grateful to him for altering and illuminating  =>  <sos> he was to the he was and the he was the of the of . <eos> 
+<sos> he lost his job -- but he got the  =>  <sos> he was the he was the he was the . <eos> <pad> <pad> <pad> <pad> <pad> 
+<sos> we weren't told to believe it by some advertising  =>  <sos> i was to believe a a a a a noise . <eos> <pad> <pad> <pad> <pad> 
+
+Sampled Outputs on Test:
+----------------
+<sos> all right, everybody go ahead and have a seat . <eos> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> and i was a a a a a and that a half been . <eos> <pad> 
+<sos> we seem stuck with a choice between what cuts to our bottom line and what . <eos>  =>  <sos> he was to believe and he was to believe and he was of of . <eos> 
+<sos> it needs to be told . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> he was to believe to believe . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> despite the big stories of our era, serious journalists find themselves all too often without . <eos>  =>  <sos> the he was the of he was the of the of the of of . <eos> 
+<sos> even as appetites for news and information grow, newsrooms are closing . <eos> <pad> <pad> <pad> <pad>  =>  <sos> he was a a a and i and i was a . <eos> <pad> <pad> <pad> 
+<sos> through all the events that came to define the 20th century, through all our moments . <eos>  =>  <sos> i was the he was the he was the of the of the of . <eos> 
+<sos> he went everywhere and he did everything . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> he was a a a and he was a to a . <eos> <pad> <pad> <pad> 
+<sos> thank you . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>  =>  <sos> he was a a . <eos> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> 
+<sos> "you don't need to confirm it," the manager shouted, "my wife is watching the whole . <eos>  =>  <sos> i was the he was the he was the of the of the of . <eos> 
+<sos> to chip, kathy, and nancy, who graciously shared your father with a nation that loved . <eos>  =>  <sos> i was to believe and i he was a a of of century, he . <eos> 
+Iteration 70: loss: 5.786397
+Iteration 71: loss: 5.781352
+Iteration 72: loss: 5.775199
+Iteration 73: loss: 5.774489
+Iteration 74: loss: 5.775362
+Iteration 75: loss: 5.773976
+Iteration 76: loss: 5.773896
+Iteration 77: loss: 5.775712
+Iteration 78: loss: 5.773682
