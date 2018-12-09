@@ -32,6 +32,7 @@ from data_iter import GenDataIter, DisDataIter
 parser = argparse.ArgumentParser(description='Training Parameter')
 parser.add_argument('--cuda', action='store', default=None, type=int)
 parser.add_argument('--test', action='store_true')
+parser.add_argument('--interactive', action='store_true')
 
 opt = parser.parse_args()
 print(opt)
@@ -47,6 +48,7 @@ TEST_FILE     = ROOT_PATH + 'test.data'
 NEGATIVE_FILE = ROOT_PATH + 'gene.data'
 DEBUG_FILE = ROOT_PATH + 'debug.data'
 EVAL_FILE = ROOT_PATH + 'eval.data'
+INTERACTIVE_FILE = ROOT_PATH + 'interactive.data'
 VOCAB_SIZE = 5000
 PRE_EPOCH_NUM = 1
 CHECKPOINT_PATH = ROOT_PATH + 'checkpoints/'
@@ -73,13 +75,38 @@ d_num_filters = [100, 200, 200, 200, 200, 100, 100, 100, 100, 100] #, 160, 160]
 d_dropout = 0.75
 d_num_class = 2
 
+
+def interactive_demo(test_sentence=None):
+    idx_to_word, word_to_idx, VOCAB_SIZE = load_vocab(CHECKPOINT_PATH)
+    test_sentence = "This is a sample sentence"
+    max_test_sentence_len = 10
+
+    # Get padded sentencels
+    padded_sentence = pad_sentences(test_sentence, max_test_sentence_len)
+    print(padded_sentence)
+
+    # Get ids of padded sentence
+    padded_sent_ids = get_ids(padded_sentence, idx_to_word, word_to_idx, VOCAB_SIZE)
+    print(padded_sent_ids)
+
+    # Write to temporary file
+    out_file = TEST_FILE
+    fp = open(out_file, "w")
+    fp.writelines(["%s " % item  for item in padded_sent_ids])
+    fp.close()
+
+    # Call demo
+    output = demo()
+    return output[0]
+
+
 def demo():
     idx_to_word, word_to_idx, VOCAB_SIZE = load_vocab(CHECKPOINT_PATH)
-    test_iter = GenDataIter(TEST_FILE, BATCH_SIZE)
+    test_iter = GenDataIter(TEST_FILE, 1)
     generator = Generator(VOCAB_SIZE, g_emb_dim, g_hidden_dim, g_sequence_len, BATCH_SIZE, opt.cuda)
     generator = generator.cuda()
-    generator.load_state_dict(torch.load(CHECKPOINT_PATH+'generator.model'))
-    test_predict(generator, test_iter, idx_to_word)
+    generator.load_state_dict(torch.load(CHECKPOINT_PATH+'generator.model', map_location={'cuda:1': 'cpu'}))
+    return test_predict(generator, test_iter, idx_to_word)
 
 def get_word(s, idx_to_words = None):
     if idx_to_words == None:
@@ -149,6 +176,7 @@ def eval_epoch(model, data_iter, criterion):
 
 def test_predict(model, data_iter, idx_to_word, train_mode = False):
     data_iter.reset()
+    ret_pred = []
     for (data, target) in data_iter:
         data = Variable(data, volatile=True)
         target = Variable(target, volatile=True)
@@ -162,11 +190,15 @@ def test_predict(model, data_iter, idx_to_word, train_mode = False):
         predictions = predictions.view(mini_batch, -1)
         # print('PRED SHAPE:' , predictions.shape)
         for each_sen in list(predictions):
-            print('Sample Output:', generate_sentence_from_id(idx_to_word, each_sen))
+            sent_from_id = generate_sentence_from_id(idx_to_word, each_sen)
+            print('Sample Output:', sent_from_id)
+            ret_pred.append(sent_from_id)
         sys.stdout.flush()
         if train_mode:
             break
+        
     data_iter.reset()
+    return ret_pred
 
 class GANLoss(nn.Module):
     """Reward-Refined NLLLoss Function for adversial training of Gnerator"""
@@ -329,5 +361,8 @@ def main():
 if __name__ == '__main__':
     if opt.test:
         demo()
+        exit()
+    if opt.interactive:
+        interactive_demo()
         exit()
     main()
