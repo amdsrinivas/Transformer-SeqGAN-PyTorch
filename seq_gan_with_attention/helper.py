@@ -4,16 +4,12 @@ import numpy as np
 
 import collections
 import itertools
-# import typing
 
 import torch
-# import transformer
 
 from torch import nn
 from torch import optim
 import sys
-
-
 
 NUMBER_OF_SENTENCES = 100
 

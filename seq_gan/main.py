@@ -27,6 +27,7 @@ from data_iter import GenDataIter, DisDataIter
 
 parser = argparse.ArgumentParser(description='Training Parameter')
 parser.add_argument('--cuda', action='store', default=None, type=int)
+parser.add_argument('--test', action='store_true')
 opt = parser.parse_args()
 print(opt)
 
@@ -34,14 +35,16 @@ print(opt)
 SEED = 88
 BATCH_SIZE = 10
 TOTAL_BATCH = 500
-ROOT_PATH =  'experiment_real_samples/1_100/'
-POSITIVE_FILE = ROOT_PATH+'real.data'
-NEGATIVE_FILE = ROOT_PATH+'gene.data'
-DEBUG_FILE = ROOT_PATH+'debug.data'
-EVAL_FILE = ROOT_PATH+'eval.data'
-GENERATED_NUM = 10000
+GENERATED_NUM = 1000
+ROOT_PATH =  'experiments/real_samples/1_100/'
+POSITIVE_FILE = ROOT_PATH + 'real.data'
+TEST_FILE     = ROOT_PATH + 'test.data'
+NEGATIVE_FILE = ROOT_PATH + 'gene.data'
+DEBUG_FILE = ROOT_PATH + 'debug.data'
+EVAL_FILE = ROOT_PATH + 'eval.data'
 VOCAB_SIZE = 5000
-PRE_EPOCH_NUM = 120
+PRE_EPOCH_NUM = 1
+CHECKPOINT_PATH = ROOT_PATH + 'checkpoints/'
 
 if opt.cuda is not None and opt.cuda >= 0:
     torch.cuda.set_device(opt.cuda)
@@ -59,6 +62,15 @@ d_num_filters = [100, 200, 200, 200, 200, 100, 100, 100, 100, 100] #, 160, 160]
 
 d_dropout = 0.75
 d_num_class = 2
+
+def demo():
+    print("IN DEMO")
+    idx_to_word, word_to_idx, VOCAB_SIZE = load_vocab(CHECKPOINT_PATH)
+    test_iter = GenDataIter(TEST_FILE, BATCH_SIZE)
+    generator = Generator(VOCAB_SIZE, g_emb_dim, g_hidden_dim, g_sequence_len, BATCH_SIZE, opt.cuda)
+    generator = generator.cuda()
+    generator.load_state_dict(torch.load(CHECKPOINT_PATH+'generator.model'))
+    test_predict(generator, test_iter, idx_to_word)
 
 def get_word(s, idx_to_words = None):
     if idx_to_words == None:
@@ -88,6 +100,8 @@ def train_epoch(model, data_iter, criterion, optimizer):
             data, target = data.cuda(), target.cuda()
         target = target.contiguous().view(-1)
         pred = model.forward(data)
+         if len(pred.shape) > 2:
+            pred = torch.reshape(pred, (pred.shape[0] * pred.shape[1], -1))
         loss = criterion(pred, target)
         total_loss += loss.data.item()
         total_words += data.size(0) * data.size(1)
@@ -113,6 +127,28 @@ def eval_epoch(model, data_iter, criterion):
         total_words += data.size(0) * data.size(1)
     data_iter.reset()
     return math.exp(total_loss / total_words)
+
+def test_predict(model, data_iter, idx_to_word, train_mode = False):
+    data_iter.reset()
+    for (data, target) in data_iter:
+        data = Variable(data, volatile=True)
+        target = Variable(target, volatile=True)
+        if opt.cuda:
+            data, target = data.cuda(), target.cuda()
+        target = target.contiguous().view(-1)
+        prob = model.forward(data)
+        mini_batch = prob.shape[0]
+        if len(prob.shape) > 2:
+            prob = torch.reshape(prob, (prob.shape[0] * prob.shape[1], -1))
+        predictions = torch.max(prob, dim=1)[1]
+        predictions = predictions.view(mini_batch, -1)
+        # print('PRED SHAPE:' , predictions.shape)
+        for each_sen in list(predictions):
+            print('Sample Output:', generate_sentence_from_id(idx_to_word, each_sen))
+        sys.stdout.flush()
+        if train_mode:
+            break
+    data_iter.reset()
 
 class GANLoss(nn.Module):
     """Reward-Refined NLLLoss Function for adversial training of Gnerator"""
@@ -157,6 +193,9 @@ def main():
     global VOCAB_SIZE
     VOCAB_SIZE = len(idx_to_word)
 
+    save_vocab(CHECKPOINT_PATH, idx_to_word, word_to_idx, VOCAB_SIZE)
+
+
     print('VOCAB SIZE:' , VOCAB_SIZE)
     # Define Networks
     generator = Generator(VOCAB_SIZE, g_emb_dim, g_hidden_dim, opt.cuda)
@@ -168,9 +207,15 @@ def main():
         target_lstm = target_lstm.cuda()
     # Generate toy data using target lstm
     print('Generating data ...')
-    generate_real_data('../data/train_data_obama.txt', BATCH_SIZE, GENERATED_NUM, POSITIVE_FILE, idx_to_word, word_to_idx)
-
+    
+    # Generate samples either from sentences file or lstm
+    # Sentences file will be structured input sentences
+    # LSTM based is BOG approach
+    generate_real_data('../data/train_data_obama.txt', BATCH_SIZE, GENERATED_NUM, idx_to_word, word_to_idx, POSITIVE_FILE, TEST_FILE)
     # generate_samples(target_lstm, BATCH_SIZE, GENERATED_NUM, POSITIVE_FILE, idx_to_word)
+    # generate_samples(target_lstm, BATCH_SIZE, 10, TEST_FILE, idx_to_word)
+    # Create Test data iterator for testing
+    test_iter = GenDataIter(TEST_FILE, BATCH_SIZE)
     
     # Load data from file
     gen_data_iter = GenDataIter(POSITIVE_FILE, BATCH_SIZE)
@@ -194,7 +239,7 @@ def main():
     dis_optimizer = optim.Adam(discriminator.parameters())
     if opt.cuda:
         dis_criterion = dis_criterion.cuda()
-    print('Pretrain Dsicriminator ...')
+    print('Pretrain Discriminator ...')
     for epoch in range(3):
         generate_samples(generator, BATCH_SIZE, GENERATED_NUM, NEGATIVE_FILE)
         dis_data_iter = DisDataIter(POSITIVE_FILE, NEGATIVE_FILE, BATCH_SIZE)
@@ -204,7 +249,7 @@ def main():
     # Adversarial Training 
     rollout = Rollout(generator, 0.8)
     print('#####################################################')
-    print('Start Adeversatial Training...\n')
+    print('Start Adversarial Training...\n')
     gen_gan_loss = GANLoss()
     gen_gan_optm = optim.Adam(generator.parameters())
     if opt.cuda:
@@ -250,11 +295,14 @@ def main():
             predictions = predictions.view(BATCH_SIZE, -1)
             # print('PRED SHAPE:' , predictions.shape)
             for each_sen in list(predictions):
-                print('Sample Output:', generate_sentence_from_id(idx_to_word, each_sen, DEBUG_FILE))
+                print('Training Output:', generate_sentence_from_id(idx_to_word, each_sen, DEBUG_FILE))
+            
+            test_predict(generator, test_iter, idx_to_word, train_mode = True)
+            
             sys.stdout.flush()
 
-            torch.save(generator.state_dict(), './experiment_1_trial/generator.model')
-            torch.save(discriminator.state_dict(), './experiment_1_trial/discriminator.model')
+            torch.save(generator.state_dict(), CHECKPOINT_PATH + 'generator.model')
+            torch.save(discriminator.state_dict(), CHECKPOINT_PATH + 'discriminator.model')
         rollout.update_params()
         
         for _ in range(4):
@@ -263,4 +311,7 @@ def main():
             for _ in range(2):
                 loss = train_epoch(discriminator, dis_data_iter, dis_criterion, dis_optimizer)
 if __name__ == '__main__':
+    if opt.test:
+        demo()
+        exit()
     main()

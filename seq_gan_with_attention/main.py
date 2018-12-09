@@ -291,6 +291,7 @@ def main():
             if opt.cuda:
                 rewards = torch.exp(rewards.cuda()).contiguous().view((-1,))
             prob = generator.forward(inputs)
+            mini_batch = prob.shape[0]
             prob = torch.reshape(prob, (prob.shape[0] * prob.shape[1], -1)) #prob.view(-1, g_emb_dim)
             loss = gen_gan_loss(prob, targets, rewards)
             gen_gan_optm.zero_grad()
@@ -303,9 +304,16 @@ def main():
             # generate_samples(generator, BATCH_SIZE, GENERATED_NUM, EVAL_FILE)
             # eval_iter = GenDataIter(EVAL_FILE, BATCH_SIZE)
             # loss = eval_epoch(target_lstm, eval_iter, gen_criterion)
+            if len(prob.shape) > 2:
+                prob = torch.reshape(prob, (prob.shape[0] * prob.shape[1], -1))
+            predictions = torch.max(prob, dim=1)[1]
+            predictions = predictions.view(mini_batch, -1)
+            for each_sen in list(predictions):
+                print('Train Output:', generate_sentence_from_id(idx_to_word, each_sen))
+
             test_predict(generator, test_iter, idx_to_word, train_mode = True)
-            torch.save(generator.state_dict(), ROOT_PATH+ 'generator.model')
-            torch.save(discriminator.state_dict(), ROOT_PATH+'discriminator.model')
+            torch.save(generator.state_dict(), CHECKPOINT_PATH + 'generator.model')
+            torch.save(discriminator.state_dict(), CHECKPOINT_PATH + 'discriminator.model')
         rollout.update_params()
         
         for _ in range(4):
