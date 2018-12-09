@@ -22,6 +22,33 @@ SOS = Token(0, "<sos>")
 EOS = Token(1, "<eos>")
 PAD = Token(2, "<pad>")
 
+
+# Helper for interactive demo
+def pad_sentences(sentence, sentence_len):
+    words = sentence.split(" ")
+    if len(words) > sentence_len:
+        # keep only 10 words
+        words = words[:sentence_len]
+    else:
+        for i in range(sentence_len-len(words)):
+            words.append(PAD.word)
+
+    return words
+
+# Convert the sentence to word ids
+def get_ids(sentence, idx_to_word, word_to_idx, VOCAB_SIZE):
+    sentence_ids = []
+    for word in sentence:
+        if word.lower() not in word_to_idx:
+            # PAD when unknown word found
+            sentence_ids.append(PAD.index)
+        elif word.lower():
+            sentence_ids.append(word_to_idx[word.lower()])
+    
+    return sentence_ids
+
+
+
 def load_from_big_file(file):
     s = []
     
