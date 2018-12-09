@@ -41,8 +41,8 @@ print(opt)
 # Basic Training Paramters
 SEED = 88
 BATCH_SIZE = 10
-TOTAL_BATCH = 500
-GENERATED_NUM = 1000
+TOTAL_BATCH = 100
+GENERATED_NUM = 10
 ROOT_PATH =  'experiment/real_samples/1_100/'
 POSITIVE_FILE = ROOT_PATH + 'real.data'
 TEST_FILE     = ROOT_PATH + 'test.data'
@@ -66,7 +66,7 @@ if opt.cuda is not None and opt.cuda >= 0:
 # Genrator Parameters
 g_emb_dim = 300
 g_hidden_dim = 32
-g_sequence_len = 11
+g_sequence_len = 13
 
 # Discriminator Parameters
 d_emb_dim = 300
@@ -122,7 +122,7 @@ def generate_samples(model, batch_size, generated_num, output_file, idx_to_word 
     for _ in range(int(generated_num / batch_size)):
         # start_time = time.time()
         sample = model.sample(batch_size, g_sequence_len).cpu().data.numpy().astype(np.int)
-
+        print("***************sample",sample.shape)
         # sample = np.concatenate((sos_array, sample), 1) 
         # sample = np.concatenate((sample, eos_array), 1).astype(np.int)
         sample = sample.tolist()
@@ -147,6 +147,10 @@ def train_epoch(model, data_iter, criterion, optimizer):
             data, target = data.cuda(), target.cuda()
         target = target.contiguous().view(-1)
         pred = model.forward(data)
+
+        print("************target", target.shape)
+        print("************pred", pred.shape)
+
         if len(pred.shape) > 2:
             pred = torch.reshape(pred, (pred.shape[0] * pred.shape[1], -1))
         loss = criterion(pred, target)
@@ -236,6 +240,10 @@ def main():
     
     # Build up dataset
     s_train, s_test = load_from_big_file('../data/train_data_obama.txt')
+    print("!!!s_train",len(s_train))
+    print("!!!s_test",len(s_test))
+    print("!!!s_train",len(s_train[0]))
+    print("!!!s_test",len(s_test[0]))
     # idx_to_word: List of id to word
     # word_to_idx: Dictionary mapping word to id
     idx_to_word, word_to_idx = fetch_vocab(s_train, s_train, s_test)
@@ -267,6 +275,8 @@ def main():
     # Load data from file
     gen_data_iter = GenDataIter(POSITIVE_FILE, BATCH_SIZE)
 
+
+    '''
     # Pretrain Generator using MLE
     gen_criterion = nn.NLLLoss(size_average=False)
     gen_optimizer = optim.Adam(generator.parameters())
@@ -284,6 +294,7 @@ def main():
         loss = eval_epoch(target_lstm, eval_iter, gen_criterion)
         print('Epoch [%d] True Loss: %f' % (epoch, loss))
         """
+    '''
 
     # Pretrain Discriminator
     dis_criterion = nn.NLLLoss(size_average=False)

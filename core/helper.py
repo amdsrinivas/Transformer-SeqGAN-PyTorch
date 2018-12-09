@@ -92,12 +92,14 @@ def fetch_vocab(DATA_GERMAN, DATA_ENGLISH, DATA_GERMAN2): # -> typing.Tuple[typi
     for sentence in itertools.chain(DATA_GERMAN, DATA_ENGLISH, DATA_GERMAN2):
         all_words.update(word.lower() for word in sentence.split(" ") if word != PAD.word) 
     
+    print("$$$len(all_words)",len(all_words))
     # create mapping from index to word
     idx_to_word = [SOS.word, EOS.word, PAD.word] + list(sorted(all_words))
     
     # create mapping from word to index
     word_to_idx = {word: idx for idx, word in enumerate(idx_to_word)}
-   
+    print("$$$$$$$$$$$$$$len(idx_to_word)",len(idx_to_word))
+    
     return idx_to_word, word_to_idx
 
 def generate_sentence_from_id(idx_to_word, input_ids, file_name = None, header = ''):

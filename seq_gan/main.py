@@ -43,7 +43,7 @@ NEGATIVE_FILE = ROOT_PATH + 'gene.data'
 DEBUG_FILE = ROOT_PATH + 'debug.data'
 EVAL_FILE = ROOT_PATH + 'eval.data'
 VOCAB_SIZE = 5000
-PRE_EPOCH_NUM = 1
+PRE_EPOCH_NUM = 5
 CHECKPOINT_PATH = ROOT_PATH + 'checkpoints/'
 
 try:  

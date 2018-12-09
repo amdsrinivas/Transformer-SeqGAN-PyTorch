@@ -31,6 +31,9 @@ class Generator_attention(nn.Module):
             self.emb.num_embeddings,
             max_seq_len = max(seq_len, seq_len)
         )
+
+        self.model = torch.load("../flask_app/checkpoints/attention_only/attention_only_model.model").cuda()
+
         if not test_mode:
             self.data_loader = GenDataIter('real.data', batch_size)
             self.data_loader.reset()
@@ -84,14 +87,19 @@ class Generator_attention(nn.Module):
             param.data.uniform_(-0.05, 0.05)
 
     def sample(self, batch_size, seq_len, x=None):
-        if test_mode:
-            print('In Test mode')
-            return None
+        # if test_mode:
+        #     print('In Test mode')
+        #     return None
+        
         if self.data_loader.idx >= self.data_loader.data_num:
             self.data_loader.reset()
+        
         input_seq = self.data_loader.next()[0]
         input_seq = input_seq.cuda()
+        
         sampled_output = transformer.sample_output(self.model, input_seq, self.EOS_Index, self.PAD_Index, input_seq.shape[1])
+        
+        
         return sampled_output
         """
         res = []
