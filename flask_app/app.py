@@ -3,6 +3,10 @@ from flask import Flask, render_template, request
 import sys
 sys.path.insert(0, './seq_gan_with_attention')
 
+
+# TODO: Integreate following in app
+
+
 # create the application object
 app = Flask(__name__)
 

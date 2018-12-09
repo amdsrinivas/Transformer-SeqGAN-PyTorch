@@ -1,13 +1,14 @@
 # -*- coding:utf-8 -*-
 
 # custom import
+import sys
+sys.path.insert(0, '../core')
+
 from helper import *
 # 
 import os
 import random
 import math
-import sys
-
 import argparse
 import tqdm
 
@@ -70,7 +71,7 @@ d_num_class = 2
 def demo():
     idx_to_word, word_to_idx, VOCAB_SIZE = load_vocab(CHECKPOINT_PATH)
     test_iter = GenDataIter(TEST_FILE, BATCH_SIZE)
-    generator = Generator(VOCAB_SIZE, g_emb_dim, g_hidden_dim, g_sequence_len, BATCH_SIZE, opt.cuda)
+    generator = Generator(VOCAB_SIZE, g_emb_dim, g_hidden_dim, opt.cuda)
     generator = generator.cuda()
     generator.load_state_dict(torch.load(CHECKPOINT_PATH+'generator.model'))
     test_predict(generator, test_iter, idx_to_word)
@@ -198,7 +199,7 @@ def main():
     global VOCAB_SIZE
     VOCAB_SIZE = len(idx_to_word)
 
-    save_vocab(CHECKPOINT_PATH, idx_to_word, word_to_idx, VOCAB_SIZE)
+    save_vocab(CHECKPOINT_PATH+'metadata.data', idx_to_word, word_to_idx, VOCAB_SIZE)
 
 
     print('VOCAB SIZE:' , VOCAB_SIZE)

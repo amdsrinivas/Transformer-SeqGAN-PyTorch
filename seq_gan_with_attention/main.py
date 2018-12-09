@@ -1,10 +1,11 @@
 # -*- coding:utf-8 -*-
 
 # custom import
-from helper import *
 import sys
+sys.path.insert(0, '../core')
+
+from helper import *
 import time
-# sys.path.insert(0, './transformer')
 import transformer
 # 
 import os
@@ -22,7 +23,7 @@ import torch.optim as optim
 from torch.autograd import Variable
 
 # from generator import Generator
-from generator_attention import Generator
+from generator_attention import Generator_attention as Generator
 from discriminator import Discriminator
 from target_lstm import TargetLSTM
 from rollout import Rollout
@@ -244,8 +245,8 @@ def main():
     global VOCAB_SIZE
     VOCAB_SIZE = len(idx_to_word)
     
-    save_vocab(CHECKPOINT_PATH, idx_to_word, word_to_idx, VOCAB_SIZE)
-
+    save_vocab(CHECKPOINT_PATH+'metadata.data', idx_to_word, word_to_idx, VOCAB_SIZE, g_emb_dim, g_hidden_dim, g_sequence_len)
+    
 
     print('VOCAB SIZE:' , VOCAB_SIZE)
     # Define Networks

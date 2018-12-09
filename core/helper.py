@@ -130,7 +130,7 @@ def generate_real_data(input_file, batch_size, generated_num, idx_to_word, word_
 
 
 
-def save_vocab(checkpoint, idx_to_word, word_to_idx, vocab_size):
+def save_vocab(checkpoint, idx_to_word, word_to_idx, vocab_size, g_emb_dim, g_hidden_dim, g_sequence_len):
     """
     out_file = open(checkpoint+'idx_to_word.pkl', "wb")
     pickle.dump(idx_to_word, out_file)
@@ -144,13 +144,15 @@ def save_vocab(checkpoint, idx_to_word, word_to_idx, vocab_size):
     pickle.dump(vocab_size, out_file)
     out_file.close()
     """
-    torch.save(idx_to_word, checkpoint+'idx_to_word.info')
-    torch.save(word_to_idx, checkpoint+'word_to_idx.info')
-    torch.save(vocab_size, checkpoint+'vocab_size.info')
+    metadata = {}
+    metadata['idx_to_word'] = idx_to_word
+    metadata['word_to_idx'] = word_to_idx
+    metadata['vocab_size'] = vocab_size
+    metadata['g_emb_dim']  = g_emb_dim
+    metadata['g_hidden_dim']  = g_hidden_dim
+    metadata['g_sequence_len'] = g_sequence_len
+    torch.save(metadata, checkpoint)
 
 def load_vocab(checkpoint):
-    idx_to_word = torch.load(checkpoint+'idx_to_word.info')
-    word_to_idx = torch.load(checkpoint+'word_to_idx.info')
-    vocab_size  = torch.load(checkpoint+'vocab_size.info')
-    return idx_to_word, word_to_idx, vocab_size
-   
+    metadata = torch.load(checkpoint)
+    return metadata 

@@ -14,10 +14,10 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 from data_iter import GenDataIter
 
-class Generator(nn.Module):
+class Generator_attention(nn.Module):
     """Generator """
-    def __init__(self, num_emb, emb_dim, hidden_dim, seq_len, batch_size, use_cuda):
-        super(Generator, self).__init__()
+    def __init__(self, num_emb, emb_dim, hidden_dim, seq_len, batch_size, use_cuda, test_mode = False):
+        super(Generator_attention, self).__init__()
         # Constants Initialization
         self.SOS_Index = 0
         self.EOS_Index = 1
@@ -31,8 +31,9 @@ class Generator(nn.Module):
             self.emb.num_embeddings,
             max_seq_len = max(seq_len, seq_len)
         )
-        self.data_loader = GenDataIter('real.data', batch_size)
-        self.data_loader.reset()
+        if not test_mode:
+            self.data_loader = GenDataIter('real.data', batch_size)
+            self.data_loader.reset()
         """
         self.num_emb = num_emb
         self.emb_dim = emb_dim
@@ -83,6 +84,9 @@ class Generator(nn.Module):
             param.data.uniform_(-0.05, 0.05)
 
     def sample(self, batch_size, seq_len, x=None):
+        if test_mode:
+            print('In Test mode')
+            return None
         if self.data_loader.idx >= self.data_loader.data_num:
             self.data_loader.reset()
         input_seq = self.data_loader.next()[0]
