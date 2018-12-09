@@ -38,7 +38,6 @@ class GenDataIter(object):
             raise StopIteration
         index = self.indices[self.idx:self.idx+self.batch_size]
         d = [self.data_lis[i] for i in index]
-        print(d)
         data = torch.LongTensor(np.asarray(d, dtype='int64'))
         target = copy.deepcopy(data)
         # data = torch.cat([torch.zeros(self.batch_size, 1).long(), d], dim=1)
