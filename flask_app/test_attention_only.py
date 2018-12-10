@@ -127,7 +127,7 @@ def test(input_sent):
     emb = metadata['emb']
     input_seq_size = metadata['input_seq_size']
     
-
+    
     # input_sent_padded = pad_sentences(input_sent)
     # input_sent_ids = get_ids(input_sent_padded, idx_to_word, word_to_idx)
     # print("$$input_sent_ids len: ",len(input_sent_ids))
@@ -164,20 +164,20 @@ def test(input_sent):
     # test_target_seq = copy.deepcopy(test_input_seq)
 
     test_input_seq, test_target_seq = prepare_data([input_sent], [input_sent], word_to_idx)
-    print(test_target_seq.shape)
-    print(test_input_seq)
+    # print(test_target_seq.shape)
+    # print(test_input_seq)
     test_input_seq = test_input_seq.cuda()
     test_target_seq = test_target_seq.cuda()
 
     test_input_seq = test_input_seq.view(1, -1)
     test_target_seq = test_target_seq.view(1, -1)
-    print(test_target_seq.shape)
+    # print(test_target_seq.shape)
     # print("$$test_target_seq: ",test_target_seq.shape)
 
     # print(test_input_seq.shape, test_target_seq.shape)
     sampled_output = transformer.sample_output(model, test_input_seq, EOS.index, PAD.index, test_target_seq.size(1))
     
-    print("$$$ sample_output", sampled_output.shape)
+    # print("$$$ sample_output", sampled_output)
 
     output_arr = []
     for sample_idx in range(test_input_seq.size(0)):

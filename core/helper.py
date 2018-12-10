@@ -11,13 +11,15 @@ from torch import nn
 from torch import optim
 import sys
 
+from nltk.translate.bleu_score import corpus_bleu
+
+
 NUMBER_OF_SENTENCES = 100
 
 Token = collections.namedtuple("Token", ["index", "word"])
 SOS = Token(0, "<sos>")
 EOS = Token(1, "<eos>")
 PAD = Token(2, "<pad>")
-
 
 # Helper for interactive demo
 def pad_sentences(sentence, sentence_len):
