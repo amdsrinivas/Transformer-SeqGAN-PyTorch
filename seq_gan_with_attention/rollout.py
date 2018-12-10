@@ -19,6 +19,7 @@ class Rollout(object):
     def __init__(self, model, update_rate):
         self.ori_model = model
         self.own_model = copy.deepcopy(model)
+        self.own_model = self.own_model.cuda()
         self.update_rate = update_rate
 
     def get_reward(self, x, num, discriminator):
@@ -34,7 +35,13 @@ class Rollout(object):
         for i in range(num):
             for l in range(1, seq_len):
                 data = x[:, 0:l]
+                # data = data.cuda()
                 samples = self.own_model.sample(batch_size, seq_len, data)
+                # Append PADDING for consistency
+                pad = torch.zeros((batch_size, seq_len - l))
+                pad = pad.type(torch.LongTensor).cuda()
+                samples = torch.cat((samples, pad), 1)
+                # samples = torch.cuda.FloatTensor(samples)
                 pred = discriminator(samples)
                 pred = pred.cpu().data[:,1].numpy()
                 if i == 0:
@@ -43,7 +50,8 @@ class Rollout(object):
                     rewards[l-1] += pred
 
             # for the last token
-            pred = discriminator(x)
+            x1 = x.cuda()
+            pred = discriminator(x1)
             pred = pred.cpu().data[:, 1].numpy()
             if i == 0:
                 rewards.append(pred)

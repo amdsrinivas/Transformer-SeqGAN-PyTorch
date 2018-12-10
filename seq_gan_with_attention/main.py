@@ -16,6 +16,7 @@ import argparse
 import tqdm
 
 import numpy as np
+import copy
 
 import torch
 import torch.nn as nn
@@ -41,9 +42,9 @@ print(opt)
 # Basic Training Paramters
 SEED = 88
 BATCH_SIZE = 10
-TOTAL_BATCH = 500
+TOTAL_BATCH = 15
 GENERATED_NUM = 1000
-ROOT_PATH =  'experiment/real_samples/1_100/'
+ROOT_PATH =  'experiment/real_samples/4_18_sen100_emb32/'
 POSITIVE_FILE = ROOT_PATH + 'real.data'
 TEST_FILE     = ROOT_PATH + 'test.data'
 NEGATIVE_FILE = ROOT_PATH + 'gene.data'
@@ -51,7 +52,7 @@ DEBUG_FILE = ROOT_PATH + 'debug.data'
 EVAL_FILE = ROOT_PATH + 'eval.data'
 INTERACTIVE_FILE = ROOT_PATH + 'interactive.data'
 VOCAB_SIZE = 5000
-PRE_EPOCH_NUM = 1
+PRE_EPOCH_NUM = 0
 CHECKPOINT_PATH = ROOT_PATH + 'checkpoints/'
 
 try:  
@@ -64,12 +65,12 @@ if opt.cuda is not None and opt.cuda >= 0:
     opt.cuda = True
 
 # Genrator Parameters
-g_emb_dim = 300
+g_emb_dim = 32
 g_hidden_dim = 32
 g_sequence_len = 11
 
 # Discriminator Parameters
-d_emb_dim = 300
+d_emb_dim = 32
 d_filter_sizes = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] #, 15, 20]
 d_num_filters = [100, 200, 200, 200, 200, 100, 100, 100, 100, 100] #, 160, 160]
 
@@ -270,7 +271,8 @@ def main():
     gen_data_iter = GenDataIter(POSITIVE_FILE, BATCH_SIZE)
 
     # Pretrain Generator using MLE
-    gen_criterion = nn.NLLLoss(size_average=False)
+    # gen_criterion = nn.NLLLoss(size_average=False)
+    gen_criterion = nn.CrossEntropyLoss()
     gen_optimizer = optim.Adam(generator.parameters())
     if opt.cuda:
         gen_criterion = gen_criterion.cuda()
@@ -278,14 +280,20 @@ def main():
     for epoch in range(PRE_EPOCH_NUM):
         loss = train_epoch(generator, gen_data_iter, gen_criterion, gen_optimizer)
         print('Epoch [%d] Model Loss: %f'% (epoch, loss))
+        print('Training Output')
+        test_predict(generator, test_iter, idx_to_word, train_mode = True)
+
+        sys.stdout.flush()
         # TODO: 2. Flags to ensure dimension of model input is handled
-        generate_samples(generator, BATCH_SIZE, GENERATED_NUM, EVAL_FILE)
+        # generate_samples(generator, BATCH_SIZE, GENERATED_NUM, EVAL_FILE)
         """
         eval_iter = GenDataIter(EVAL_FILE, BATCH_SIZE)
         print('Iterator Done')
         loss = eval_epoch(target_lstm, eval_iter, gen_criterion)
         print('Epoch [%d] True Loss: %f' % (epoch, loss))
         """
+    print('OUTPUT AFTER PRE-TRAINING')
+    test_predict(generator, test_iter, idx_to_word, train_mode = True)
 
     # Pretrain Discriminator
     dis_criterion = nn.NLLLoss(size_average=False)
@@ -299,11 +307,13 @@ def main():
         for _ in range(3):
             loss = train_epoch(discriminator, dis_data_iter, dis_criterion, dis_optimizer)
             print('Epoch [%d], loss: %f' % (epoch, loss))
+            sys.stdout.flush()
     # Adversarial Training 
     rollout = Rollout(generator, 0.8)
     print('#####################################################')
     print('Start Adversarial Training...\n')
     gen_gan_loss = GANLoss()
+
     gen_gan_optm = optim.Adam(generator.parameters())
     if opt.cuda:
         gen_gan_loss = gen_gan_loss.cuda()
@@ -314,9 +324,30 @@ def main():
     dis_optimizer = optim.Adam(discriminator.parameters())
     if opt.cuda:
         dis_criterion = dis_criterion.cuda()
+    real_iter = GenDataIter(POSITIVE_FILE, BATCH_SIZE) 
     for total_batch in range(TOTAL_BATCH):
         ## Train the generator for one step
         for it in range(1):
+            if real_iter.idx >= real_iter.data_num:
+                real_iter.reset()
+            inputs = real_iter.next()[0]
+            inputs = inputs.cuda()
+            samples = generator.sample(BATCH_SIZE, g_sequence_len, inputs)
+            samples = samples.cpu()
+            rewards = rollout.get_reward(samples, 16, discriminator)
+            rewards = Variable(torch.Tensor(rewards))
+            if opt.cuda:
+                rewards = torch.exp(rewards.cuda()).contiguous().view((-1,))
+            prob = generator.forward(inputs)
+            mini_batch = prob.shape[0]
+            prob = torch.reshape(prob, (prob.shape[0] * prob.shape[1], -1)) #prob.view(-1, g_emb_dim)
+            targets = copy.deepcopy(inputs).contiguous().view((-1,))
+            loss = gen_gan_loss(prob, targets, rewards)
+            gen_gan_optm.zero_grad()
+            loss.backward()
+            gen_gan_optm.step()
+
+            """
             samples = generator.sample(BATCH_SIZE, g_sequence_len)
             # construct the input to the genrator, add zeros before samples and delete the last column
             zeros = torch.zeros((BATCH_SIZE, 1)).type(torch.LongTensor)
@@ -324,6 +355,8 @@ def main():
                 zeros = zeros.cuda()
             inputs = Variable(torch.cat([zeros, samples.data], dim = 1)[:, :-1].contiguous())
             targets = Variable(samples.data).contiguous().view((-1,))
+            print('', inputs.shape, targets.shape)
+            print(inputs, targets)
             # calculate the reward
             rewards = rollout.get_reward(samples, 16, discriminator)
             rewards = Variable(torch.Tensor(rewards))
@@ -336,7 +369,7 @@ def main():
             gen_gan_optm.zero_grad()
             loss.backward()
             gen_gan_optm.step()
-
+            """
         print('Batch [%d] True Loss: %f' % (total_batch, loss))
 
         if total_batch % 1 == 0 or total_batch == TOTAL_BATCH - 1:

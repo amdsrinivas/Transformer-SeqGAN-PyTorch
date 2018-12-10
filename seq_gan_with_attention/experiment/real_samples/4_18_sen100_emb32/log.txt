@@ -1,0 +1,246 @@
+Namespace(cuda=1, interactive=False, test=False)
+Directory already exists!
+VOCAB SIZE: 370
+Generating data ...
+Pretrain with MLE ...
+OUTPUT AFTER PRE-TRAINING
+Sample Output: ['fail', 'well-informed', 'lived', 'simple', 'say', 'somehow', 'presidents', 'resisted', 'tried', 'replied', 'personally']
+Sample Output: ['nor', 'receiving', 'nor', 'very', 'first', 'say', 'matter', 'resisted', 'celebrate', 'elected', 'temptation']
+Pretrain Discriminator ...
+Epoch [0], loss: 1.035317
+Epoch [0], loss: 1.035138
+Epoch [0], loss: 1.000444
+Epoch [1], loss: 1.000323
+Epoch [1], loss: 1.001536
+Epoch [1], loss: 1.000009
+Epoch [2], loss: 1.000322
+Epoch [2], loss: 1.000944
+Epoch [2], loss: 1.000007
+#####################################################
+Start Adversarial Training...
+
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [0] True Loss: -0.000000
+Train Output: ['fail', 'which', 'well-informed', 'temptation', 'first', 'integrity', 'matter', 'did', 'extraordinary', 'cut', 'once']
+Train Output: ['rattle', 'cut', 'on', 'johnson', 'school', 'matter', 'resisted', 'matter', 'relationship', 'johnson', 'relationship']
+Train Output: ['fail', 'cut', 'honest', 'johnson', 'school', 'fill', 'just', 'continues', 'feeling', 'believe', 'which']
+Train Output: ['me', 'cut', 'at', 'first', 'also', 'complaints', 'extraordinary', 'continues', 'have', 'year', 'remain']
+Train Output: ['nor', 'receiving', 'rattle', 'well-informed', 'say', 'matter', 'presidents', 'today?', 'feeling', 'calling', 'cut']
+Train Output: ['me', 'tried', 'on', 'being', 'illuminating', 'being', 'indonesia', 'like', 'like', 'like', 'simple']
+Train Output: ['extraordinary', 'often', 'on', 'nor', 'on', 'matter', 'presidents', 'continues', 'feeling', 'pay?', 'standards']
+Train Output: ['nor', 'johnson', 'function', 'yes', 'fail', 'grade', 'resisted', 'wakefield', 'bit', 'johnson', 'pay?']
+Train Output: ['nor', 'which', "you've", 'nor', 'integrity', 'being', 'temptations', 'by', 'tried', 'personally', 'extraordinary']
+Train Output: ['me', 'well-informed', 'reporting', 'personally', 'fail', 'commentary', 'within', 'the', 'reporting', 'standards', 'cut']
+Sample Output: ['being', 'receiving', 'nor', 'us', 'first', 'say', 'matter', 'resisted', 'believe', 'elected', 'pay?']
+Sample Output: ['fail', 'well-informed', 'rattle', 'once', 'say', 'or', 'continues', 'resisted', 'decade', 'replied', 'personally']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [1] True Loss: -0.000000
+Train Output: ['reporting', 'tried', 'reporting', 'yes', 'understood', 'the', 'presidents', 'temptations', 'big', 'understand', 'like']
+Train Output: ['nor', 'first', 'johnson', 'very', 'also', 'honest', 'all', 'like', 'like', 'like', 'like']
+Train Output: ['well-informed', 'decade', 'reporting', 'johnson', 'got', 'when', 'like', 'like', 'understand', 'like', 'like']
+Train Output: ['me', 'well-informed', 'money', 'very', 'also', 'when', 'would', 'price', 'feeling', 'loved', 'commentary']
+Train Output: ['who', 'tried', '--', 'so', 'also', 'being', 'celebrate', 'matter', 'feeling', 'voice', 'simple']
+Train Output: ['me', 'void', 'our', 'say', 'so', "didn't", 'grade', 'wakefield', 'understand', 'so', 'temptation']
+Train Output: ['me', 'betsy', 'tim', 'even', 'monday', 'also', 'matter', 'mr.', 'understand', 'like', 'simple']
+Train Output: ['when', 'cut', 'johnson', 'well-informed', 'better', 'also', 'understood', 'continues', 'price', "we've", 'money']
+Train Output: ['cut', 'often', 'cut', 'yes', 'first', 'presidents', 'debate', 'the', 'tried', 'johnson', 'pressures']
+Train Output: ['forever', 'tried', 'endless', 'got', 'life', 'life', 'also', 'grade', 'journalism', 'personally', 'actually']
+Sample Output: ['nor', 'receiving', 'us', 'very', 'first', 'say', 'matter', 'resisted', 'celebrate', 'elected', 'temptation']
+Sample Output: ['me', 'well-informed', 'rattle', 'simple', 'say', 'or', 'celebrate', 'falters', 'tried', 'my', 'personally']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [2] True Loss: -0.000000
+Train Output: ['me', 'which', 'standards', 'simple', 'temptation', 'understood', 'everybody', 'wakefield', 'believe', 'voice', 'raced']
+Train Output: ['pressures', 'relationship', 'johnson', 'well-informed', 'yes', 'life', 'matter', 'journalism', 'tried', 'may', 'yes']
+Train Output: ['life', 'which', 'cut', 'about', 'hall', 'would', 'value?', 'today?', 'us', 'feeling', 'standards']
+Train Output: ['fail', 'set', 'my', 'even', 'being', 'integrity', 'often', 'loved', 'journalism', 'all', 'pay?']
+Train Output: ['never', 'set', 'my', 'rattle', 'being', 'life', 'often', 'loved', 'journalism', 'all', 'voice']
+Train Output: ['fail', 'which', 'johnson', 'voice', 'very', 'life', 'integrity', 'wakefield', 'matter', 'personally', 'were']
+Train Output: ['nor', 'which', 'money', 'nor', 'would', 'being', 'wakefield', 'resisted', 'understand', 'without', 'like']
+Train Output: ['nor', 'cut', 'reporting', 'johnson', 'recruit', 'matter', 'resisted', 'matter', 'celebrate', 'raced', 'relationship']
+Train Output: ['cut', 'relationship', 'murky', 'temptation', 'being', 'being', 'integrity', 'tried', 'telephone', 'my', 'believe']
+Train Output: ['fail', 'cut', 'johnson', 'say', 'well-informed', 'american', 'the', 'celebrate', 'relationship', 'johnson', 'yes']
+Sample Output: ['fail', 'well-informed', 'rattle', 'simple', 'say', 'somehow', 'continues', 'price', 'tried', 'my', 'personally']
+Sample Output: ['being', 'receiving', 'us', 'very', 'first', 'say', 'matter', 'resisted', 'celebrate', 'loved', 'temptation']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [3] True Loss: -0.000000
+Train Output: ['fail', 'cut', 'everybody', 'temptation', 'yes', 'higher', 'me', 'reporting', 'feeling', 'johnson', 'very']
+Train Output: ['well-informed', 'tried', 'reporting', 'johnson', 'got', 'indonesia', 'like', 'feeling', 'understand', 'like', 'like']
+Train Output: ['when', 'first', 'tim', 'got', 'life', 'or', 'also', 'american', 'believe', 'personally', 'johnson']
+Train Output: ['nor', 'cut', 'say', "you're", 'integrity', 'extraordinary', 'value?', 'vociferous', 'trusted', 'has', 'pay?']
+Train Output: ['fail', 'rattle', 'yes', 'well-informed', 'on', 'grade', 'understood', 'like', 'understand', 'like', 'well-informed']
+Train Output: ['me', 'often', 'yes', 'voice', 'life', 'fill', 'matter', 'relationship', 'trusted', 'johnson', 'pay?']
+Train Output: ['forever', 'often', 'yes', 'yes', 'say', 'grade', 'understood', 'continues', 'tried', 'well-informed', 'personally']
+Train Output: ['never', 'which', 'tried', 'simple', 'yes', 'matter', 'everybody', 'wakefield', 'tried', 'voice', 'reporting']
+Train Output: ['extraordinary', 'cut', 'well-informed', 'monday', 'also', 'year', 'matter', 'presidents', 'loved', 'inquisitiveness', 'how']
+Train Output: ['nor', 'wanted', 'rattle', 'johnson', 'say', 'integrity', 'when', 'calling', 'resisted', 'higher', 'johnson']
+Sample Output: ['well-informed', 'well-informed', 'invited', 'yes', 'say', 'somehow', 'cycle', 'falters', 'decade', 'my', 'personally']
+Sample Output: ['nor', 'receiving', 'johnson', 'very', 'first', 'say', 'matter', 'resisted', 'believe', 'loved', 'temptation']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [4] True Loss: -0.000000
+Train Output: ['jobs', 'set', 'obligation', 'well-informed', 'life', 'simple', 'understood', 'feeling', 'understand', 'like', 'simple']
+Train Output: ['first', 'decade', 'johnson', 'say', 'on', 'grade', 'grade', 'like', 'like', 'like', 'like']
+Train Output: ['cut', 'cut', 'well-informed', 'it', 'first', 'integrity', 'matter', 'did', 'believe', 'cut', 'pay?']
+Train Output: ['cut', 'cut', 'standards', 'say', 'well-informed', 'within', 'the', 'well-informed', 'relationship', 'standards', 'believe']
+Train Output: ['nor', 'us', 'on', 'on', 'temptation', 'being', 'grade', 'feeling', 'understand', 'year', 'pay?']
+Train Output: ['me', 'tried', 'johnson', 'johnson', 'fail', 'that', 'understood', 'reasonably', 'understand', 'elected', 'pay?']
+Train Output: ['challenges', 'cut', 'well-informed', 'say', 'say', 'me', 'matter', 'trusted', 'tried', 'journalists', 'believe']
+Train Output: ['me', 'relationship', 'johnson', 'say', 'say', 'integrity', 'also', 'am', 'seniors', 'never', 'us']
+Train Output: ['higher', 'which', 'on', 'fill', 'being', 'being', 'called', 'by', 'tried', 'well-informed', 'extraordinary']
+Train Output: ['cut', 'well-informed', 'reporting', 'personally', 'fail', 'commentary', 'within', 'am', 'high', 'my', 'pay?']
+Sample Output: ['nor', 'well-informed', 'rattle', 'simple', 'say', 'somehow', 'presidents', 'resisted', 'asked', 'replied', 'personally']
+Sample Output: ['nor', 'receiving', 'cut', 'very', 'first', 'say', 'matter', 'resisted', 'has', 'elected', 'believe']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [5] True Loss: -0.000000
+Train Output: ['nor', 'which', 'reporting', 'on', 'integrity', 'being', 'vociferous', 'so', 'falters', 'personally', 'extraordinary']
+Train Output: ['fail', 'us', 'very', 'say', 'were', 'say', 'understood', 'did', 'extra', 'feeling', 'personally']
+Train Output: ['resisted', 'well-informed', 'falters', 'personally', 'fail', 'commentary', 'price', 'the', 'reporting', 'my', 'cut']
+Train Output: ['cut', 'calling', 'raced', 'recruit', 'temptation', 'grade', 'value?', 'today?', 'cut', 'voice', 'johnson']
+Train Output: ['challenges', 'resisted', 'johnson', 'want', 'life', 'american', 'just', 'trusted', 'have', 'simple', 'elected']
+Train Output: ['media', 'relationship', 'well-informed', 'well-informed', 'being', 'matter', 'the', 'falters', 'my', 'johnson', 'murky']
+Train Output: ['nor', 'trusted', 'yes', 'well-informed', 'seem', 'grade', 'just', 'price', 'feeling', 'feeling', 'simple']
+Train Output: ['jobs', 'decade', 'reporting', 'fire', 'well-informed', 'on', 'like', 'like', 'understand', 'like', 'like']
+Train Output: ['me', 'cut', 'standards', 'well-informed', 'when', 'extraordinary', 'life', 'higher', 'johnson', 'us', 'standards']
+Train Output: ['cut', 'cut', 'when', 'first', 'also', 'today"?', 'extraordinary', 'continues', 'price', 'elected', 'remain']
+Sample Output: ['me', 'well-informed', 'rattle', 'simple', 'say', 'somehow', 'celebrate', "you're", 'tried', 'my', 'personally']
+Sample Output: ['nor', 'receiving', 'tim', 'very', 'first', 'say', 'matter', 'resisted', 'have', 'loved', 'without']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [6] True Loss: -0.000000
+Train Output: ['when', 'cut', 'cut', 'well-informed', 'spent', 'that', 'stand', 'continues', 'bit', 'example', 'my']
+Train Output: ['cut', 'cut', 'johnson', 'well-informed', 'better', 'also', 'understood', 'continues', 'price', '--', 'johnson']
+Train Output: ['me', 'relationship', 'well-informed', 'well-informed', 'being', 'would', 'the', 'continues', 'tried', 'johnson', 'voice']
+Train Output: ['higher', 'often', 'my', 'well-informed', 'being', 'integrity', 'being', 'loved', 'journalism', 'all', 'pay?']
+Train Output: ['up', 'cut', 'decade', 'temptation', 'being', 'grade', 'matter', 'matter', 'feeling', 'believe', 'welcome']
+Train Output: ['yes', 'cut', 'cut', 'well-informed', 'well-informed', 'being', 'understood', 'matter', 'extra', 'cost', 'at']
+Train Output: ['me', 'cut', 'era', 'about', 'simple', "didn't", 'go', 'wakefield', 'well-informed', 'journalism', 'temptation']
+Train Output: ['forever', 'cut', 'want', 'first', 'also', 'like', 'extraordinary', 'tried', 'have', 'year', 'remain']
+Train Output: ['nor', 'well-informed', 'endless', 'very', 'also', 'understood', 'matter', 'price', 'feeling', 'loved', "we've"]
+Train Output: ['reporting', 'tried', 'reporting', 'yes', 'being', 'the', 'first', 'calling', 'big', 'understand', 'like']
+Sample Output: ['nor', 'receiving', 'cut', 'very', 'first', 'say', 'matter', 'resisted', 'believe', 'loved', 'temptation']
+Sample Output: ['me', 'well-informed', 'rattle', 'well-informed', 'say', 'or', 'celebrate', 'price', 'tried', 'replied', 'personally']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [7] True Loss: -0.000000
+Train Output: ['life', 'cut', 'us', 'johnson', 'say', 'matter', 'within', 'today?', 'tried', 'tried', 'simple']
+Train Output: ['fail', 'cut', 'johnson', 'well-informed', 'cycle', 'also', 'understood', 'continues', 'price', "we've", 'johnson']
+Train Output: ['challenges', 'raced', 'our', 'being', 'so', "didn't", 'grade', 'wakefield', 'understand', 'so', 'temptation']
+Train Output: ['cut', 'resisted', 'standards', 'say', 'school', 'parties', 'am', "weren't", 'price', 'loved', 'raced']
+Train Output: ['nor', 'often', 'yes', 'personally', 'monday', 'grade', 'matter', 'relationship', 'trusted', 'so', 'personally']
+Train Output: ['pressures', 'johnson', 'era', 'yes', 'journalism', 'first', 'resisted', 'wakefield', 'elected', 'johnson', 'pay?']
+Train Output: ['rattle', 'higher', 'well-informed', 'function', 'better', 'grade', 'grade', 'price', 'wakefield', 'like', 'pay?']
+Train Output: ['nor', 'johnson', 'era', 'life', 'fail', 'understood', 'resisted', 'celebrate', 'elected', 'johnson', 'pay?']
+Train Output: ['me', 'cut', 'johnson', 'simple', 'temptation', 'matter', 'everybody', 'wakefield', 'believe', 'voice', 'reporting']
+Train Output: ['me', 'tried', 'on', 'johnson', 'being', 'yes', 'extraordinary', 'presidents', 'elected', 'johnson', 'personally']
+Sample Output: ['nor', 'receiving', 'nor', 'very', 'first', 'say', 'matter', 'resisted', 'have', 'loved', 'temptation']
+Sample Output: ['me', 'well-informed', 'nor', 'well-informed', 'say', 'somehow', 'celebrate', 'know', 'tried', 'my', 'personally']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [8] True Loss: -0.000000
+Train Output: ['yes', 'feeling', 'yes', 'very', 'also', 'honest', 'all', 'like', 'feeling', 'year', 'like']
+Train Output: ['jobs', 'cut', 'on', 'cut', "you're", 'also', 'american', 'tried', 'trusted', "wasn't", 'were']
+Train Output: ['cut', 'resisted', 'very', 'say', 'call', 'parties', 'within', 'journalism', 'my', 'voice', 'raced']
+Train Output: ['cut', 'which', 'johnson', 'well-informed', 'simple', 'understood', 'matter', 'or', 'extra', 'me', 'which']
+Train Output: ['me', 'raced', 'want', 'how', 'fail', 'somehow', "didn't", 'matter', 'price', 'loved', 'decade']
+Train Output: ['fail', 'first', 'very', 'very', 'life', 'understood', 'grade', 'feeling', 'feeling', 'year', 'pay?']
+Train Output: ['fail', 'cut', 'johnson', 'well-informed', 'cycle', 'also', 'understood', 'matter', 'actually', 'relationship', 'johnson']
+Train Output: ['cut', 'resisted', 'standards', 'say', 'simple', 'parties', 'celebrate', 'journalism', 'higher', 'voice', 'raced']
+Train Output: ['me', 'cut', 'yes', 'murky', 'say', 'me', "weren't", 'matter', 'wakefield', 'believe', 'still']
+Train Output: ['cut', 'which', 'standards', 'money', 'school', 'understood', 'matter', 'celebrate', 'extra', 'very', 'believe']
+Sample Output: ['fail', 'well-informed', 'nor', 'say', 'say', 'or', 'cycle', 'resisted', 'tried', 'replied', 'personally']
+Sample Output: ['me', 'receiving', 'us', 'very', 'fail', 'say', 'matter', 'resisted', 'have', 'loved', 'big']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [9] True Loss: -0.000000
+Train Output: ['cut', 'relationship', 'johnson', 'well-informed', 'yes', 'matter', 'the', 'continues', 'my', 'johnson', 'murky']
+Train Output: ['fail', 'trusted', 'yes', 'say', 'say', 'integrity', 'presidents', 'war', 'tried', 'never', 'year']
+Train Output: ['me', 'want', 'yes', 'well-informed', 'illuminating', 'being', 'when', 'like', 'like', 'like', 'like']
+Train Output: ['naturally', 'which', 'cut', 'johnson', 'being', 'integrity', 'matter', 'tried', 'feeling', 'johnson', 'complaints']
+Train Output: ['extraordinary', 'first', 'yes', 'very', 'also', 'grade', 'mr.', 'like', 'like', 'like', 'like']
+Train Output: ['mr.', 'well-informed', 'across', 'personally', 'fail', 'commentary', 'within', 'am', 'reporting', 'feeling', 'pay?']
+Train Output: ['jobs', 'era', 'on', 'our', 'on', 'grade', 'grade', 'mr.', 'understand', 'understand', 'pay?']
+Train Output: ['me', 'cut', 'want', 'first', 'also', 'today"?', 'extraordinary', 'was', 'price', 'higher', 'remain']
+Train Output: ['fail', 'which', 'well-informed', 'simple', 'temptation', 'matter', 'everybody', 'wakefield', 'calling', 'voice', '--']
+Train Output: ['fail', 'cut', "you're", 'cut', "you're", 'also', 'did', 'tried', 'trusted', "wasn't", 'remain']
+Sample Output: ['pressures', 'well-informed', 'rattle', 'well-informed', 'say', 'celebrate', 'cycle', 'resisted', 'tried', 'my', 'personally']
+Sample Output: ['nor', 'receiving', 'us', 'very', 'first', 'say', 'matter', 'resisted', 'calling', 'loved', 'pay?']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [10] True Loss: -0.000000
+Train Output: ['media', 'cut', 'say', "you're", 'being', 'school', 'value?', 'would', 'celebrate', 'tried', 'johnson']
+Train Output: ['remember', 'cut', 'us', 'johnson', 'say', 'or', 'within', 'price', 'tried', 'tried', 'simple']
+Train Output: ['nor', 'decade', 'reporting', 'johnson', 'got', 'life', 'like', 'like', 'understand', 'like', 'like']
+Train Output: ['yes', 'set', 'yes', 'yes', 'say', 'first', 'war', 'feeling', "we've", 'reporting', 'johnson']
+Train Output: ['first', 'cut', 'cut', 'well-informed', 'being', 'that', 'understood', 'continues', 'us', 'example', 'pay?']
+Train Output: ['me', 'which', 'well-informed', 'on', 'relationship', 'made', 'wakefield', 'resisted', 'understand', 'tried', 'simple']
+Train Output: ['or', 'cut', 'very', 'johnson', 'being', 'understood', 'matter', 'matter', 'believe', 'personally', 'believe']
+Train Output: ['me', 'well-informed', 'yes', 'fail', 'also', 'complaints', 'inquisitiveness', 'calling', 'tried', 'well-informed', 'believe']
+Train Output: ['fail', 'relationship', 'johnson', 'say', 'say', 'integrity', 'often', 'round', 'cut', 'standards', 'us']
+Train Output: ['if', 'first', 'money', 'on', 'grade', 'grade', 'grade', 'feeling', 'like', 'like', 'pay?']
+Sample Output: ['nor', 'receiving', 'nor', 'very', 'first', 'say', 'matter', 'answer', 'believe', 'elected', 'temptation']
+Sample Output: ['never', 'well-informed', 'well-informed', 'once', 'say', 'or', 'grade', 'falters', 'tried', 'my', 'personally']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [11] True Loss: -0.000000
+Train Output: ['reporting', 'tried', 'reporting', 'yes', 'being', 'the', 'understood', 'calling', 'tried', 'understand', 'pay?']
+Train Output: ['nor', 'tried', 'johnson', 'johnson', 'well-informed', 'that', 'understood', 'telephone', 'understand', 'politician', 'pay?']
+Train Output: ['cut', 'calling', 'johnson', 'recruit', 'temptation', 'grade', 'matter', 'within', 'cut', 'my', 'johnson']
+Train Output: ['challenges', 'which', 'when', 'first', 'also', 'like', 'presidents', 'continues', 'price', 'year', 'cars']
+Train Output: ['cut', 'calling', 'johnson', 'simple', 'temptation', 'grade', "weren't", 'matter', 'understand', 'has', 'temptation']
+Train Output: ['on', 'tried', '--', 'endless', 'being', 'the', 'understood', 'presidents', 'big', 'year', 'simple']
+Train Output: ['me', 'reporting', 'johnson', 'well-informed', 'on', 'say', 'called', 'inquisitiveness', 'tried', 'us', 'values']
+Train Output: ['cut', 'cut', 'want', 'once', 'very', 'life', 'like', 'tried', 'matter', 'murky', 'were']
+Train Output: ['me', 'well-informed', 'loved', 'very', 'also', "weren't", 'recruit', 'price', 'feeling', 'loved', 'about']
+Train Output: ['me', 'tried', 'reporting', 'well-informed', 'illuminating', 'understood', 'temptations', 'feeling', 'like', 'like', 'like']
+Sample Output: ['first', 'well-informed', 'lived', 'simple', 'say', 'somehow', 'celebrate', 'price', 'asked', 'my', 'personally']
+Sample Output: ['higher', 'receiving', 'nor', 'very', 'first', 'say', 'matter', 'resisted', 'believe', 'elected', 'without']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [12] True Loss: -0.000000
+Train Output: ['bit', 'trusted', 'reasonably', 'yes', 'being', 'temptation', 'debate', 'mr.', 'tried', 'johnson', 'pressures']
+Train Output: ['pressures', 'johnson', 'era', 'on', 'fail', 'grade', 'resisted', 'wakefield', 'extra', 'johnson', 'say']
+Train Output: ['fail', 'cut', 'want', 'well-informed', 'that', 'somehow', 'somehow', 'within', 'journalism', 'believe', 'temptation']
+Train Output: ['fail', 'relationship', 'johnson', 'well-informed', 'yes', 'life', 'called', 'journalism', 'tried', 'me', 'yes']
+Train Output: ['nor', 'era', 'well-informed', 'on', 'say', 'being', 'first', 'presidents', 'simple', 'like', 'like']
+Train Output: ['first', 'money', 'well-informed', 'grade', 'being', 'would', 'the', 'presidents', 'my', 'johnson', 'personally']
+Train Output: ['first', 'cut', 'money', 'on', 'year', 'made', 'understood', 'resisted', 'understand', 'without', 'like']
+Train Output: ['fail', 'often', 'yes', 'say', 'say', 'integrity', 'presidents', 'war', 'tried', 'elected', 'year']
+Train Output: ['first', 'cut', 'johnson', 'well-informed', 'that', 'somehow', 'presidents', 'presidents', '<sos>', 'believe', 'temptation']
+Train Output: ['me', 'first', 'well-informed', 'say', 'say', 'up', 'feeling', 'presidents', 'tried', 'journalists', 'believe']
+Sample Output: ['nor', 'receiving', 'year', 'very', 'first', 'say', 'matter', 'journalists', 'believe', 'elected', 'temptation']
+Sample Output: ['fail', 'well-informed', 'rattle', 'simple', 'say', 'or', 'continues', 'resisted', 'tried', 'replied', 'personally']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [13] True Loss: -0.000000
+Train Output: ['cut', 'johnson', 'very', 'johnson', 'murky', 'understood', 'matter', 'career', 'go', 'personally', 'at']
+Train Output: ['me', 'often', 'about', 'say', 'simple', 'say', 'understood', 'celebrate', 'wakefield', 'has', 'personally']
+Train Output: ['fail', 'cut', 'well-informed', 'extraordinary', 'extraordinary', 'year', 'called', 'presidents', 'loved', 'high-tech', 'how']
+Train Output: ['nor', 'calling', 'rattle', 'say', 'first', 'matter', "didn't", 'today?', 'feeling', 'calling', 'cut']
+Train Output: ['cars', 'which', 'want', 'first', 'also', 'like', 'presidents', 'wakefield', 'calling', 'replied', 'remain']
+Train Output: ['nor', 'which', 'tried', 'say', 'recruit', 'being', 'inquisitiveness', 'celebrate', 'journalism', 'personally', 'reporting']
+Train Output: ['never', 'us', 'obligation', 'nor', 'on', 'simple', 'grade', 'feeling', 'understand', 'simple', 'like']
+Train Output: ['nor', 'resisted', 'johnson', 'voice', 'monday', 'american', 'just', 'trusted', 'calling', 'simple', 'elected']
+Train Output: ['jobs', 'johnson', 'at', 'yes', 'integrity', 'grade', 'resisted', 'today?', 'elected', 'big', 'simple']
+Train Output: ['me', 'which', 'money', 'on', 'would', 'being', 'resisted', 'resisted', 'understand', 'tried', 'like']
+Sample Output: ['never', 'well-informed', 'monday', 'simple', 'say', 'celebrate', 'celebrate', 'resisted', 'tried', 'my', 'personally']
+Sample Output: ['nor', 'receiving', 'nor', 'very', 'first', 'say', 'feeling', 'resisted', 'celebrate', 'elected', 'temptation']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [14] True Loss: -0.000000
+Train Output: ['nor', 'tried', 'my', 'on', 'say', 'higher', 'me', 'calling', 'tried', 'values', 'reporting']
+Train Output: ['nor', 'which', 'money', 'nor', 'remarked', 'being', 'resisted', 'resisted', 'understand', 'without', 'like']
+Train Output: ['higher', 'decade', 'say', 'say', 'when', 'understood', 'grade', 'like', 'understand', 'like', 'like']
+Train Output: ['extraordinary', 'believe', 'yes', 'very', 'also', 'within', 'presidents', 'understand', 'understand', 'year', 'like']
+Train Output: ['me', 'tried', 'johnson', 'johnson', 'somehow', 'first', 'somehow', 'continues', 'believe', 'without', 'simple']
+Train Output: ['fail', 'on', 'yes', 'temptation', 'temptation', 'grade', 'understood', 'mr.', 'understand', 'understand', 'pay?']
+Train Output: ['nor', 'tried', 'say', 'more', 'integrity', 'school', 'illuminating', 'tried', 'well-informed', 'journalism', 'temptation']
+Train Output: ['nor', 'want', 'cut', 'well-informed', 'understood', 'being', 'fill', 'wakefield', 'tried', 'which', 'at']
+Train Output: ['bit', 'which', 'honest', 'temptation', 'being', 'grade', 'just', 'matter', 'feeling', 'believe', 'welcome']
+Train Output: ['when', 'johnson', 'very', 'johnson', 'want', 'understood', 'pressures', 'today?', 'go', 'personally', 'johnson']
+Sample Output: ['fail', 'well-informed', 'rattle', 'simple', 'say', 'somehow', 'cycle', 'resisted', 'tried', 'believe', 'personally']
+Sample Output: ['me', 'receiving', 'function', 'very', 'first', 'feeling', 'grade', 'resisted', 'celebrate', 'loved', 'temptation']
