@@ -197,7 +197,8 @@ def test_predict(model, data_iter, idx_to_word, train_mode = False):
         sys.stdout.flush()
         if train_mode:
             break
-        
+    
+    
     data_iter.reset()
     return ret_pred
 
@@ -233,7 +234,8 @@ class GANLoss(nn.Module):
 def main():
     random.seed(SEED)
     np.random.seed(SEED)
-    
+    calc_bleu([1, 10, 12])
+    exit()
     # Build up dataset
     s_train, s_test = load_from_big_file('../data/train_data_obama.txt')
     # idx_to_word: List of id to word
