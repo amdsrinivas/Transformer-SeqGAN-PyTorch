@@ -43,7 +43,7 @@ NEGATIVE_FILE = ROOT_PATH + 'gene.data'
 DEBUG_FILE = ROOT_PATH + 'debug.data'
 EVAL_FILE = ROOT_PATH + 'eval.data'
 VOCAB_SIZE = 5000
-PRE_EPOCH_NUM = 1
+PRE_EPOCH_NUM = 50
 CHECKPOINT_PATH = ROOT_PATH + 'checkpoints/'
 
 try:  
@@ -216,9 +216,9 @@ def main():
     # Generate samples either from sentences file or lstm
     # Sentences file will be structured input sentences
     # LSTM based is BOG approach
-    # generate_real_data('../data/train_data_obama.txt', BATCH_SIZE, GENERATED_NUM, idx_to_word, word_to_idx, POSITIVE_FILE, TEST_FILE)
-    generate_samples(target_lstm, BATCH_SIZE, GENERATED_NUM, POSITIVE_FILE, idx_to_word)
-    generate_samples(target_lstm, BATCH_SIZE, 10, TEST_FILE, idx_to_word)
+    generate_real_data('../data/train_data_obama.txt', BATCH_SIZE, GENERATED_NUM, idx_to_word, word_to_idx, POSITIVE_FILE, TEST_FILE)
+    # generate_samples(target_lstm, BATCH_SIZE, GENERATED_NUM, POSITIVE_FILE, idx_to_word)
+    # generate_samples(target_lstm, BATCH_SIZE, 10, TEST_FILE, idx_to_word)
     # Create Test data iterator for testing
     test_iter = GenDataIter(TEST_FILE, BATCH_SIZE)
     
@@ -234,6 +234,8 @@ def main():
     for epoch in range(PRE_EPOCH_NUM):
         loss = train_epoch(generator, gen_data_iter, gen_criterion, gen_optimizer)
         print('Epoch [%d] Model Loss: %f'% (epoch, loss))
+        sys.stdout.flush()
+
         # generate_samples(generator, BATCH_SIZE, GENERATED_NUM, EVAL_FILE)
         # eval_iter = GenDataIter(EVAL_FILE, BATCH_SIZE)
         # loss = eval_epoch(target_lstm, eval_iter, gen_criterion)
@@ -251,6 +253,8 @@ def main():
         for _ in range(3):
             loss = train_epoch(discriminator, dis_data_iter, dis_criterion, dis_optimizer)
             print('Epoch [%d], loss: %f' % (epoch, loss))
+            sys.stdout.flush()
+
     # Adversarial Training 
     rollout = Rollout(generator, 0.8)
     print('#####################################################')
@@ -290,7 +294,7 @@ def main():
             # print('GEN PRED DIM: ', prob.shape)
             
 
-        if total_batch % 1 == 0 or total_batch == TOTAL_BATCH - 1:
+        if total_batch % 10 == 0 or total_batch == TOTAL_BATCH - 1:
             # generate_samples(generator, BATCH_SIZE, GENERATED_NUM, EVAL_FILE)
             # eval_iter = GenDataIter(EVAL_FILE, BATCH_SIZE)
             # loss = eval_epoch(target_lstm, eval_iter, gen_criterion)

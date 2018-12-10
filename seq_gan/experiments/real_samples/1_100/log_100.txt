@@ -1,0 +1,1179 @@
+Directory already exists!
+VOCAB SIZE: 370
+Generating data ...
+Pretrain with MLE ...
+Epoch [0] Model Loss: 224.583027
+Epoch [1] Model Loss: 120.005931
+Epoch [2] Model Loss: 86.871125
+Epoch [3] Model Loss: 69.798917
+Epoch [4] Model Loss: 61.987270
+Epoch [5] Model Loss: 54.555835
+Epoch [6] Model Loss: 46.418787
+Epoch [7] Model Loss: 38.141821
+Epoch [8] Model Loss: 30.416403
+Epoch [9] Model Loss: 23.659867
+Epoch [10] Model Loss: 18.241979
+Epoch [11] Model Loss: 14.060613
+Epoch [12] Model Loss: 10.862270
+Epoch [13] Model Loss: 8.442921
+Epoch [14] Model Loss: 6.614869
+Epoch [15] Model Loss: 5.276508
+Epoch [16] Model Loss: 4.294430
+Epoch [17] Model Loss: 3.572680
+Epoch [18] Model Loss: 3.042208
+Epoch [19] Model Loss: 2.638734
+Epoch [20] Model Loss: 2.335664
+Epoch [21] Model Loss: 2.096523
+Epoch [22] Model Loss: 1.910254
+Epoch [23] Model Loss: 1.762340
+Epoch [24] Model Loss: 1.643485
+Epoch [25] Model Loss: 1.546847
+Epoch [26] Model Loss: 1.467416
+Epoch [27] Model Loss: 1.402875
+Epoch [28] Model Loss: 1.349525
+Epoch [29] Model Loss: 1.304842
+Epoch [30] Model Loss: 1.267442
+Epoch [31] Model Loss: 1.235595
+Epoch [32] Model Loss: 1.208554
+Epoch [33] Model Loss: 1.185393
+Epoch [34] Model Loss: 1.164976
+Epoch [35] Model Loss: 1.147693
+Epoch [36] Model Loss: 1.132760
+Epoch [37] Model Loss: 1.119642
+Epoch [38] Model Loss: 1.107952
+Epoch [39] Model Loss: 1.097768
+Epoch [40] Model Loss: 1.088627
+Epoch [41] Model Loss: 1.080440
+Epoch [42] Model Loss: 1.073193
+Epoch [43] Model Loss: 1.066792
+Epoch [44] Model Loss: 1.061122
+Epoch [45] Model Loss: 1.056100
+Epoch [46] Model Loss: 1.051619
+Epoch [47] Model Loss: 1.047602
+Epoch [48] Model Loss: 1.043984
+Epoch [49] Model Loss: 1.040664
+Pretrain Discriminator ...
+Epoch [0], loss: 1.029956
+Epoch [0], loss: 1.042835
+Epoch [0], loss: 1.000293
+Epoch [1], loss: 1.000622
+Epoch [1], loss: 1.004648
+Epoch [1], loss: 1.000070
+Epoch [2], loss: 1.000629
+Epoch [2], loss: 1.001567
+Epoch [2], loss: 1.000010
+#####################################################
+Start Adversarial Training...
+
+REWARD:  (10, 11)
+Training Output: ['value?', 'doing', 'excited', 'not', 'not', 'people', 'people', 'people', 'people', 'people', 'people']
+Training Output: ['value?', 'bear?', 'know', 'know', 'know', "didn't", 'set', 'set', 'imagine', 'imagine', 'there']
+Training Output: ['value?', 'values', 'president', 'president', 'johnson', 'called', 'called', 'called', 'called', 'called', 'after']
+Training Output: ['value?', 'been', 'been', 'decided', 'inquisitiveness', 'matter', 'inquisitiveness', 'matter', 'endless', 'johnson', 'johnson']
+Training Output: ['value?', 'temptation', 'politician', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'illuminating', 'first', 'as', 'as', 'as', 'as', 'as', 'as', 'as', 'as']
+Training Output: ['value?', 'to', 'to', 'to', 'the', 'the', 'the', 'the', 'the', 'the', 'the']
+Training Output: ['value?', 'give', 'give', 'give', 'give', 'not', 'lost', 'happened', 'betsy', 'now', 'now']
+Training Output: ['value?', 'illuminating', 'kansas', 'today', 'which', 'which', 'which', 'which', 'which', 'which', 'which']
+Training Output: ['value?', 'standard', 'give', 'democracy', '.', '.', '.', '.', '.', '.', '.']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'president', 'values', 'somehow', 'remember', 'remember', 'remember', 'remember', 'remember', 'can', 'remember']
+Training Output: ['value?', 'high', 'mighty', 'well-informed', 'yourselves', 'a', 'a', 'a', 'a', 'a', 'a']
+Training Output: ['value?', 'in', 'him', 'him', 'him', 'him', 'him', 'him', 'him', 'him', 'him']
+Training Output: ['value?', 'this', 'so', 'so', 'of', 'of', 'of', 'of', 'of', 'of', 'of']
+Training Output: ['value?', 'endless', 'not', 'excited', 'and', 'walter', 'walter', 'walter', 'walter', 'walter', 'walter']
+Training Output: ['value?', 'him', 'him', 'him', 'him', 'him', 'him', 'him', 'him', 'him', 'him']
+Training Output: ['value?', 'imagine', 'imagine', 'imagine', 'imagine', 'imagine', 'imagine', 'imagine', 'imagine', 'all', 'all']
+Training Output: ['value?', 'as', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'naturally', 'would', 'would', 'would', 'would', 'would', 'would', 'would', 'when', 'when']
+Training Output: ['value?', 'feeling', 'feeling', 'feeling', 'feeling', 'feeling', 'feeling', 'feeling', 'feeling', 'feeling', 'feeling']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'she', 'she', 'she', 'inquisitiveness', 'inquisitiveness', 'about', 'when', 'when', 'when', 'when']
+Training Output: ['value?', 'have', 'have', 'have', 'have', 'even', 'even', 'even', 'even', 'even', 'even']
+Training Output: ['value?', 'boy', "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's"]
+Training Output: ['value?', 'resisted', 'give', 'hello', 'hello', 'hello', 'remarked', 'as', 'as', 'as', 'as']
+Training Output: ['value?', 'public', 'which', 'no', 'inquisitiveness', 'president', 'president', 'johnson', 'called', 'called', 'called']
+Training Output: ['value?', 'story', 'story', 'values', 'shared', 'shared', 'no', 'matter', 'matter', 'here', 'matter']
+Training Output: ['value?', 'challenges', 'give', "he's", 'give', 'give', 'give', 'give', 'give', 'give', 'give']
+Training Output: ['value?', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after']
+Training Output: ['value?', 'fail', 'she', "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's"]
+Training Output: ['value?', 'have', 'have', 'have', 'have', 'have', 'lived', 'his', 'his', 'his', 'his']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'president', "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's"]
+Training Output: ['value?', 'named', 'entered', 'today', 'today', 'today', 'today', 'today', 'such', 'such', 'with']
+Training Output: ['value?', 'lost', 'lost', 'lost', 'lost', 'are', 'are', 'are', 'are', 'are', 'are']
+Training Output: ['value?', 'lessons', 'give', 'give', 'president', 'remarked', 'when', 'when', 'when', 'when', 'when']
+Training Output: ['value?', 'high', 'high', 'high', 'boy', 'called', '.', 'a', 'a', 'a', 'a']
+Training Output: ['value?', 'he', 'he', 'he', 'he', 'he', 'he', 'he', 'he', 'he', 'he']
+Training Output: ['value?', 'story', 'betsy', 'first', 'school', 'which', 'when', 'know', 'know', 'know', 'know']
+Training Output: ['value?', 'mr.', 'give', 'give', 'give', 'give', 'give', "it's", "it's", 'yourselves', 'endless']
+Training Output: ['value?', 'president', 'president', 'which', 'president', 'president', 'johnson', 'johnson', 'johnson', 'johnson', 'called']
+Training Output: ['value?', 'excited', 'not', 'give', 'give', 'give', 'give', 'give', 'give', 'give', 'give']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'i', 'and', 'and', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>']
+Training Output: ['value?', 'all', 'all', 'all', 'imagine', 'all', 'all', 'all', 'all', 'all', 'all']
+Training Output: ['value?', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all']
+Training Output: ['value?', 'city', 'city', 'city', 'city', 'city', 'city', 'city', 'city', 'city', 'city']
+Training Output: ['value?', 'understand', 'one', 'one', 'one', 'me', 'me', 'me', 'cannot', "he's", "he's"]
+Training Output: ['value?', 'reporting', 'idealist', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'believe', 'made', 'made', 'made', 'believe', 'believe', 'believe', 'believe', 'believe', 'believe']
+Training Output: ['value?', 'why', 'why', 'why', 'why', 'why', 'why', 'why', 'why', 'why', 'why']
+Training Output: ['value?', 'spent', 'give', 'give', 'give', 'give', 'give', 'give', 'give', 'give', 'give']
+Training Output: ['value?', 'she', 'cannot', 'function', 'without', 'without', 'without', 'even', 'even', 'even', 'even']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'what', 'what', 'what', 'what', 'what', 'what', 'what', 'what', 'what', 'what']
+Training Output: ['value?', 'first', 'where', 'where', 'inquisitiveness', 'would', 'imagine', 'all', 'all', 'all', 'all']
+Training Output: ['value?', 'kindergarten', 'she', 'offer', 'offer', 'not', 'naturally', 'naturally', 'naturally', 'naturally', 'which']
+Training Output: ['value?', 'fail', 'she', 'she', 'she', 'she', 'she', 'inquisitiveness', 'inquisitiveness', 'about', 'about']
+Training Output: ['value?', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all']
+Training Output: ['value?', 'she', 'she', 'decided', 'she', 'she', 'she', 'she', 'first', 'matter', 'excited']
+Training Output: ['value?', 'hello', 'hello', 'hello', 'hello', 'hello', 'everybody!', 'first', 'endless', 'endless', 'excited']
+Training Output: ['value?', "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's"]
+Training Output: ['value?', 'simple', 'not', 'not', 'not', 'know', 'have', 'have', 'have', 'have', 'that']
+Training Output: ['value?', 'boy', 'president', 'president', 'which', 'which', 'which', 'which', 'which', 'which', 'which']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'temptation', 'first', 'president', 'president', 'when', 'first', 'teach', 'president', 'president', 'nor']
+Training Output: ['value?', 'resisted', "it's", "it's", 'by', 'a', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'have', 'have', 'have', 'have', 'have', 'have', 'have', 'lived', 'lived', 'that']
+Training Output: ['value?', 'such', 'has', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all']
+Training Output: ['value?', 'reporting', 'reporting', 'reporting', 'reporting', 'so', 'reporting', 'reporting', 'reporting', 'reporting', 'reporting']
+Training Output: ['value?', 'his', 'his', 'his', 'his', 'his', 'his', 'his', 'his', 'his', 'his']
+Training Output: ['value?', "didn't", 'of', 'of', 'of', 'of', 'you', 'a', 'as', 'as', 'as']
+Training Output: ['value?', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all']
+Training Output: ['value?', 'resisted', "it's", "it's", "it's", "it's", "it's", "it's", "it's", "it's", "it's"]
+Training Output: ['value?', 'told', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', "didn't", 'cronkite', "didn't", 'lived', 'that', 'that', 'that', 'that', 'that', 'that']
+Training Output: ['value?', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'spent', 'said', 'cannot', 'cannot', 'cannot', 'cannot', 'function', 'naive', 'naive', 'naive']
+Training Output: ['value?', 'this', 'this', 'this', 'this', 'this', 'this', 'this', 'this', 'this', 'this']
+Training Output: ['value?', 'both', 'both', 'our', 'of', 'of', 'for', 'for', 'are', 'are', 'are']
+Training Output: ['value?', 'matter', 'got', 'got', 'got', 'got', 'got', 'got', 'all', 'got', 'she']
+Training Output: ['value?', 'cold', 'thank', 'thank', 'thank', 'thank', 'thank', 'thank', 'thank', 'thank', 'thank']
+Training Output: ['value?', 'presidents', 'kansas', 'both', 'presidents', 'presidents', 'believe', 'believe', 'believe', 'believe', 'believe']
+Training Output: ['value?', 'my', 'this', 'this', 'this', 'this', 'this', 'this', 'this', 'this', 'this']
+Training Output: ['value?', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'began', 'endless', 'extra', 'which', 'needless', 'which', 'which', 'which', 'which', 'which']
+Training Output: ['value?', 'i', 'he', 'he', 'he', 'he', 'he', 'he', 'he', 'he', 'he']
+Training Output: ['value?', 'got', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all']
+Training Output: ['value?', 'matter', 'can', 'can', 'can', 'can', 'can', 'can', 'can', 'can', 'can']
+Training Output: ['value?', 'fire', 'happened', 'now', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', '<pad>', '<pad>']
+Training Output: ['value?', 'feeling', 'overseas', 'overseas', 'way', 'way', 'walter', 'we', 'we', 'we', 'we']
+Training Output: ['value?', 'first', 'values', 'values', "he's", "he's", "he's", "he's", "he's", "he's", "he's"]
+Training Output: ['value?', 'all', 'can', 'or', 'or', 'or', 'or', 'or', 'or', 'or', 'or']
+Training Output: ['value?', 'she', 'matter', 'not', 'johnson', 'called', 'called', 'called', 'called', 'replaced', 'johnson']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'war', 'understand', 'stories', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'may', 'may', "that's", 'we', 'we', 'it', 'it', 'it', 'it', 'it']
+Training Output: ['value?', 'she', 'decided', 'she', 'inquisitiveness', 'would', 'would', 'would', 'would', 'would', 'would']
+Training Output: ['value?', 'lost', 'that', 'that', 'that', 'that', 'that', 'that', 'that', 'that', 'that']
+Training Output: ['value?', 'news', 'news', 'news', 'news', 'news', 'news', 'presidents', 'presidents', 'presidents', 'presidents']
+Training Output: ['value?', 'i', 'i', 'i', 'i', 'i', 'i', 'i', 'i', 'i', 'i']
+Training Output: ['value?', 'first', 'betsy', 'today"?', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'story', 'give', 'give', 'give', 'him', 'him', 'him', 'him', 'him', 'him']
+Training Output: ['value?', 'know', 'know', 'know', 'know', 'know', 'know', 'know', 'know', 'know', 'know']
+Training Output: ['value?', 'believe', 'believe', 'believe', 'believe', 'are', 'are', 'are', 'are', 'are', 'are']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'is', 'is', 'is', 'is', 'it', 'it', 'it', 'it', 'it', 'it']
+Training Output: ['value?', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all']
+Training Output: ['value?', 'story', 'now', 'yourselves', 'yourselves', 'a', 'a', 'a', 'a', 'a', 'a']
+Training Output: ['value?', 'cronkite', 'cronkite', 'so', 'so', 'so', 'so', 'so', 'so', 'so', 'so']
+Training Output: ['value?', 'have', 'have', 'have', 'have', 'have', 'have', 'have', 'lived', 'for', 'for']
+Training Output: ['value?', 'matter', 'no', 'inquisitiveness', 'when', 'when', 'when', 'when', 'when', 'when', 'when']
+Training Output: ['value?', 'simple', 'she', 'young', "didn't", "didn't", "didn't", "didn't", 'a', 'a', 'a']
+Training Output: ['value?', 'said', 'remarked', 'when', 'when', 'when', 'when', 'when', 'when', 'when', 'when']
+Training Output: ['value?', 'thing:', 'news', 'news', "wasn't", "wasn't", "wasn't", "wasn't", "wasn't", "wasn't", "wasn't"]
+Training Output: ['value?', 'celebrate', 'by', 'the', 'the', 'the', 'the', 'the', 'the', 'the', 'the']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'temptation', 'hello', 'yourselves', 'as', 'as', 'as', 'as', 'as', 'as', 'as']
+Training Output: ['value?', 'lost', 'lost', 'lost', 'lost', 'lost', 'lost', 'lost', 'lost', 'lost', 'lost']
+Training Output: ['value?', 'replaced', 'endless', 'reached', 'my', 'my', 'my', 'my', 'my', 'my', 'my']
+Training Output: ['value?', 'walter', 'walter', 'walter', 'walter', 'walter', 'walter', 'walter', 'walter', 'walter', 'walter']
+Training Output: ['value?', 'of', 'of', 'of', 'of', 'of', 'of', 'of', 'of', 'of', 'of']
+Training Output: ['value?', 'change', 'change', 'but', 'but', 'but', 'but', 'but', 'we', 'we', 'we']
+Training Output: ['value?', '--', '--', '--', '--', 'is', 'is', 'is', 'is', 'is', 'is']
+Training Output: ['value?', "that's", "that's", "that's", "that's", "that's", "that's", "that's", "that's", "that's", "that's"]
+Training Output: ['value?', 'few', 'give', 'give', 'give', 'give', 'give', 'give', "it's", "it's", "it's"]
+Training Output: ['value?', 'war', 'give', 'endless', 'president', 'president', 'johnson', 'johnson', 'endless', 'a', 'as']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'and', 'excited', 'story', 'nation', 'no', 'inquisitiveness', 'during', 'this', 'this', 'this']
+Training Output: ['value?', 'there', 'there', 'there', 'there', 'there', 'there', 'there', 'there', 'there', 'there']
+Training Output: ['value?', 'simple', 'not', 'values', 'johnson', 'which', 'i', 'needless', 'needless', 'needless', 'needless']
+Training Output: ['value?', 'lived', 'lived', 'lived', 'after', 'after', 'after', 'after', 'after', 'after', 'after']
+Training Output: ['value?', '.', 'give', 'give', 'give', 'give', 'give', 'give', 'give', 'give', 'give']
+Training Output: ['value?', 'us', '.', 'who', 'who', 'who', 'who', 'who', 'who', 'who', 'who']
+Training Output: ['value?', 'betsy', 'now', 'now', 'now', "walter's", "walter's", "walter's", "walter's", "walter's", "walter's"]
+Training Output: ['value?', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
+Training Output: ['value?', 'thing:', 'thing:', 'thing:', 'thing:', 'thing:', 'thing:', 'thing:', 'thing:', 'thing:', 'thing:']
+Training Output: ['value?', 'they', 'they', 'they', 'give', 'story', 'seemed', 'johnson', 'president', 'johnson', 'called']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'kindergarten', 'kindergarten', 'kindergarten', 'imagine', 'imagine', 'all', 'all', 'all', 'out', 'out']
+Training Output: ['value?', 'city', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'mr.', 'a', 'even', 'in', 'in', 'in', 'in', 'in', 'in', 'in']
+Training Output: ['value?', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello']
+Training Output: ['value?', 'is', 'in', 'in', 'in', 'in', 'in', 'in', 'a', 'a', 'telephone']
+Training Output: ['value?', 'there', 'there', 'there', 'there', 'from', 'who', 'who', 'who', 'who', 'who']
+Training Output: ['value?', '.', '.', 'a', 'his', 'his', 'his', 'his', 'his', 'his', 'his']
+Training Output: ['value?', 'lived', 'lived', 'lived', 'lived', 'lived', 'a', 'know', 'world', 'world', 'world']
+Training Output: ['value?', 'may', 'may', 'needless', 'needless', 'needless', 'needless', 'needless', 'needless', 'needless', 'needless']
+Training Output: ['value?', "it's", 'value?', '.', 'give', 'democracy', 'news', 'news', "wasn't", 'hall', 'asked']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'few', 'wakefield', 'wakefield', 'wakefield', 'wakefield', 'wakefield', 'voice', 'relationship', 'relationship', 'few']
+Training Output: ['value?', 'grade', 'without', 'cronkite', 'cronkite', 'cronkite', 'cronkite', 'cronkite', 'cronkite', 'cronkite', 'know']
+Training Output: ['value?', 'illuminating', 'illuminating', 'so', 'so', 'so', 'so', 'so', 'so', 'so', 'so']
+Training Output: ['value?', 'believe', 'believe', 'believe', 'believe', 'believe', 'believe', 'believe', 'believe', 'believe', 'believe']
+Training Output: ['value?', 'glad', 'excited', 'not', 'inquisitiveness', 'this', 'this', 'this', 'this', 'this', 'this']
+Training Output: ['value?', 'even', 'even', 'even', 'even', 'even', 'know', 'know', 'know', 'know', 'know']
+Training Output: ['value?', 'lessons', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'remember', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'replaced', 'endless', 'endless', 'values', 'walter', 'am', 'am', 'people', 'needless', 'needless']
+Training Output: ['value?', 'kindergarten', 'kindergarten', 'it', 'it', 'it', 'it', 'it', 'it', 'it', 'world']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'presidents', 'it', 'it', 'it', 'it', 'it', 'it', 'it', 'it', 'it']
+Training Output: ['value?', 'singular', 'give', 'give', 'johnson', 'johnson', "he's", 'johnson', 'johnson', 'johnson', 'why']
+Training Output: ['value?', "we've", "we've", 'lived', 'lived', 'lived', 'lived', "didn't", 'so', 'of', 'of']
+Training Output: ['value?', 'they', '.', '.', '.', 'of', 'for', 'for', 'for', 'for', 'for']
+Training Output: ['value?', 'if', 'if', 'if', 'if', 'if', 'if', 'if', 'if', 'if', 'if']
+Training Output: ['value?', 'story', 'give', 'give', 'give', 'give', 'give', 'give', 'give', 'give', 'yourselves']
+Training Output: ['value?', 'replaced', 'early', "he's", 'remarked', 'know', 'know', 'know', 'know', 'know', 'know']
+Training Output: ['value?', 'naturally', 'naturally', 'naturally', 'naturally', 'naturally', 'naturally', 'naturally', 'naturally', 'naturally', 'naturally']
+Training Output: ['value?', 'nation', 'nation', 'decided', 'just', 'just', 'how', 'just', 'just', 'just', 'just']
+Training Output: ['value?', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'harder', 'she', 'america', 'tuning', 'all', 'america', 'america', 'america', 'america', 'america']
+Training Output: ['value?', 'kindergarten', 'of', 'of', 'of', 'of', 'for', 'for', 'for', 'for', 'for']
+Training Output: ['value?', 'teach', 'me', "he's", 'give', 'give', 'reporting', 'first', 'when', 'when', 'when']
+Training Output: ['value?', 'singular', 'give', 'give', 'president', 'president', 'give', 'johnson', 'called', 'called', 'called']
+Training Output: ['value?', 'both', 'world', 'world', 'when', 'when', 'when', 'when', 'when', 'when', 'when']
+Training Output: ['value?', 'singular', 'give', 'give', 'give', 'give', 'give', 'give', 'give', 'yourselves', 'a']
+Training Output: ['value?', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'story', 'the', 'the', 'it', 'it', 'it', 'it', 'it', 'it', 'it']
+Training Output: ['value?', 'story', 'story', 'give', 'yourselves', 'endless', 'replaced', 'president', 'president', 'johnson', 'president']
+Training Output: ['value?', 'replaced', 'which', 'tim', 'needless', 'needless', 'needless', 'needless', 'needless', 'needless', 'needless']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'have', 'for', 'for', 'for', 'for', 'for', 'for', 'for', 'for', 'for']
+Training Output: ['value?', 'story', 'hours', 'give', 'give', 'give', 'hello', "he's", "he's", "he's", "he's"]
+Training Output: ['value?', 'perspective', 'the', 'so', 'so', 'so', 'so', 'so', 'of', 'of', 'of']
+Training Output: ['value?', 'named', 'hello', 'hello', 'hello', 'hello', 'hello', 'cost', 'cost', 'endless', 'endless']
+Training Output: ['value?', "it's", 'to', 'for', 'for', 'for', 'for', 'for', 'for', 'for', 'for']
+Training Output: ['value?', 'she', 'inquisitiveness', 'inquisitiveness', 'about', 'would', 'would', 'would', 'would', 'would', 'would']
+Training Output: ['value?', 'give', 'give', 'which', 'which', 'which', 'which', 'which', 'which', 'which', 'which']
+Training Output: ['value?', 'fail', 'she', 'she', 'inquisitiveness', 'inquisitiveness', 'about', 'would', 'would', 'would', 'would']
+Training Output: ['value?', 'give', 'give', 'give', 'give', 'give', 'give', 'give', 'give', 'give', 'give']
+Training Output: ['value?', 'how', 'how', 'how', 'how', 'how', 'how', 'how', 'how', 'how', 'how']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'is', 'it', 'it', 'it', 'it', 'it', 'it', 'it', 'it', 'it']
+Training Output: ['value?', "we've", 'happened', 'she', 'which', 'did', 'know', 'know', 'know', 'why', 'why']
+Training Output: ['value?', 'grade', 'without', 'even', 'even', 'even', 'even', 'even', 'even', 'even', 'even']
+Training Output: ['value?', 'story', 'hours', 'round', 'meticulous', 'meticulous', 'meticulous', 'hours', 'hours', 'lived', 'lived']
+Training Output: ['value?', 'this', 'our', 'our', 'our', 'our', 'our', 'our', 'our', 'our', 'our']
+Training Output: ['value?', 'being', 'few', 'president', 'democracy', 'democracy', 'naturally', 'naturally', 'naturally', 'naturally', 'naturally']
+Training Output: ['value?', 'know', 'know', 'know', 'know', 'know', 'know', 'know', 'know', 'know', 'know']
+Training Output: ['value?', 'of', 'of', 'of', 'for', 'for', 'for', 'for', 'for', 'for', 'for']
+Training Output: ['value?', 'endless', 'not', 'not', 'cost', 'cost', 'cost', 'cost', 'inquisitiveness', 'inquisitiveness', 'about']
+Training Output: ['value?', 'mighty', 'now', 'stories', 'even', 'stories', 'stories', 'you', 'you', 'you', 'you']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'able', 'decided', 'there', 'there', 'there', 'there', 'our', 'our', 'our', 'our']
+Training Output: ['value?', 'simple', 'not', 'said', 'which', 'not', 'give', "it's", "it's", "it's", "it's"]
+Training Output: ['value?', 'hours', 'endless', 'countless', 'but', 'but', 'but', 'we', 'we', 'we', 'we']
+Training Output: ['value?', 'stories', 'stories', 'would', 'would', 'would', 'would', 'would', 'would', 'would', 'would']
+Training Output: ['value?', 'and', 'and', 'and', 'and', 'and', "that's", "that's", "that's", "that's", "that's"]
+Training Output: ['value?', 'complicated', 'president', 'president', 'president', 'johnson', 'called', 'called', 'called', 'called', 'called']
+Training Output: ['value?', 'and', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'was', 'was', 'was', 'was', 'was', 'was', 'was', 'was', 'was', 'was']
+Training Output: ['value?', 'feeling', 'feeling', 'feeling', 'feeling', 'feeling', 'altering', 'named', 'not', 'not', 'not']
+Training Output: ['value?', 'and', 'ourselves', 'war', 'round', 'so', 'so', 'so', 'so', 'so', 'so']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'without', 'in', 'even', 'even', 'even', 'know', 'know', 'know', 'know', 'know']
+Training Output: ['value?', 'first', 'reporting', 'reporting', 'so', 'so', 'so', 'so', 'so', 'so', 'so']
+Training Output: ['value?', 'how', 'how', 'how', 'how', 'how', 'how', 'how', 'how', 'how', 'how']
+Training Output: ['value?', 'naturally', 'young', 'naturally', 'naturally', 'naturally', 'naturally', 'naturally', 'naturally', 'naturally', 'naturally']
+Training Output: ['value?', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
+Training Output: ['value?', 'without', 'difficult', 'difficult', 'time', 'as', 'time', 'time', 'or', 'or', 'or']
+Training Output: ['value?', 'she', 'she', 'johnson', 'yourselves', "he's", 'yourselves', 'replaced', 'one', 'cost', 'cost']
+Training Output: ['value?', 'how', 'how', 'how', 'how', 'how', 'how', 'how', 'how', 'how', 'how']
+Training Output: ['value?', 'thing:', 'call', 'first', 'and', 'somehow', 'somehow', 'public', 'public', 'we', 'we']
+Training Output: ['value?', '.', '.', 'give', 'give', 'am', 'said', 'democracy', 'democracy', 'and', 'believed']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'kindergarten', 'kindergarten', 'still', 'decided', 'decided', 'decided', 'decided', 'decided', 'decided', 'decided']
+Training Output: ['value?', 'give', "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's"]
+Training Output: ['value?', 'my', 'been', 'remain', 'remain', "didn't", "didn't", 'is', 'is', 'is', 'is']
+Training Output: ['value?', 'news', 'news', 'news', 'news', 'news', 'news', 'news', "wasn't", "wasn't", 'bestowed']
+Training Output: ['value?', 'did', 'not', 'not', 'not', 'not', 'not', 'johnson', 'naturally', 'naturally', 'called']
+Training Output: ['value?', 'spent', 'story', 'said', 'know', 'know', 'know', 'know', 'know', 'know', 'know']
+Training Output: ['value?', 'mighty', 'herself', 'high-tech', 'much', 'big', 'president', "that's", 'johnson', 'johnson', 'president']
+Training Output: ['value?', 'money', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'celebrate', 'find', 'spent', 'lessons', 'lessons', 'herself', 'herself', 'personally', 'well-informed', 'give']
+Training Output: ['value?', '.', 'of', 'of', 'of', 'of', 'of', 'of', 'of', 'of', 'of']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'political', 'political', 'city', 'political', 'political', 'political', 'parties', 'political', 'parties', 'parties']
+Training Output: ['value?', 'give', 'give', 'give', 'give', 'give', 'yourselves', 'a', 'a', 'a', 'a']
+Training Output: ['value?', "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's"]
+Training Output: ['value?', 'spent', 'said', 'cannot', 'cannot', 'cannot', 'cannot', 'cannot', 'cannot', 'cannot', 'cannot']
+Training Output: ['value?', 'harder', 'decided', 'decided', 'inquisitiveness', 'inquisitiveness', 'inquisitiveness', 'inquisitiveness', 'inquisitiveness', 'about', 'about']
+Training Output: ['value?', 'matter', 'matter', 'johnson', 'which', 'democracy', 'which', 'which', 'got', 'got', 'got']
+Training Output: ['value?', 'happened', 'happened', 'happened', 'happened', 'happened', "he's", "that's", "that's", "that's", "that's"]
+Training Output: ['value?', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all']
+Training Output: ['value?', 'may', 'his', 'or', 'harder', 'harder', 'harder', "wasn't", "wasn't", "wasn't", 'high']
+Training Output: ['value?', 'people', 'told', 'imagine', 'imagine', 'told', 'there', 'there', 'there', 'there', 'there']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', "we've", 'trust', 'she', 'she', 'she', 'she', 'inquisitiveness', 'inquisitiveness', 'about', 'our']
+Training Output: ['value?', 'war', 'continues', 'johnson', 'president', 'a', 'a', 'a', '<pad>', '<pad>', '<pad>']
+Training Output: ['value?', 'have', 'have', 'have', 'have', 'have', 'have', 'have', 'that', 'that', 'that']
+Training Output: ['value?', 'can', 'can', 'can', 'can', 'can', 'remember', 'remember', 'remember', 'remember', 'remember']
+Training Output: ['value?', 'can', 'can', 'can', 'can', 'can', 'can', 'can', 'can', 'i', 'i']
+Training Output: ['value?', 'first', 'johnson', 'she', 'decided', 'trust', 'she', 'inquisitiveness', 'inquisitiveness', 'would', 'about']
+Training Output: ['value?', 'boy', 'she', 'she', 'inquisitiveness', 'would', 'if', 'there', 'there', 'there', 'there']
+Training Output: ['value?', 'story', 'now', 'with', 'with', 'for', 'for', 'his', 'his', 'his', 'his']
+Training Output: ['value?', 'i', 'would', 'would', 'would', 'would', 'would', 'would', 'would', 'would', 'when']
+Training Output: ['value?', 'i', 'remarked', 'know', 'know', 'know', 'know', 'know', 'know', 'know', 'know']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'i', 'i', 'i', 'i', 'i', 'i', 'i', 'i', 'i', 'i']
+Training Output: ['value?', 'want', 'parties', 'time', 'what', 'another', 'another', 'our', 'our', 'of', 'so']
+Training Output: ['value?', 'nor', 'nor', 'nor', 'nor', 'nor', 'nor', 'endless', 'doing', 'doing', 'doing']
+Training Output: ['value?', 'war', 'he', 'both', 'both', 'both', 'both', 'both', 'both', 'both', 'both']
+Training Output: ['value?', 'those', 'which', 'which', 'which', 'which', 'which', 'which', 'which', 'which', 'which']
+Training Output: ['value?', "that's", 'would', 'would', 'would', 'when', 'when', 'when', 'when', 'when', 'when']
+Training Output: ['value?', 'mighty', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'just', 'lived', 'lived', 'lived', 'lived', 'that', 'that', 'that', 'that', 'after']
+Training Output: ['value?', 'shared', 'shared', 'shared', 'shared', 'shared', 'valued', 'valued', 'valued', 'through', 'still']
+Training Output: ['value?', 'money', 'better', "he's", "he's", 'boy', 'kindergarten', 'reached', 'there', 'there', 'there']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'betsy', 'extra', 'betsy', 'betsy', 'now', 'now', 'now', 'now', 'now', 'now']
+Training Output: ['value?', 'a', 'him', 'him', 'him', 'him', 'him', 'him', 'him', 'him', 'him']
+Training Output: ['value?', 'grade', 'even', 'even', 'even', 'even', 'even', 'even', 'even', 'have', 'even']
+Training Output: ['value?', 'it', 'is', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in']
+Training Output: ['value?', "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's"]
+Training Output: ['value?', 'evening', 'evening', 'evening', 'first', 'we', 'just', 'just', 'just', 'just', 'just']
+Training Output: ['value?', 'got', 'got', 'got', 'got', 'got', 'got', 'our', 'our', 'our', 'our']
+Training Output: ['value?', "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's"]
+Training Output: ['value?', 'give', "he's", 'give', 'give', 'give', 'give', 'yourselves', 'everybody', 'time', 'students']
+Training Output: ['value?', 'complicated', 'complicated', 'politician', 'as', 'president', 'president', 'president', 'johnson', 'called', 'called']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'knew', 'raced', 'give', 'give', 'give', 'give', 'give', 'give', 'give', 'shared']
+Training Output: ['value?', 'thank', 'thank', 'thank', 'thank', 'thank', 'thank', 'indonesia', 'answer', 'would', 'would']
+Training Output: ['value?', 'give', "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's"]
+Training Output: ['value?', 'and', 'and', 'and', 'and', 'and', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>']
+Training Output: ['value?', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in']
+Training Output: ['value?', 'a', 'who', 'by', 'by', 'by', 'by', 'by', 'by', 'by', 'by']
+Training Output: ['value?', 'have', 'for', 'for', 'for', 'for', 'for', 'for', 'for', 'for', 'for']
+Training Output: ['value?', 'mr.', 'give', 'give', 'give', 'give', 'give', 'give', 'which', 'which', 'which']
+Training Output: ['value?', 'walter', 'would', 'would', 'would', 'would', 'when', 'when', 'when', 'when', 'when']
+Training Output: ['value?', 'named', 'hello', "he's", 'democracy', 'endless', 'people', 'people', 'people', 'people', 'people']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'this', 'complicated', 'one', 'this', 'would', 'would', 'would', 'would', 'would', 'would']
+Training Output: ['value?', 'lost', 'lost', 'lost', 'lost', 'lost', 'lost', 'lost', 'lost', 'lost', 'lost']
+Training Output: ['value?', 'fire', 'happened', 'his', 'his', 'his', 'his', 'his', 'his', 'his', 'his']
+Training Output: ['value?', 'she', 'me', "he's", "he's", "it's", 'hello', 'hello', 'hello', 'hello', 'hello']
+Training Output: ['value?', 'even', 'even', 'even', 'even', 'was', 'was', 'was', 'was', 'was', 'was']
+Training Output: ['value?', 'give', "it's", "it's", 'everybody!', 'everybody!', 'everybody!', '.', '.', '.', '.']
+Training Output: ['value?', 'president', 'president', 'naturally', 'called', 'naturally', 'naturally', 'which', 'which', 'which', 'which']
+Training Output: ['value?', 'being', 'being', 'being', 'today', 'today', 'time', 'time', 'time', '<pad>', 'across']
+Training Output: ['value?', 'fire', 'happened', 'betsy', 'today"?', 'today"?', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'knew', 'believed', 'that', 'that', 'that', 'that', 'that', 'that', 'that', 'that']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'news', 'got', 'presidents', 'presidents', 'presidents', 'presidents', 'shrunk', 'shrunk', 'shrunk', 'shrunk']
+Training Output: ['value?', 'live', 'would', 'would', 'would', 'would', 'would', 'would', 'would', 'would', 'would']
+Training Output: ['value?', 'endless', 'not', 'johnson', 'yourselves', 'if', 'and', 'and', 'and', 'and', '<pad>']
+Training Output: ['value?', "it's", "it's", "it's", "it's", "it's", "it's", "it's", "it's", "it's", "it's"]
+Training Output: ['value?', 'temptation', 'high', 'high', 'high', 'high', 'high', 'high', 'high', 'high', 'high']
+Training Output: ['value?', 'seemed', 'lessons', 'give', 'give', 'give', 'give', 'give', 'give', 'i', 'hello']
+Training Output: ['value?', 'cold', 'lost', 'lost', 'lost', 'lost', 'lost', 'lost', 'lost', 'lost', 'lost']
+Training Output: ['value?', "didn't", 'of', 'of', 'of', 'for', 'for', 'for', 'for', 'for', 'for']
+Training Output: ['value?', 'with', 'with', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'may', 'which', 'endless', 'not', 'world', 'world', 'world', 'world', 'world', 'all']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'earned', 'wakefield', 'wakefield', 'for', 'wakefield', 'wakefield', 'an', 'an', 'an', 'an']
+Training Output: ['value?', '.', 'today"?', 'now', 'give', 'give', 'give', 'give', 'give', 'give', 'give']
+Training Output: ['value?', 'him', 'him', 'him', 'him', 'you', 'you', 'you', 'you', 'you', 'know']
+Training Output: ['value?', 'calling', 'yourselves', 'yourselves', 'give', 'give', 'yourselves', 'a', 'a', 'a', 'so']
+Training Output: ['value?', 'hello', 'monday', 'monday', 'monday', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>']
+Training Output: ['value?', 'matter', 'first', 'president', 'president', 'president', 'johnson', 'johnson', 'called', 'called', 'called']
+Training Output: ['value?', 'stories', 'and', 'and', 'and', 'the', 'the', 'the', 'the', 'the', 'the']
+Training Output: ['value?', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'just', 'got', 'got', 'got', 'got', 'got', 'got', 'got', 'got', 'got']
+Training Output: ['value?', 'able', 'decided', 'she', 'she', 'she', 'she', 'she', 'she', 'she', 'inquisitiveness']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'story', 'give', 'give', 'give', 'give', 'how', 'public', 'some', 'are', 'some']
+Training Output: ['value?', 'title', 'still', 'still', 'acute', 'acute', 'the', 'the', 'the', 'the', 'the']
+Training Output: ['value?', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after']
+Training Output: ['value?', 'remember', 'remember', 'remember', 'remember', 'remember', 'remember', 'remember', 'remember', 'remember', 'journalism']
+Training Output: ['value?', 'celebrate', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in']
+Training Output: ['value?', 'thing:', 'thing:', 'thing:', 'thing:', 'thing:', 'thing:', 'thing:', 'thing:', 'thing:', 'thing:']
+Training Output: ['value?', "he's", 'which', "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's"]
+Training Output: ['value?', 'have', 'have', 'have', 'have', 'for', 'for', 'for', 'for', 'for', 'for']
+Training Output: ['value?', 'they', 'me', 'career', 'give', 'not', 'president', 'president', 'johnson', 'remarked', 'remarked']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'everybody', 'everybody', 'those', 'imagine', 'one', 'one', 'one', 'one', 'all', 'able']
+Training Output: ['value?', 'and', "that's", "that's", "that's", "that's", "that's", "that's", "that's", "that's", "that's"]
+Training Output: ['value?', 'standard', 'standard', 'yourselves', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
+Training Output: ['value?', '<pad>', '<pad>', 'was', 'was', 'was', 'was', 'was', 'was', 'was', 'was']
+Training Output: ['value?', 'fire', 'happened', 'betsy', 'betsy', 'betsy', 'betsy', 'jobs', 'jobs', 'understand', 'understand']
+Training Output: ['value?', 'fail', 'not', 'not', 'not', 'which', 'democracy', 'endless', 'story', 'a', 'a']
+Training Output: ['value?', 'a', 'a', 'a', 'a', 'a', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'knew', '.', 'naive', 'we', 'we', 'we', 'we', 'we', 'we', 'we']
+Training Output: ['value?', 'lost', 'lost', 'lost', 'lost', 'lost', 'are', 'are', 'are', 'are', 'are']
+Training Output: ['value?', 'naturally', 'needless', 'needless', 'needless', 'needless', 'needless', 'needless', 'needless', 'needless', 'needless']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'lived', 'lived', 'lived', 'lived', 'that', 'that', 'that', 'that', 'that', 'that']
+Training Output: ['value?', 'got', 'has', 'from', 'cut', 'from', 'from', 'from', 'from', 'from', 'from']
+Training Output: ['value?', 'for', 'have', 'lived', 'have', 'have', 'have', 'have', 'have', 'have', 'that']
+Training Output: ['value?', 'president', 'president', 'president', 'president', 'president', 'president', 'people', 'people', 'people', 'needless']
+Training Output: ['value?', 'during', 'during', 'during', 'during', 'during', 'during', 'during', 'during', 'during', 'during']
+Training Output: ['value?', 'and', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'war', 'said', 'yourselves', 'know', 'know', 'know', 'know', 'know', 'know', 'know']
+Training Output: ['value?', 'way', 'way', 'way', 'if', 'if', 'if', 'if', 'if', 'if', 'if']
+Training Output: ['value?', "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's"]
+Training Output: ['value?', 'war', 'i', 'an', '.', 'department', 'after', 'after', 'after', 'after', 'after']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'glad', 'glad', 'glad', 'money', 'has', 'has', 'has', 'has', "wasn't", 'has']
+Training Output: ['value?', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in']
+Training Output: ['value?', 'lost', 'made', 'made', 'made', 'made', 'made', 'profession', 'by', 'by', 'by']
+Training Output: ['value?', 'know', 'know', 'know', 'know', 'know', 'know', 'know', 'know', 'know', 'know']
+Training Output: ['value?', 'so', 'of', 'of', 'of', 'of', 'of', '.', '.', '.', '.']
+Training Output: ['value?', 'war', 'called', 'president', 'johnson', 'called', 'called', 'called', 'called', 'as', 'is']
+Training Output: ['value?', 'got', 'got', 'got', 'got', 'got', 'got', 'got', 'got', 'got', 'from']
+Training Output: ['value?', 'city', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'story', 'give', 'give', "it's", "it's", "it's", "it's", "it's", "it's", "it's"]
+Training Output: ['value?', 'singular', 'president', 'democracy', 'replaced', 'kindergarten', 'both', 'got', 'got', 'got', 'got']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'this', 'of', 'of', 'of', 'of', 'a', 'a', 'a', 'a', 'a']
+Training Output: ['value?', 'temptation', 'give', 'give', 'give', 'give', 'give', 'give', 'give', 'give', 'give']
+Training Output: ['value?', 'inquisitiveness', 'not', 'which', 'yourselves', 'everybody!', 'give', 'give', 'hello', 'would', '.']
+Training Output: ['value?', 'replaced', 'she', 'replaced', 'which', 'which', 'which', 'nor', 'which', 'which', 'which']
+Training Output: ['value?', 'thank', 'thank', 'thank', 'thank', 'thank', 'thank', 'thank', 'thank', 'thank', 'thank']
+Training Output: ['value?', 'reporting', 'the', 'the', 'the', 'the', 'the', 'the', 'the', 'the', 'the']
+Training Output: ['value?', 'calling', 'much', 'thank', 'thank', 'thank', 'thank', 'thank', 'thank', 'thank', 'thank']
+Training Output: ['value?', 'lived', 'lived', 'lived', 'lived', 'lived', 'lived', 'lived', 'lived', 'that', 'that']
+Training Output: ['value?', 'story', "it's", "it's", "it's", "it's", "it's", "it's", "it's", "it's", "it's"]
+Training Output: ['value?', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'how', 'how', 'how', 'how', 'how', 'how', 'how', 'how', 'how', 'how']
+Training Output: ['value?', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
+Training Output: ['value?', 'endless', 'no', 'values', 'which', 'johnson', 'johnson', 'called', 'called', 'called', 'called']
+Training Output: ['value?', 'cold', 'idealist', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'thank', 'thank', 'thank', 'thank', '<pad>', 'thank', '<pad>', '<pad>', '<pad>', '<pad>']
+Training Output: ['value?', 'thing:', 'thing:', 'thing:', 'thing:', 'thing:', 'thing:', 'thing:', 'thing:', 'thing:', 'thing:']
+Training Output: ['value?', 'she', 'decided', 'decided', 'inquisitiveness', 'inquisitiveness', 'about', 'about', 'about', 'about', 'our']
+Training Output: ['value?', 'never', 'she', 'decided', 'decided', 'she', 'inquisitiveness', 'inquisitiveness', 'inquisitiveness', 'about', 'about']
+Training Output: ['value?', 'she', 'inquisitiveness', 'inquisitiveness', 'inquisitiveness', 'about', 'about', 'our', 'our', 'our', 'it']
+Training Output: ['value?', 'him', 'him', 'him', 'him', 'him', 'him', 'him', 'him', 'him', 'him']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'illuminating', 'standard', 'herself', "didn't", 'so', 'of', 'of', 'of', 'of', 'so']
+Training Output: ['value?', '.', 'journalism', 'feeling', 'down', 'did', "he's", 'democracy', "he's", 'needless', 'which']
+Training Output: ['value?', 'know', 'know', 'know', 'know', 'know', 'know', 'know', 'know', 'know', 'know']
+Training Output: ['value?', 'seemed', 'story', 'cannot', "he's", "he's", "he's", "he's", "he's", "he's", "he's"]
+Training Output: ['value?', 'by', 'by', 'by', 'by', 'by', 'by', 'by', 'by', 'by', 'honor']
+Training Output: ['value?', '.', '.', '.', '.', '.', '.', 'the', 'the', 'the', 'cronkite']
+Training Output: ['value?', 'she', 'which', 'which', 'which', 'when', 'cost', 'cost', 'just', 'just', 'just']
+Training Output: ['value?', 'president', 'president', 'president', 'president', 'president', 'johnson', 'called', 'called', 'called', 'called']
+Training Output: ['value?', 'story', 'not', 'monday', 'as', 'know', 'know', 'why', 'why', 'why', 'why']
+Training Output: ['value?', 'earned', 'by', 'by', 'by', 'by', 'by', 'by', 'his', 'his', 'his']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'our', 'still', 'story', 'hours', 'lost', 'lost', 'lost', 'lost', 'the', 'the']
+Training Output: ['value?', 'calling', 'much', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
+Training Output: ['value?', 'that', 'that', 'that', 'that', 'that', 'that', 'that', 'that', 'that', 'that']
+Training Output: ['value?', 'extra', 'hello', 'hello', 'hello', 'hello', 'value?', 'somehow', 'some', 'some', 'some']
+Training Output: ['value?', 'city', 'valued', 'parties', 'parties', 'parties', 'parties', 'parties', 'parties', 'parties', 'parties']
+Training Output: ['value?', 'celebrate', 'fire', 'profession', 'his', 'his', 'his', 'his', 'his', 'his', 'his']
+Training Output: ['value?', 'war', 'give', 'give', 'give', 'give', 'give', 'give', 'give', 'give', 'give']
+Training Output: ['value?', 'wakefield', 'wakefield', 'wakefield', 'an', 'by', '.', 'the', 'the', 'the', 'the']
+Training Output: ['value?', 'money', 'now', 'betsy', 'extra', 'extra', 'extra', 'lessons', 'yourselves', "it's", 'everybody!']
+Training Output: ['value?', 'endless', 'not', 'johnson', 'johnson', 'democracy', '<pad>', 'for', 'that', 'that', 'that']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'high', 'high', 'mighty', 'me', "didn't", 'cronkite', 'cronkite', 'cronkite', 'cronkite', 'cronkite']
+Training Output: ['value?', 'said', 'give', 'give', 'give', 'give', 'give', 'yourselves', 'endless', "he's", 'johnson']
+Training Output: ['value?', 'told', 'told', 'told', 'but', 'but', 'we', 'we', 'we', 'we', 'we']
+Training Output: ['value?', 'have', 'have', 'have', 'have', 'have', 'lived', 'lived', 'lived', 'lived', 'lived']
+Training Output: ['value?', 'he', 'the', 'the', 'the', 'the', 'the', 'the', 'the', 'the', 'the']
+Training Output: ['value?', 'of', 'of', 'by', 'by', 'by', 'by', 'by', 'by', 'by', 'by']
+Training Output: ['value?', 'first', 'johnson', 'president', 'president', 'president', 'president', 'johnson', 'called', 'called', 'called']
+Training Output: ['value?', 'high', 'mighty', 'well-informed', "it's", 'give', 'give', 'give', 'yourselves', 'a', 'a']
+Training Output: ['value?', 'many', 'many', 'many', 'many', 'many', 'many', 'difficult', 'today', 'today', 'across']
+Training Output: ['value?', 'his', 'his', 'his', 'his', 'his', 'his', 'his', 'his', 'his', 'his']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'president', 'president', 'johnson', 'president', 'president', 'president', 'president', 'first', 'endless', 'for']
+Training Output: ['value?', 'she', 'she', 'she', 'she', 'she', 'she', 'she', 'she', 'she', 'she']
+Training Output: ['value?', 'matter', 'johnson', 'johnson', 'which', 'which', 'which', 'which', 'which', 'which', 'which']
+Training Output: ['value?', 'meticulous', 'meticulous', 'reporting', 'got', 'got', 'from', 'from', 'from', 'from', 'from']
+Training Output: ['value?', 'lived', 'lived', 'lived', 'lived', 'lost', 'lost', 'lost', 'lost', 'lost', 'lost']
+Training Output: ['value?', 'of', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'got', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all']
+Training Output: ['value?', 'may', 'which', 'naturally', 'naturally', 'which', 'which', 'which', 'which', 'which', 'which']
+Training Output: ['value?', 'may', 'which', "it's", "it's", "it's", "it's", "it's", "it's", "it's", "it's"]
+Training Output: ['value?', 'how', 'how', 'how', 'how', 'how', 'how', 'how', 'how', 'how', 'how']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'lived', 'have', 'have', 'have', 'lost', 'lost', 'lost', 'lost', 'lost', 'lost']
+Training Output: ['value?', 'have', 'have', 'have', 'have', 'have', 'have', 'that', 'that', 'that', 'that']
+Training Output: ['value?', 'high', 'high', 'high', 'high', 'high', 'high', 'high', 'high', 'high', 'high']
+Training Output: ['value?', 'got', 'got', 'got', 'got', 'got', 'got', 'got', 'got', 'got', 'from']
+Training Output: ['value?', 'his', 'his', 'his', 'his', 'his', 'his', 'his', 'his', 'his', 'his']
+Training Output: ['value?', 'our', 'that', 'that', 'that', 'that', 'that', 'that', 'that', 'that', 'that']
+Training Output: ['value?', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in', 'in']
+Training Output: ['value?', '.', 'idealist', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'perspective', 'perspective', 'perspective', 'cold', 'hours', 'to', 'to', 'to', 'to', '.']
+Training Output: ['value?', 'just', 'so', 'so', 'so', 'so', 'so', 'so', 'so', 'so', 'so']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'without', 'so', 'so', 'so', 'so', 'of', 'of', 'of', 'of', 'the']
+Training Output: ['value?', 'his', 'his', 'his', 'his', 'his', 'his', 'his', 'his', 'his', 'his']
+Training Output: ['value?', 'mr.', 'story', 'herself', 'herself', 'herself', 'thank', 'monday', 'well-informed', 'yourselves', "he's"]
+Training Output: ['value?', 'she', 'complicated', 'journalism', 'when', 'world', 'world', 'world', 'world', 'world', 'world']
+Training Output: ['value?', 'believe', 'believe', 'believe', 'believe', 'believe', 'believe', 'believe', 'believe', 'believe', 'believe']
+Training Output: ['value?', 'johnson', 'democracy', 'naturally', 'naturally', 'naturally', 'naturally', 'naturally', 'naturally', 'naturally', 'naturally']
+Training Output: ['value?', 'believed', 'democracy', 'johnson', 'johnson', 'naturally', 'naturally', 'naturally', 'which', 'which', 'which']
+Training Output: ['value?', 'those', 'those', 'how', 'how', 'how', 'how', 'how', 'how', 'how', 'how']
+Training Output: ['value?', 'cronkite', 'cronkite', 'cronkite', 'cronkite', 'cronkite', 'cronkite', 'cronkite', 'lived', "didn't", 'the']
+Training Output: ['value?', 'would', 'would', 'would', 'would', 'would', 'when', 'when', 'when', 'when', 'when']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'stories', 'thank', 'you', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>', '<pad>']
+Training Output: ['value?', "didn't", "didn't", "didn't", 'the', 'the', 'the', 'the', 'the', 'the', 'the']
+Training Output: ['value?', 'mr.', 'yourselves', 'yourselves', 'without', 'a', 'a', 'a', 'a', 'a', 'a']
+Training Output: ['value?', 'give', 'give', 'give', 'would', 'he', 'he', 'he', 'he', 'he', 'he']
+Training Output: ['value?', 'even', 'cronkite', 'cronkite', 'cronkite', 'cronkite', 'cronkite', 'cronkite', 'cronkite', 'lived', 'lived']
+Training Output: ['value?', 'and', 'and', 'and', 'and', 'and', '<pad>', '<pad>', '<pad>', 'he', 'he']
+Training Output: ['value?', 'feeling', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'to', 'to', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'first', 'johnson', 'naturally', 'would', 'he', 'he', 'he', 'he', 'he', 'he']
+Training Output: ['value?', 'she', 'she', 'she', 'needless', 'inquisitiveness', 'would', 'how', 'how', 'how', 'how']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'first', 'president', 'johnson', 'both', 'thing:', 'title', 'murky', 'and', 'and', 'and']
+Training Output: ['value?', 'how', 'about', 'about', 'about', 'when', 'our', 'our', 'our', 'our', 'our']
+Training Output: ['value?', 'give', 'give', 'give', 'give', 'give', 'give', 'give', "it's", "it's", "it's"]
+Training Output: ['value?', 'for', 'that', 'that', 'that', 'that', 'that', 'that', 'that', 'that', 'that']
+Training Output: ['value?', 'boy', 'president', 'endless', "it's", "it's", "it's", "it's", "it's", "it's", "it's"]
+Training Output: ['value?', 'give', 'give', 'give', "it's", "it's", 'yourselves', 'a', 'reasonably', 'reasonably', 'give']
+Training Output: ['value?', 'believe', 'murky', 'murky', 'murky', 'murky', '--', '--', '--', '--', '--']
+Training Output: ['value?', 'first', 'walter', "that's", "that's", "that's", "that's", "that's", "that's", "that's", "that's"]
+Training Output: ['value?', 'first', 'president', 'johnson', 'called', 'called', 'called', 'called', 'is', 'is', 'is']
+Training Output: ['value?', 'first', 'values', 'endless', 'give', 'give', 'reunited', "it's", "it's", "it's", "it's"]
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'no', 'just', 'just', 'just', 'our', 'our', 'our', 'our', 'our', 'our']
+Training Output: ['value?', 'endless', 'which', 'no', 'just', 'so', 'so', 'so', 'so', 'so', 'so']
+Training Output: ['value?', 'president', 'complicated', 'an', 'an', 'an', 'an', 'an', 'an', 'an', 'an']
+Training Output: ['value?', 'lost', 'feeling', 'such', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'excited', 'not', "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's"]
+Training Output: ['value?', 'walter', 'for', 'for', 'for', 'have', 'have', 'have', 'have', 'lived', 'lived']
+Training Output: ['value?', 'earned', 'money', 'money', 'betsy', 'now', 'wakefield', 'wakefield', 'wakefield', 'wakefield', 'of']
+Training Output: ['value?', 'believed', 'have', 'have', 'have', 'have', 'have', 'the', 'the', 'the', 'the']
+Training Output: ['value?', 'it', 'it', 'it', 'it', 'it', 'it', 'it', 'it', 'it', 'it']
+Training Output: ['value?', 'replaced', 'she', 'president', 'president', 'president', 'johnson', 'johnson', 'johnson', 'johnson', 'called']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'few', 'kindergarten', 'kindergarten', 'kindergarten', 'or', 'or', 'or', 'or', 'or', 'or']
+Training Output: ['value?', 'illuminating', 'thank', 'thank', 'thank', 'thank', 'thank', 'thank', 'thank', 'thank', 'thank']
+Training Output: ['value?', 'war', 'give', 'give', 'give', 'give', 'give', 'give', 'give', 'give', 'give']
+Training Output: ['value?', 'temptation', 'standard', 'boy', 'me', 'president', "he's", "he's", "he's", "he's", "he's"]
+Training Output: ['value?', '.', '.', '.', '.', '.', '.', '.', 'the', 'the', 'the']
+Training Output: ['value?', 'traveled', 'traveled', 'came', 'came', 'and', 'and', 'and', 'and', 'and', 'and']
+Training Output: ['value?', '.', '.', '.', '.', 'the', 'the', 'the', 'the', 'the', 'the']
+Training Output: ['value?', 'betsy', 'extra', "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's"]
+Training Output: ['value?', 'have', 'have', 'lost', 'lost', 'lost', 'lost', 'lost', 'lost', 'lost', 'lost']
+Training Output: ['value?', 'no', 'spicer?', 'monday', 'understood', 'happened', 'happened', 'happened', 'happened', 'happened', 'happened']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'said', 'give', 'give', 'give', 'give', 'give', 'give', 'yourselves', "he's", "he's"]
+Training Output: ['value?', 'round', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all']
+Training Output: ['value?', 'harder', 'harder', 'harder', 'decided', 'decided', 'matter', 'me', 'me', 'me', 'extra']
+Training Output: ['value?', 'grade', "it's", 'which', 'which', 'which', 'which', 'which', 'which', 'which', 'which']
+Training Output: ['value?', 'and', 'year', 'give', 'and', 'and', 'and', 'and', 'and', 'and', 'and']
+Training Output: ['value?', 'began', 'she', 'she', 'she', 'inquisitiveness', 'about', 'this', 'this', 'this', 'this']
+Training Output: ['value?', 'a', 'him', 'him', 'him', 'him', 'him', 'him', 'him', 'him', 'him']
+Training Output: ['value?', 'just', 'so', 'so', 'so', 'so', 'so', 'so', 'so', 'so', 'so']
+Training Output: ['value?', 'beloved', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello']
+Training Output: ['value?', 'she', 'offer', 'wondering', 'the', 'the', 'the', 'the', 'the', 'the', 'the']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'harder', 'harder', 'betsy', 'teach', 'me', 'me', 'me', "he's", 'president', 'which']
+Training Output: ['value?', 'no', 'betsy', 'betsy', 'has', 'spoke', 'spoke', 'round', 'round', 'round', 'round']
+Training Output: ['value?', 'know', 'know', 'know', 'know', 'know', 'know', 'know', 'know', 'know', 'know']
+Training Output: ['value?', 'even', 'even', 'even', 'even', 'even', 'even', 'even', 'even', 'even', 'even']
+Training Output: ['value?', 'lived', 'lived', 'lived', 'lived', 'lived', 'lived', 'lived', 'lived', 'lived', 'lived']
+Training Output: ['value?', "he's", 'president', 'president', 'would', 'if', 'if', 'if', 'if', 'if', 'if']
+Training Output: ['value?', 'seemed', 'now', 'complaints', 'now', 'now', 'wakefield', 'wakefield', 'wakefield', 'wakefield', 'wakefield']
+Training Output: ['value?', 'public', 'public', 'got', 'got', 'got', 'our', 'our', 'our', 'our', 'our']
+Training Output: ['value?', 'president', 'president', 'president', 'president', 'johnson', 'called', 'called', 'called', 'called', 'called']
+Training Output: ['value?', 'with', 'with', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'boy', "he's", 'without', 'you', 'in', 'in', 'in', 'in', 'in', 'in']
+Training Output: ['value?', 'in', 'in', 'in', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
+Training Output: ['value?', 'first', 'matter', 'johnson', 'called', 'called', 'walter', 'after', 'after', 'after', 'after']
+Training Output: ['value?', "he's", "he's", 'called', 'as', 'as', 'as', 'as', 'as', 'as', 'as']
+Training Output: ['value?', 'story', 'give', 'give', 'give', 'yourselves', 'a', 'a', 'a', 'a', 'a']
+Training Output: ['value?', 'in', 'news', 'news', 'news', 'presidents', 'presidents', 'both', 'both', 'both', 'both']
+Training Output: ['value?', 'without', "that's", "that's", "that's", "that's", "that's", "that's", "that's", "that's", "that's"]
+Training Output: ['value?', 'betsy', 'betsy', 'with', 'with', 'with', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'cold', 'who', 'feeling', 'never', 'altering', 'better', 'wakefield', 'wakefield', 'wakefield', 'wakefield']
+Training Output: ['value?', 'believed', 'have', 'lived', 'that', 'that', 'that', 'that', 'that', 'that', 'that']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'replaced', 'yourselves', 'today', 'to', 'walter', 'walter', 'walter', 'walter', 'walter', 'walter']
+Training Output: ['value?', 'she', 'she', 'she', 'she', 'she', 'she', 'she', 'she', 'she', 'inquisitiveness']
+Training Output: ['value?', 'that', 'of', 'of', 'of', 'of', 'of', 'in', 'in', 'in', 'in']
+Training Output: ['value?', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'believe', 'made', 'by', 'by', 'by', 'by', 'has', 'of', 'of', 'in']
+Training Output: ['value?', 'believed', 'believed', 'believed', 'lived', 'lived', 'that', 'that', 'that', 'that', 'that']
+Training Output: ['value?', 'as', 'it', 'it', 'it', 'it', 'it', 'it', 'it', 'it', 'it']
+Training Output: ['value?', 'fire', 'there', 'there', 'there', 'there', 'there', 'his', 'there', 'there', 'there']
+Training Output: ['value?', 'bear?', 'journalism', 'send', 'of', 'of', 'of', 'of', 'a', 'a', 'a']
+Training Output: ['value?', 'replaced', 'she', 'she', 'inquisitiveness', 'would', 'would', 'would', 'would', 'would', 'would']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+REWARD:  (10, 11)
+Training Output: ['value?', 'year', 'give', "he's", "he's", "he's", "he's", "he's", "he's", "he's", "he's"]
+Training Output: ['value?', 'just', 'she', 'she', 'she', 'inquisitiveness', 'inquisitiveness', 'about', 'about', 'about', 'our']
+Training Output: ['value?', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Training Output: ['value?', 'betsy', 'decided', 'decided', 'decided', 'decided', 'decided', 'decided', 'decided', 'she', 'here']
+Training Output: ['value?', 'lived', 'invited', 'shared', 'she', 'join', 'got', 'is', 'is', 'it', 'it']
+Training Output: ['value?', 'all', 'of', 'of', 'of', 'of', 'for', 'for', 'for', 'for', 'for']
+Training Output: ['value?', 'round', 'of', 'of', 'of', 'of', 'of', 'of', 'of', 'of', 'in']
+Training Output: ['value?', 'named', 'give', 'give', 'give', 'give', 'give', 'give', 'give', 'give', 'replaced']
+Training Output: ['value?', 'wakefield', 'told', 'told', 'told', 'told', 'told', 'told', 'told', 'told', 'all']
+Training Output: ['value?', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all', 'all']
+Sample Test Output: ['we', 'also', 'us', 'with', 'a', 'being', 'hall', '.', 'obligation', 'to', '.']
+Sample Test Output: ['all', 'one', 'everybody', 'time', 'honor', '.', 'have', 'a', 'few', '.', '<pad>']

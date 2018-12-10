@@ -1,0 +1,546 @@
+Namespace(cuda=1, interactive=False, test=False)
+Directory already exists!
+VOCAB SIZE: 370
+Generating data ...
+Pretrain with MLE ...
+OUTPUT AFTER PRE-TRAINING
+Sample Output: ['forever', 'along', 'along', 'where', 'where', 'those', 'just', 'those', 'dumbing', 'america', 'where']
+Sample Output: ['officials', 'acute', 'where', 'teach', 'traveled', 'somehow', 'cars', 'tried', 'murky', 'price', 'them']
+Pretrain Discriminator ...
+Epoch [0], loss: 1.035554
+Epoch [0], loss: 1.037069
+Epoch [0], loss: 1.000204
+Epoch [1], loss: 1.000190
+Epoch [1], loss: 1.000038
+Epoch [1], loss: 1.000005
+Epoch [2], loss: 1.000040
+Epoch [2], loss: 1.002718
+Epoch [2], loss: 1.000207
+#####################################################
+Start Adversarial Training...
+
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [0] True Loss: -0.000000
+Train Output: ['regret', 'where', 'resisted', 'where', 'where', 'choose', 'cheapens', "didn't", 'cuts', 'told', 'him']
+Train Output: ['us', "didn't", 'know', 'where', 'know', 'just', 'knew', 'like', 'world', 'understood', 'fail']
+Train Output: ['shrunk', 'where', 'where', 'where', 'traveled', 'where', 'cheapens', "here's", 'during', 'murky', 'money']
+Train Output: ['can', 'where', 'where', 'where', "that's", 'those', 'somehow', 'said', 'cuts', 'teach', 'imagine']
+Train Output: ['loved', 'acute', 'where', 'imagine', 'where', 'title', 'they', 'complaints', 'dumbing', 'believed', 'also']
+Train Output: ["here's", 'resisted', 'where', 'where', 'reporting', 'hall', "here's", 'just', 'america', 'like', 'has']
+Train Output: ['the', 'told', 'naive', 'where', 'has', 'cars', 'dumbing', 'those', 'understand', 'where', 'where']
+Train Output: ['know', 'where', 'told', 'everywhere', 'may', 'just', 'just', "here's", 'price', 'understood', 'also']
+Train Output: ['stand', 'cars', '--', '--', 'where', 'no', 'just', 'out', 'join', 'stand', 'celebrate']
+Train Output: ['somehow', 'along', 'story', 'where', 'choose', 'along', 'those', 'walter', 'remarked', 'teach', 'with']
+Sample Output: ['never', 'acute', 'where', 'teach', 'traveled', 'somehow', 'they', 'like', 'murky', 'him', 'them']
+Sample Output: ["here's", 'along', 'often', 'where', 'has', 'murky', 'just', 'those', 'first', 'america', 'beloved']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [1] True Loss: -0.000000
+Train Output: ['loved', 'here', 'extra', 'difficult', 'officials', 'doing', 'not', 'those', 'meticulous', 'america', 'know']
+Train Output: ['our', 'naive', 'where', 'teach', 'where', 'cold', 'just', 'just', 'america', 'america', 'has']
+Train Output: ['us', 'johnson', 'story', 'where', 'where', 'feeling', 'just', 'just', 'calling', '<sos>', 'know']
+Train Output: ['stand', 'along', "it's", 'well-informed', 'where', 'seemed', 'those', 'remarked', 'where', 'told', 'along']
+Train Output: ['she', 'resisted', '--', 'story', 'beloved', 'those', 'choose', 'us', 'dumbing', 'johnson', 'today?']
+Train Output: ["didn't", 'like', "walter's", 'resisted', 'where', 'where', 'just', 'naturally', "here's", 'believed', 'where']
+Train Output: ['instant', 'the', 'one', 'where', 'traveled', "that's", 'middle', 'naturally', 'america', 'america', 'where']
+Train Output: ['thank', 'where', 'where', 'where', 'where', 'somehow', "here's", 'rattle', "here's", 'fail', '<sos>']
+Train Output: ['us', 'told', 'seat', 'difficult', 'know', 'may', 'higher', 'complaints', 'price', 'him', 'cuts']
+Train Output: ['loved', 'commentary', 'difficult', 'where', 'you', 'those', 'lived', "here's", 'starting', 'can', 'where']
+Sample Output: ['officials', 'acute', 'where', 'everywhere', 'herself', 'this', 'just', 'just', 'much', 'him', 'them']
+Sample Output: ["here's", 'along', 'often', 'where', 'has', 'those', "here's", 'those', 'first', 'america', 'where']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [2] True Loss: -0.000000
+Train Output: ['know', 'where', 'along', 'cycle', 'where', 'murky', 'somehow', "here's", "here's", 'him', 'with']
+Train Output: ['stand', 'along', 'thank', 'where', 'seemed', 'naturally', 'may', 'much', 'price', "wasn't", 'grateful']
+Train Output: ['officials', 'where', 'story', 'along', 'those', 'us', 'not', 'shrunk', 'told', 'cycle', 'believed']
+Train Output: ['know', 'told', 'resisted', 'where', 'where', 'know', 'lived', 'were', 'understand', 'the', 'where']
+Train Output: ['the', 'thank', 'resisted', 'where', 'where', 'know', 'just', 'were', 'understand', 'the', 'where']
+Train Output: ["it's", 'where', 'where', "it's", 'campaign', 'continues', 'early', 'naturally', 'go', 'understood', 'another']
+Train Output: ['cuts', 'where', 'where', 'where', 'political', 'cars', 'complaints', 'seemed', "he's", 'told', 'honor']
+Train Output: ['know', "didn't", 'know', 'where', 'know', 'just', 'just', 'commentary', 'remarked', 'celebrate', 'resisted']
+Train Output: ['stand', 'like', '--', 'where', 'where', 'people', '.', 'high-tech', '<sos>', 'understand', 'by']
+Train Output: ['just', 'where', 'story', 'where', 'where', 'even', 'naturally', 'rattle', 'told', 'on', 'dumbing']
+Sample Output: ['loved', 'along', 'along', 'where', 'where', 'murky', 'just', 'those', 'first', 'america', 'where']
+Sample Output: ['so', 'acute', 'where', 'difficult', 'traveled', 'somehow', 'cars', 'dumbing', 'murky', 'him', 'them']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [3] True Loss: -0.000000
+Train Output: ['news', '--', 'everywhere', "walter's", 'political', 'those', 'where', 'remarked', 'dumbing', 'told', 'where']
+Train Output: ['cycle', 'where', 'story', 'where', 'where', "here's", 'just', 'indonesia', 'america', '<sos>', 'honor']
+Train Output: ['america', 'story', 'the', 'where', 'you', 'those', 'actually', "here's", 'starting', 'cycle', 'where']
+Train Output: ['stand', 'acute', 'told', 'where', 'those', 'those', 'just', "here's", 'helped', 'where', '--']
+Train Output: ["here's", '--', 'where', 'where', 'telephone', 'simple', 'just', 'calling', 'calling', '<sos>', 'has']
+Train Output: ['know', 'also', 'like', 'beloved', 'may', 'war', 'just', 'reasonably', 'told', 'resisted', 'where']
+Train Output: ['knew', 'told', 'where', 'the', 'along', 'dumbing', 'bit', 'actually', 'naturally', 'like', 'where']
+Train Output: ['career', 'where', 'along', 'know', 'where', 'doing', 'somehow', "here's", "here's", 'where', 'with']
+Train Output: ['forever', 'came', 'resisted', 'where', 'political', 'find', 'just', 'just', "here's", "here's", 'resisted']
+Train Output: ['officials', 'thank', 'story', 'us', 'where', 'those', 'somehow', "wasn't", 'understand', 'during', 'him']
+Sample Output: ["here's", 'along', 'along', 'where', 'has', 'murky', "here's", 'those', 'dumbing', 'america', 'where']
+Sample Output: ['stand', 'thank', 'where', 'teach', 'traveled', 'somehow', 'they', 'just', 'murky', 'him', 'them']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [4] True Loss: -0.000000
+Train Output: ['just', 'them', 'where', 'where', 'where', 'reporting', 'just', 'just', 'america', 'america', 'has']
+Train Output: ['know', 'them', 'where', 'herself', "here's", 'know', 'just', 'just', 'calling', '<sos>', 'know']
+Train Output: ['extraordinary', "here's", 'resisted', 'where', 'where', 'choose', 'find', "didn't", 'cuts', 'told', 'him']
+Train Output: ['news', 'where', 'story', 'where', 'where', 'even', 'naturally', 'tried', 'told', 'on', 'johnson']
+Train Output: ['us', "didn't", 'where', 'where', "here's", 'reporting', 'just', 'just', 'america', 'america', 'has']
+Train Output: ["it's", 'like', 'resisted', "it's", 'where', 'an', 'just', 'choose', "he's", 'resisted', 'where']
+Train Output: ['officials', 'like', 'along', 'where', 'believed', 'those', 'political', 'never', "he's", 'understand', '<sos>']
+Train Output: ['know', 'along', 'where', 'would', 'would', 'somehow', 'just', 'just', 'want', 'officials', 'also']
+Train Output: ['stand', 'where', '--', '--', 'where', 'say', 'extra', 'out', 'johnson', 'through', 'believed']
+Train Output: ['so', 'cuts', 'us', 'beloved', 'choose', 'along', 'choose', 'even', 'remarked', 'teach', 'with']
+Sample Output: ['indonesia', 'along', 'often', 'where', 'where', 'murky', 'reporting', 'those', 'first', 'america', 'where']
+Sample Output: ['so', 'acute', 'where', 'political', 'herself', 'somehow', 'just', 'just', 'murky', 'him', 'one']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [5] True Loss: -0.000000
+Train Output: ["it's", 'where', 'helped', '--', 'where', 'feeling', 'just', 'along', 'johnson', 'stand', 'celebrate']
+Train Output: ['forever', 'told', 'politician', 'story', 'would', 'beloved', 'rattle', "here's", 'such', 'along', "that's"]
+Train Output: ['--', '--', 'story', 'where', 'choose', 'along', 'those', 'even', 'remarked', 'teach', 'with']
+Train Output: ['so', 'seniors', 'where', 'know', "it's", 'extra', 'choose', 'high-tech', 'tuning', 'johnson', 'story']
+Train Output: ['know', 'often', "he's", 'where', 'choose', 'those', 'doing', 'seemed', 'much', 'him', 'where']
+Train Output: ["it's", 'like', '--', 'where', 'well-informed', 'cars', 'just', 'johnson', 'price', 'naturally', 'him']
+Train Output: ['stand', 'told', 'everywhere', 'has', 'officials', 'may', 'advertising', 'never', 'understand', 'where', 'also']
+Train Output: ['us', 'johnson', "walter's", 'yes', 'know', 'even', 'just', 'just', 'america', '<sos>', 'has']
+Train Output: ["didn't", 'loved', 'extra', 'where', 'where', 'objective', 'just', "here's", 'naturally', '<sos>', 'reached']
+Train Output: ['naturally', 'where', 'where', 'where', 'where', 'no', 'somehow', 'personally', 'cuts', 'teach', 'imagine']
+Sample Output: ["here's", 'along', 'often', 'where', 'has', 'reporting', 'just', 'those', 'first', 'america', 'where']
+Sample Output: ['there', 'acute', 'where', 'teach', 'herself', 'somehow', 'dumbing', 'tried', 'murky', 'him', 'them']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [6] True Loss: -0.000000
+Train Output: ['know', 'them', 'story', 'where', 'know', 'where', 'just', 'when', '<sos>', 'politician', 'where']
+Train Output: ['stand', 'where', 'where', 'where', 'me', 'somehow', 'feeling', 'rattle', 'rattle', 'fail', '<sos>']
+Train Output: ['stand', 'like', 'along', 'where', 'officials', 'cars', 'just', 'johnson', 'price', 'understood', 'him']
+Train Output: ['walter', 'thank', 'resisted', 'where', 'where', 'know', 'just', 'were', 'understand', 'the', 'where']
+Train Output: ['company', 'where', 'where', 'where', 'know', 'beloved', 'find', "here's", 'the', 'murky', 'money']
+Train Output: ['loved', 'another', 'teach', 'where', 'know', 'would', 'feeling', 'said', 'young', 'more', 'where']
+Train Output: ['did', 'acute', 'thank', 'everywhere', 'title', 'where', "here's", 'naturally', 'told', "here's", 'them']
+Train Output: ['officials', 'where', 'where', 'where', 'where', 'no', 'somehow', 'like', 'cuts', 'teach', 'imagine']
+Train Output: ['stand', 'along', 'thank', 'thank', "that's", 'may', 'personally', 'remarked', 'where', 'understood', 'along']
+Train Output: ['never', 'here', 'story', 'would', 'know', 'would', 'not', 'those', 'meticulous', 'america', 'has']
+Sample Output: ['officials', 'acute', 'where', 'teach', 'traveled', 'somehow', 'just', 'like', 'murky', 'him', 'them']
+Sample Output: ["here's", 'along', 'along', 'where', 'has', 'murky', 'just', 'those', 'first', 'america', 'where']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [7] True Loss: -0.000000
+Train Output: ['the', 'acute', 'where', 'war', 'would', 'along', 'never', 'higher', 'on', 'difficult', 'where']
+Train Output: ['stand', 'where', 'where', 'where', 'me', 'may', 'just', 'rattle', "didn't", 'on', '<sos>']
+Train Output: ['endless', 'story', "walter's", 'resisted', 'where', 'where', 'an', 'naturally', 'naturally', 'where', 'where']
+Train Output: ['she', 'where', 'hello', 'where', 'indonesia', 'personally', 'officials', 'doing', 'people', 'where', 'often']
+Train Output: ['know', 'told', 'like', 'where', 'where', 'how', 'just', 'reasonably', 'told', 'reached', 'where']
+Train Output: ['know', 'where', 'also', 'everywhere', 'may', 'just', 'just', 'feeling', 'price', 'cuts', 'also']
+Train Output: ['us', 'us', '--', 'political', 'one', 'reporting', 'just', 'just', 'calling', 'america', 'know']
+Train Output: ['advertising', 'where', "didn't", 'where', 'may', 'doing', 'just', 'feeling', 'price', 'understood', 'also']
+Train Output: ["walter's", 'where', 'along', 'cycle', 'where', 'title', 'even', "here's", 'world', 'him', 'with']
+Train Output: ['wakefield', "it's", 'story', 'story', 'would', 'just', 'just', 'dumbing', 'told', 'yes', 'where']
+Sample Output: ["here's", 'acute', 'where', 'everywhere', 'traveled', 'may', 'cars', 'like', 'murky', 'him', 'them']
+Sample Output: ["here's", 'along', 'often', 'where', 'where', 'murky', "here's", 'those', 'first', 'america', 'where']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [8] True Loss: -0.000000
+Train Output: ["didn't", 'also', 'where', 'teach', 'traveled', 'cold', 'just', 'just', 'america', 'america', 'has']
+Train Output: ["it's", 'acute', '--', 'where', 'live', 'know', 'just', 'naturally', 'told', 'everywhere', 'them']
+Train Output: ['loved', 'where', 'hello', 'where', 'may', 'where', 'officials', 'doing', 'story', 'where', 'with']
+Train Output: ['stand', 'dumbing', 'where', 'extra', 'those', 'somehow', 'cars', 'murky', '<sos>', 'where', 'during']
+Train Output: ['complicated', 'story', 'resisted', 'where', 'where', 'where', 'just', 'just', 'told', 'hello', 'where']
+Train Output: ['us', 'us', '--', 'teach', 'afraid', 'indonesia', 'just', 'just', 'america', '<sos>', 'has']
+Train Output: ['the', 'where', 'where', 'where', 'me', 'reporting', 'feeling', 'rattle', "didn't", 'on', 'value?']
+Train Output: ['she', 'where', 'hello', 'where', 'if', 'him', 'officials', 'doing', 'story', 'where', 'often']
+Train Output: ['advertising', 'like', 'story', 'where', 'where', 'where', 'such', 'just', 'along', '<sos>', 'campaign']
+Train Output: ['never', 'where', 'where', 'extra', 'murky', 'somehow', 'they', 'murky', 'more', 'where', 'during']
+Sample Output: ['did', 'along', 'along', 'where', 'where', 'reporting', 'just', 'those', 'first', 'america', 'where']
+Sample Output: ['never', 'acute', 'where', 'teach', 'traveled', 'somehow', 'cars', 'just', 'much', 'him', 'war']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [9] True Loss: -0.000000
+Train Output: ['where', 'like', 'where', 'where', 'officials', 'where', 'just', 'johnson', 'price', 'america', 'him']
+Train Output: ['officials', 'told', 'everywhere', 'remember', 'would', 'would', 'dumbing', 'not', 'naturally', 'murky', 'traveled']
+Train Output: ['endless', 'resisted', 'where', 'where', 'may', 'know', "here's", 'story', 'like', '<sos>', 'has']
+Train Output: ["didn't", 'where', 'another', 'teach', 'also', 'know', 'they', 'presidents', 'during', 'murky', '<sos>']
+Train Output: ["didn't", 'naive', 'where', 'teach', 'where', 'cold', 'just', 'just', 'calling', '<sos>', 'has']
+Train Output: ['stand', 'along', 'story', 'where', 'choose', 'just', 'choose', 'much', 'remarked', 'teach', 'with']
+Train Output: ['us', "didn't", 'where', 'where', 'one', 'just', 'just', 'just', 'america', 'america', 'has']
+Train Output: ['the', 'where', 'where', 'where', 'where', 'no', 'somehow', 'like', 'cuts', 'teach', 'imagine']
+Train Output: ["walter's", 'where', 'along', 'know', 'where', 'murky', 'even', "here's", 'commentary', 'him', 'with']
+Train Output: ['officials', 'came', '--', 'where', 'where', 'know', 'just', 'naturally', 'told', 'murky', 'them']
+Sample Output: ["here's", '--', 'often', 'where', 'where', 'those', 'just', 'those', 'first', 'america', 'where']
+Sample Output: ['never', 'thank', 'where', 'teach', 'herself', 'this', 'they', 'dumbing', 'murky', 'price', 'them']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [10] True Loss: -0.000000
+Train Output: ['feeling', "he's", 'thank', 'where', 'regret', 'officials', 'somehow', 'somehow', 'murky', 'also', 'honest']
+Train Output: ['complicated', 'during', 'where', "didn't", 'would', 'along', 'choose', 'higher', 'on', 'go', 'where']
+Train Output: ['feeling', 'where', 'cycle', 'where', 'where', "here's", 'indonesia', 'just', 'calling', 'america', 'has']
+Train Output: ['know', 'told', 'where', 'naive', 'know', 'doing', 'reporting', 'like', 'much', '<sos>', 'understood']
+Train Output: ["didn't", "didn't", 'story', 'where', 'know', 'between', 'just', 'monday', '<sos>', 'trusted', 'where']
+Train Output: ['officials', 'where', 'where', 'where', 'political', 'cars', 'complaints', 'seemed', "he's", 'told', 'have']
+Train Output: ['the', 'where', 'where', 'where', 'where', 'feeling', 'reporting', 'excited', 'ahead', 'seniors', 'him']
+Train Output: ["it's", 'along', 'title', 'along', 'where', 'where', 'just', 'down', 'cuts', 'them', 'where']
+Train Output: ['officials', 'like', 'where', 'would', 'would', 'somehow', 'never', 'just', 'vociferous', 'know', 'also']
+Train Output: ['stand', 'story', 'naive', 'them', 'traveled', 'know', 'just', 'just', 'america', 'america', 'naive']
+Sample Output: ['never', 'acute', 'seniors', 'teach', 'herself', 'may', 'just', 'tried', 'murky', 'him', 'them']
+Sample Output: ["here's", 'along', 'often', 'where', 'has', 'those', 'just', 'those', 'first', 'america', 'where']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [11] True Loss: -0.000000
+Train Output: ['loved', 'cycle', 'extra', 'difficult', 'officials', 'would', 'not', 'those', 'told', 'america', 'know']
+Train Output: ['stand', 'like', 'also', 'story', 'resisted', 'offer', 'just', 'choose', 'stuck', 'resisted', 'where']
+Train Output: ['loved', 'extra', 'where', 'during', 'well-informed', 'extra', 'choose', 'high-tech', 'tuning', 'him', 'tuning']
+Train Output: ['america', 'where', 'where', 'where', 'beloved', 'no', 'somehow', 'personally', 'feeling', 'teach', 'imagine']
+Train Output: ['us', 'extra', 'extra', 'know', 'well-informed', 'extra', 'choose', 'high-tech', 'cuts', 'johnson', 'naive']
+Train Output: ['loved', 'often', 'story', 'difficult', 'officials', 'doing', 'not', 'those', 'meticulous', 'america', 'honor']
+Train Output: ['stand', 'like', 'go', 'where', 'seemed', 'those', 'choose', 'cuts', 'price', 'understand', 'dumbing']
+Train Output: ['shrunk', 'where', 'where', 'the', 'beloved', 'imagine', 'early', 'naturally', 'go', 'understood', 'another']
+Train Output: ['shrunk', '--', 'thank', 'were', 'where', 'seemed', 'those', 'cuts', 'where', 'told', 'along']
+Train Output: ["here's", 'resisted', 'where', 'where', 'reporting', 'hall', "here's", 'just', 'america', 'america', 'has']
+Sample Output: ["here's", 'along', 'along', 'where', 'where', 'those', "here's", 'those', 'first', 'america', 'where']
+Sample Output: ['never', 'acute', 'where', 'teach', 'herself', "that's", 'cars', 'just', 'understood', 'him', 'him']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [12] True Loss: -0.000000
+Train Output: ['forever', 'told', 'them', 'the', 'this', 'may', 'somehow', 'complaints', 'cuts', 'him', 'cuts']
+Train Output: ['know', 'where', "didn't", 'where', 'may', 'just', 'just', 'feeling', 'price', 'understood', 'told']
+Train Output: ['the', 'where', 'story', 'where', 'remember', 'just', 'dumbing', 'called', 'first', 'understand', 'them']
+Train Output: ["it's", 'like', 'thank', 'where', 'seemed', 'reporting', 'may', 'much', 'price', "wasn't", 'dumbing']
+Train Output: ['loved', 'told', "here's", 'where', 'where', 'where', 'just', 'naturally', 'calling', 'america', 'has']
+Train Output: ['stand', 'like', 'along', 'where', 'officials', 'where', 'just', 'dumbing', 'price', 'naturally', 'him']
+Train Output: ['forever', 'where', 'where', 'where', 'where', 'cars', 'endless', 'seemed', "he's", 'naturally', 'has']
+Train Output: ['officials', 'also', 'everywhere', 'has', 'believed', 'would', 'dumbing', 'not', 'naturally', 'murky', 'his']
+Train Output: ['stand', 'where', 'story', 'where', 'along', 'reporting', 'dumbing', 'called', 'first', 'grateful', 'valued']
+Train Output: ['cuts', 'where', 'naive', 'where', 'believed', 'those', 'feeling', 'never', "he's", 'told', '<sos>']
+Sample Output: ["here's", 'acute', 'where', 'would', 'herself', 'somehow', 'just', 'like', 'murky', 'him', 'them']
+Sample Output: ["here's", 'along', 'often', 'where', 'where', 'murky', 'just', 'those', 'first', 'america', 'where']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [13] True Loss: -0.000000
+Train Output: ['remarked', 'where', 'thank', 'where', 'where', 'feeling', 'reporting', 'commentary', 'seemed', 'can', 'him']
+Train Output: ['us', 'told', 'politician', '<eos>', 'would', 'cars', 'somehow', "here's", 'kindergarten', 'also', 'where']
+Train Output: ['on', 'acute', 'resisted', 'where', 'where', "it's", 'just', 'just', "here's", 'america', 'resisted']
+Train Output: ["here's", 'acute', 'where', 'imagine', 'where', 'title', 'they', 'complaints', 'dumbing', 'cuts', 'with']
+Train Output: ['shrunk', 'where', 'where', 'where', 'beloved', 'no', 'somehow', 'like', 'cuts', 'celebrate', 'imagine']
+Train Output: ['walter', 'where', 'along', 'where', 'today"?', 'as', 'just', 'johnson', "here's", 'said', 'seemed']
+Train Output: ['extraordinary', "didn't", 'where', 'where', 'where', 'just', 'just', 'just', 'america', 'naive', 'naive']
+Train Output: ['forever', 'often', "he's", 'where', 'along', 'those', 'doing', 'seemed', 'understood', 'him', 'where']
+Train Output: ['like', 'where', 'where', 'where', 'would', 'those', 'american', 'to', 'overseas', 'naturally', 'stand']
+Train Output: ['cuts', 'where', 'where', 'where', 'political', 'cars', 'feeling', 'seemed', "he's", 'told', 'has']
+Sample Output: ["here's", 'along', 'often', 'where', 'has', 'those', 'just', 'those', 'first', 'america', 'where']
+Sample Output: ["here's", 'acute', 'where', 'teach', 'herself', 'knew', 'dumbing', 'just', 'murky', 'him', 'them']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [14] True Loss: -0.000000
+Train Output: ['feeling', 'like', 'one', 'where', 'has', 'know', 'my', 'somehow', 'lost', 'along', 'where']
+Train Output: ['officials', 'where', 'where', 'where', 'where', 'cars', 'feeling', 'dumbing', "he's", 'told', 'know']
+Train Output: ['us', 'us', 'where', 'herself', 'one', 'just', 'just', 'just', 'calling', 'calling', 'has']
+Train Output: ['lost', 'also', 'resisted', 'teach', 'where', 'cold', "here's", 'just', 'america', 'america', 'has']
+Train Output: ['so', 'like', "didn't", 'where', 'resisted', 'traveled', 'those', 'politician', 'certainty', 'told', 'where']
+Train Output: ['us', 'them', 'one', 'where', 'telephone', 'just', 'just', 'just', 'calling', 'america', 'has']
+Train Output: ["it's", 'acute', 'thank', 'along', 'know', 'where', "here's", 'naturally', 'cuts', 'celebrate', 'them']
+Train Output: ['america', 'another', 'extra', 'where', 'beloved', 'choose', 'such', 'said', 'young', 'price', 'celebrate']
+Train Output: ['the', 'told', 'where', 'where', 'know', 'round', 'find', 'such', '--', 'murky', 'through']
+Train Output: ['remarked', 'where', 'where', 'where', 'where', 'feeling', 'for', 'excited', 'price', 'seniors', 'him']
+Sample Output: ["here's", 'along', 'along', 'where', 'where', 'those', 'just', 'those', 'first', 'america', 'where']
+Sample Output: ['advertising', 'acute', 'where', 'everywhere', 'extra', 'somehow', 'cars', 'just', 'much', 'him', 'them']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [15] True Loss: -0.000000
+Train Output: ['stand', 'along', 'thank', 'well-informed', "that's", 'naturally', 'those', 'cuts', 'trusted', 'understood', 'along']
+Train Output: ['like', 'where', 'where', 'where', 'would', 'those', 'american', "didn't", 'out', 'told', 'know']
+Train Output: ['know', 'replaced', 'where', 'teach', 'there', "it's", 'not', 'vociferous', 'like', 'understand', 'watching']
+Train Output: ['like', 'like', 'thank', 'where', 'seemed', 'naturally', 'may', 'never', 'price', 'young', 'murky']
+Train Output: ['us', 'also', 'where', 'where', 'where', 'just', 'just', 'just', 'america', 'america', 'has']
+Train Output: ['matter', 'where', 'where', 'where', 'would', 'those', 'american', "didn't", 'out', 'naturally', 'know']
+Train Output: ['endless', 'told', 'everywhere', 'his', 'would', 'would', 'dumbing', 'not', 'naturally', 'murky', 'them']
+Train Output: ['advertising', 'resisted', 'where', 'johnson', 'murky', "it's", 'may', 'vociferous', 'like', 'seemed', 'watching']
+Train Output: ['officials', 'story', 'difficult', 'where', 'where', 'today"?', 'such', "here's", 'between', 'cuts', 'them']
+Train Output: ['feeling', "he's", 'along', 'where', 'believed', 'those', 'feeling', "didn't", 'told', 'certainty', '<sos>']
+Sample Output: ['officials', 'acute', 'where', 'teach', 'traveled', 'somehow', 'cars', 'dumbing', 'murky', 'him', 'them']
+Sample Output: ["here's", 'along', 'along', 'where', 'has', 'those', 'just', 'those', 'first', 'america', 'where']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [16] True Loss: -0.000000
+Train Output: ['stand', 'like', 'where', 'the', 'somehow', 'doing', 'our', 'such', 'like', 'reasonably', "it's"]
+Train Output: ['us', 'where', 'where', 'where', 'know', 'beloved', 'find', "here's", 'during', 'murky', 'money']
+Train Output: ['like', 'along', 'also', 'regret', 'even', 'an', 'reporting', 'seemed', "didn't", 'loved', 'where']
+Train Output: ['endless', 'told', "here's", 'where', 'where', 'where', 'somehow', 'naturally', 'calling', 'america', 'honor']
+Train Output: ['us', 'johnson', 'story', 'regret', 'know', 'just', 'just', 'just', 'america', 'know', 'has']
+Train Output: ['those', 'johnson', 'she', 'officials', 'somehow', 'for', 'title', 'along', 'during', 'reasonably', 'today?']
+Train Output: ['know', 'where', 'thank', 'everywhere', 'may', 'know', 'just', "here's", 'stuck', 'understood', 'also']
+Train Output: ['america', 'acute', 'where', 'imagine', 'where', 'murky', 'they', 'complaints', 'where', 'cuts', 'through']
+Train Output: ['loved', 'here', 'title', 'difficult', 'officials', 'doing', 'just', 'those', 'meticulous', '<sos>', 'honor']
+Train Output: ['endless', 'also', 'resisted', 'where', 'where', 'know', 'never', 'were', 'understand', 'the', 'where']
+Sample Output: ["didn't", 'along', 'often', 'where', 'where', 'those', 'just', 'those', 'first', 'america', 'where']
+Sample Output: ["didn't", 'acute', 'where', 'teach', 'herself', 'somehow', 'just', 'just', 'much', 'him', 'them']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [17] True Loss: -0.000000
+Train Output: ['shrunk', 'like', 'where', 'years', "it's", 'just', 'our', 'such', 'at', 'like', 'today?']
+Train Output: ['shrunk', 'like', 'where', 'fill', 'somehow', 'for', 'our', 'such', 'during', 'like', 'naturally']
+Train Output: ['she', 'where', 'where', 'where', 'where', 'feeling', 'reporting', 'excited', 'seemed', "didn't", 'him']
+Train Output: ['--', 'them', 'where', "walter's", 'one', 'reporting', 'just', 'just', 'calling', 'america', 'honor']
+Train Output: ['america', 'years', 'along', 'where', 'resisted', "it's", 'those', "here's", 'cycle', 'them', 'stand']
+Train Output: ['never', 'like', "didn't", 'where', 'resisted', "it's", 'those', 'not', 'certainty', 'told', 'stand']
+Train Output: ['our', 'where', 'story', 'where', 'may', 'never', "didn't", 'just', 'reasonably', 'watching', 'them']
+Train Output: ['indonesia', 'resisted', 'resisted', 'story', 'would', 'just', 'just', 'dumbing', 'grade', 'well-informed', 'where']
+Train Output: ["here's", 'where', 'where', 'extra', 'those', 'where', 'cars', 'much', '<sos>', 'where', 'during']
+Train Output: ['the', 'where', 'story', 'where', 'remember', 'naturally', 'dumbing', 'called', 'job', 'grateful', 'them']
+Sample Output: ['knew', 'acute', 'where', 'teach', 'herself', 'may', 'dumbing', 'just', 'much', 'him', 'them']
+Sample Output: ['complaints', 'along', 'often', 'where', 'where', 'those', 'reporting', 'those', 'first', 'america', 'where']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [18] True Loss: -0.000000
+Train Output: ['the', 'higher', 'resisted', 'story', 'know', 'early', 'just', 'just', 'america', '<sos>', 'honor']
+Train Output: ['endless', 'replaced', "walter's", 'also', 'where', 'where', 'just', 'naturally', "here's", 'believed', 'resisted']
+Train Output: ['us', 'where', 'where', 'where', 'where', 'where', 'just', 'just', 'told', 'hello', 'him']
+Train Output: ['cycle', 'resisted', 'where', 'where', 'reporting', 'familiar', 'just', 'just', 'america', 'america', 'has']
+Train Output: ['america', 'where', 'where', 'where', 'where', 'no', 'somehow', 'like', 'cuts', 'where', 'imagine']
+Train Output: ['know', 'came', '--', 'where', 'live', 'know', 'just', 'naturally', 'told', 'murky', 'them']
+Train Output: ['--', 'like', 'story', 'where', "it's", 'along', 'those', 'cuts', 'remarked', 'teach', 'with']
+Train Output: ['endless', 'where', "walter's", 'betsy', 'where', 'know', 'such', 'along', 'like', 'murky', 'where']
+Train Output: ['us', "didn't", 'difficult', 'difficult', 'cold', 'even', 'just', 'just', 'america', '<sos>', 'know']
+Train Output: ['stand', 'another', 'extra', 'where', 'where', 'objective', 'just', 'hall', 'naturally', '<sos>', 'reached']
+Sample Output: ['officials', 'acute', 'acute', 'teach', 'herself', 'somehow', 'they', 'just', 'murky', 'him', 'them']
+Sample Output: ["here's", 'along', 'often', 'where', 'where', 'those', 'just', 'those', 'first', 'america', 'where']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [19] True Loss: -0.001509
+Train Output: ['where', 'where', 'naive', 'where', 'believed', 'those', 'feeling', 'told', "he's", 'told', '<sos>']
+Train Output: ['endless', 'here', 'difficult', 'difficult', 'officials', 'doing', 'not', 'those', 'meticulous', 'america', 'honor']
+Train Output: ["here's", 'where', "walter's", 'regret', 'know', 'figure', 'reporting', 'just', 'america', '<sos>', 'has']
+Train Output: ['walter', 'where', 'along', 'difficult', 'where', 'title', 'somehow', "here's", "here's", 'where', 'with']
+Train Output: ["it's", 'like', 'acute', "it's", 'traveled', 'offer', 'just', 'just', 'stuck', 'job', 'where']
+Train Output: ['loved', 'kindergarten', 'story', 'us', 'where', 'those', 'somehow', 'journalism', 'understand', 'price', 'him']
+Train Output: ['boss', 'them', 'where', 'where', 'where', 'reporting', 'just', 'just', 'calling', 'america', 'know']
+Train Output: ['our', 'told', 'where', 'where', 'know', 'know', 'just', 'just', 'america', 'pay?', 'know']
+Train Output: ['stand', 'told', 'where', 'has', 'would', 'would', 'they', 'not', 'naturally', 'murky', 'know']
+Train Output: ['officials', 'story', 'the', 'where', "it's", 'where', 'such', "here's", 'career', 'cuts', 'america']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [20] True Loss: -0.000000
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [21] True Loss: -0.000000
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [22] True Loss: -0.000000
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [23] True Loss: -0.000000
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [24] True Loss: -0.000000
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [25] True Loss: -0.000000
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [26] True Loss: -0.000000
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [27] True Loss: -0.000000
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [28] True Loss: -0.000000
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [29] True Loss: -0.000000
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [30] True Loss: -0.000000
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [31] True Loss: -0.000000
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [32] True Loss: -0.000000
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [33] True Loss: -0.000000
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+REWARD:  (10, 11)
+torch.Size([110]) torch.Size([110])
+Batch [34] True Loss: -0.000000
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Train Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Sample Output: ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
