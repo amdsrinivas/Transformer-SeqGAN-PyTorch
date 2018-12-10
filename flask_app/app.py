@@ -30,7 +30,7 @@ def generate_output():
     output_str_seqgan_output = " ".join(seqgan_output)
     output_str_attention_only_output = " ".join(attention_only_output)
 
-    return render_template('output.html', ip = sentence, result1=output_str_attention_seqgan, result2=output_str_seqgan_output, result3=output_str_attention_only_output)
+    return render_template('output2.html', ip = sentence, result1=output_str_attention_seqgan, result2=output_str_seqgan_output, result3=output_str_attention_only_output)
 
 # @app.route('/welcome')
 # def welcome():
