@@ -1,5 +1,5 @@
 # Models
-*.model
+# *.model
 *.data
 *.pkl
 
