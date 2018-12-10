@@ -1,7 +1,7 @@
 # Transformer-SeqGAN-PyTorch
 Merging Transformer Nets with SeqGAN in PyTorch
 
-Natural Language generation involves generation of Structured language from unstructured data. Till now, the state of the art implementations uses Recurrent Neural Network (RNN) based models. These are slow and take a long time to train. To improve the training time and achieve similar results, we use a self attention based Transformer Network. As Generative Adversarial Networks (GAN) are known to perform well for realistic data generation tasks in general, we combine the training approach as in (cite SeqGAN) and Transformer Network for language generation. We implemented the Transformer Network for Language Generation task. We were also able to implement the GAN model with Transformer Network as the Generator and generated results for Obama Speech Sentences
+Natural Language generation involves generation of Structured language from unstructured data. Till now, the state of the art implementations uses Recurrent Neural Network (RNN) based models. These are slow and take a long time to train. To improve the training time and achieve similar results, we use a self attention based Transformer Network. As Generative Adversarial Networks (GAN) are known to perform well for realistic data generation tasks in general, we combine the training approach as in SeqGAN and Transformer Network for language generation. We implemented the Transformer Network for Language Generation task. We were also able to implement the GAN model with Transformer Network as the Generator and generated results for Obama Speech Sentences
 
 ## Reference Sources
 Our Work extends existing SeqGAN and Transformer Model.
@@ -122,6 +122,12 @@ python test_app.py
 cd flask_app
 python app.py
 ```
+
+Sample Input
+![Sample Input](https://github.com/bhushan23/Transformer-SeqGAN-PyTorch/blob/master/flask_app/input.png)
+Sample Output
+![Sample Output](https://github.com/bhushan23/Transformer-SeqGAN-PyTorch/blob/master/flask_app/output.png)
+
 
 ## Requirements: 
 * PyTorch v0.1.12+
