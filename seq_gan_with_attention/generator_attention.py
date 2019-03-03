@@ -33,7 +33,7 @@ class Generator_attention(nn.Module):
         )
         self.test_mode = test_mode
         if not test_mode:
-            self.data_loader = GenDataIter('real.data', batch_size)
+            self.data_loader = GenDataIter('inshorts_test/real.data', batch_size)
             self.data_loader.reset()
         """
         self.num_emb = num_emb

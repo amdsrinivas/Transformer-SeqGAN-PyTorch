@@ -44,7 +44,7 @@ SEED = 88
 BATCH_SIZE = 10
 TOTAL_BATCH = 15
 GENERATED_NUM = 1000
-ROOT_PATH =  'experiment/real_samples/4_18_sen100_emb32/'
+ROOT_PATH =  'inshorts_test/'
 POSITIVE_FILE = ROOT_PATH + 'real.data'
 TEST_FILE     = ROOT_PATH + 'test.data'
 NEGATIVE_FILE = ROOT_PATH + 'gene.data'
@@ -235,10 +235,10 @@ class GANLoss(nn.Module):
 def main():
     random.seed(SEED)
     np.random.seed(SEED)
-    calc_bleu([1, 10, 12])
-    exit()
+    #calc_bleu([1, 10, 12])
+    #exit()
     # Build up dataset
-    s_train, s_test = load_from_big_file('../data/train_data_obama.txt')
+    s_train, s_test = load_from_big_file('../data/inshorts_data.txt')
     # idx_to_word: List of id to word
     # word_to_idx: Dictionary mapping word to id
     idx_to_word, word_to_idx = fetch_vocab(s_train, s_train, s_test)
@@ -252,6 +252,7 @@ def main():
     
 
     print('VOCAB SIZE:' , VOCAB_SIZE)
+    '''
     # Define Networks
     generator = Generator(VOCAB_SIZE, g_emb_dim, g_hidden_dim, g_sequence_len, BATCH_SIZE, opt.cuda)
     discriminator = Discriminator(d_num_class, VOCAB_SIZE, d_emb_dim, d_filter_sizes, d_num_filters, d_dropout)
@@ -260,9 +261,11 @@ def main():
         generator = generator.cuda()
         discriminator = discriminator.cuda()
         target_lstm = target_lstm.cuda()
+    '''
     # Generate toy data using target lstm
     print('Generating data ...')
-    generate_real_data('../data/train_data_obama.txt', BATCH_SIZE, GENERATED_NUM, idx_to_word, word_to_idx, POSITIVE_FILE, TEST_FILE)
+    generate_real_data('../data/inshorts_data.txt', BATCH_SIZE, GENERATED_NUM, idx_to_word, word_to_idx, POSITIVE_FILE, TEST_FILE)
+    '''
     # Create Test data iterator for testing
     test_iter = GenDataIter(TEST_FILE, BATCH_SIZE)
     # generate_samples(target_lstm, BATCH_SIZE, GENERATED_NUM, POSITIVE_FILE, idx_to_word)
@@ -393,6 +396,7 @@ def main():
             dis_data_iter = DisDataIter(POSITIVE_FILE, NEGATIVE_FILE, BATCH_SIZE)
             for _ in range(2):
                 loss = train_epoch(discriminator, dis_data_iter, dis_criterion, dis_optimizer)
+    '''
 
 if __name__ == '__main__':
     if opt.test:
